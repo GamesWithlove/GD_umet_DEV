@@ -322,3 +322,528 @@ LogInit: Object subsystem initialized
 [2018.05.03-21.40.45:172][519]LogHttp:Warning: 000001DED9F2E800: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
 [2018.05.03-21.40.45:172][519]LogHttp:Warning: 000001DED9F2E800: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
 [2018.05.03-21.40.45:172][519]LogHttp:Warning: 000001DED9F2E800: libcurl info message cache 8 (Closing connection 1)
+[2018.05.03-21.41.45:220][699]LogHttp:Warning: 000001DEC9B9B580: request failed, libcurl error: 0 (No error)
+[2018.05.03-21.41.45:220][699]LogHttp:Warning: 000001DEC9B9B580: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-21.41.45:220][699]LogHttp:Warning: 000001DEC9B9B580: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.05.03-21.41.45:220][699]LogHttp:Warning: 000001DEC9B9B580: libcurl info message cache 2 (  Trying 34.224.125.210...)
+[2018.05.03-21.41.45:220][699]LogHttp:Warning: 000001DEC9B9B580: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.224.125.210) port 443 (#2))
+[2018.05.03-21.41.45:220][699]LogHttp:Warning: 000001DEC9B9B580: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.05.03-21.41.45:220][699]LogHttp:Warning: 000001DEC9B9B580: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-21.41.45:220][699]LogHttp:Warning: 000001DEC9B9B580: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-21.41.45:220][699]LogHttp:Warning: 000001DEC9B9B580: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-21.41.45:220][699]LogHttp:Warning: 000001DEC9B9B580: libcurl info message cache 8 (Closing connection 2)
+[2018.05.03-21.42.45:304][879]LogHttp:Warning: 000001DEC9BC9600: request failed, libcurl error: 0 (No error)
+[2018.05.03-21.42.45:304][879]LogHttp:Warning: 000001DEC9BC9600: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-21.42.45:304][879]LogHttp:Warning: 000001DEC9BC9600: libcurl info message cache 1 (  Trying 52.21.58.227...)
+[2018.05.03-21.42.45:304][879]LogHttp:Warning: 000001DEC9BC9600: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.21.58.227) port 443 (#3))
+[2018.05.03-21.42.45:304][879]LogHttp:Warning: 000001DEC9BC9600: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.03-21.42.45:304][879]LogHttp:Warning: 000001DEC9BC9600: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-21.42.45:304][879]LogHttp:Warning: 000001DEC9BC9600: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-21.42.45:304][879]LogHttp:Warning: 000001DEC9BC9600: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-21.42.45:304][879]LogHttp:Warning: 000001DEC9BC9600: libcurl info message cache 7 (Closing connection 3)
+[2018.05.03-21.44.44:975][238]LogHttp:Warning: 000001DEC5D55600: request failed, libcurl error: 0 (No error)
+[2018.05.03-21.44.44:975][238]LogHttp:Warning: 000001DEC5D55600: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-21.44.44:975][238]LogHttp:Warning: 000001DEC5D55600: libcurl info message cache 1 (  Trying 34.224.106.243...)
+[2018.05.03-21.44.44:975][238]LogHttp:Warning: 000001DEC5D55600: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.224.106.243) port 443 (#4))
+[2018.05.03-21.44.44:975][238]LogHttp:Warning: 000001DEC5D55600: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.03-21.44.44:975][238]LogHttp:Warning: 000001DEC5D55600: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-21.44.44:975][238]LogHttp:Warning: 000001DEC5D55600: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-21.44.44:975][238]LogHttp:Warning: 000001DEC5D55600: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-21.44.44:975][238]LogHttp:Warning: 000001DEC5D55600: libcurl info message cache 7 (Closing connection 4)
+[2018.05.03-21.45.44:974][719]LogHttp:Warning: 000001DEC5D56380: request failed, libcurl error: 0 (No error)
+[2018.05.03-21.45.44:974][719]LogHttp:Warning: 000001DEC5D56380: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-21.45.44:974][719]LogHttp:Warning: 000001DEC5D56380: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.05.03-21.45.44:974][719]LogHttp:Warning: 000001DEC5D56380: libcurl info message cache 2 (  Trying 34.231.157.209...)
+[2018.05.03-21.45.44:974][719]LogHttp:Warning: 000001DEC5D56380: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.231.157.209) port 443 (#5))
+[2018.05.03-21.45.44:974][719]LogHttp:Warning: 000001DEC5D56380: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.05.03-21.45.44:974][719]LogHttp:Warning: 000001DEC5D56380: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-21.45.44:974][719]LogHttp:Warning: 000001DEC5D56380: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-21.45.44:974][719]LogHttp:Warning: 000001DEC5D56380: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-21.45.44:974][719]LogHttp:Warning: 000001DEC5D56380: libcurl info message cache 8 (Closing connection 5)
+[2018.05.03-21.45.50:186][240]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.03-21.45.50:641][240]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2018.05.03-21.45.52:479][240]LogSlate: Took 0.014703 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.05.03-21.45.53:047][241]LogSlate: Took 0.020438 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.03-21.45.54:754][348]BlueprintLog: New page: Compile Top_down_player
+[2018.05.03-21.46.06:647][102]BlueprintLog: New page: Compile Top_down_player
+[2018.05.03-21.46.17:690][943]LogSourceControl: Writed 'C:/Users/Computer Outlet/Documents/GD_umet_DEV/Saved/Diff/temp-00aa8567ae20024062c902697a6e1842331c3e78-Top_down_player.uasset' (221509o)
+[2018.05.03-21.46.27:649][618]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jean/Desarrollo/Blueprints/player/Top_down_player" FILE="../../../../GD_umet_DEV/Content/Jean/Desarrollo/Blueprints/player/Top_down_player.uasset" SILENT=true
+[2018.05.03-21.46.27:901][618]LogSavePackage: Save=234.89ms
+[2018.05.03-21.46.27:901][618]LogSavePackage: Moving '../../../../GD_umet_DEV/Saved/Top_down_playerBBF935DF442815220ED8B5B99FF12700.tmp' to '../../../../GD_umet_DEV/Content/Jean/Desarrollo/Blueprints/player/Top_down_player.uasset'
+[2018.05.03-21.46.27:921][618]LogSavePackage:Display: Finished SavePackage ../../../../GD_umet_DEV/Content/Jean/Desarrollo/Blueprints/player/Top_down_player.uasset
+[2018.05.03-21.46.31:334][949]SourceControl: Info fatal: C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/: 'C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/' is outside repository
+[2018.05.03-21.46.31:448][949]EditorErrors:Warning: Warning No assets to check in!
+[2018.05.03-21.46.44:983][287]LogHttp:Warning: 000001DEAB919D80: request failed, libcurl error: 0 (No error)
+[2018.05.03-21.46.44:983][287]LogHttp:Warning: 000001DEAB919D80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-21.46.44:983][287]LogHttp:Warning: 000001DEAB919D80: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.05.03-21.46.44:983][287]LogHttp:Warning: 000001DEAB919D80: libcurl info message cache 2 (  Trying 34.224.125.210...)
+[2018.05.03-21.46.44:983][287]LogHttp:Warning: 000001DEAB919D80: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.224.125.210) port 443 (#6))
+[2018.05.03-21.46.44:983][287]LogHttp:Warning: 000001DEAB919D80: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.05.03-21.46.44:983][287]LogHttp:Warning: 000001DEAB919D80: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-21.46.44:983][287]LogHttp:Warning: 000001DEAB919D80: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-21.46.44:983][287]LogHttp:Warning: 000001DEAB919D80: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-21.46.44:983][287]LogHttp:Warning: 000001DEAB919D80: libcurl info message cache 8 (Closing connection 6)
+[2018.05.03-21.47.45:473][426]LogHttp:Warning: 000001DEAB91BB80: request failed, libcurl error: 0 (No error)
+[2018.05.03-21.47.45:473][426]LogHttp:Warning: 000001DEAB91BB80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-21.47.45:473][426]LogHttp:Warning: 000001DEAB91BB80: libcurl info message cache 1 (  Trying 34.231.157.209...)
+[2018.05.03-21.47.45:473][426]LogHttp:Warning: 000001DEAB91BB80: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.231.157.209) port 443 (#7))
+[2018.05.03-21.47.45:473][426]LogHttp:Warning: 000001DEAB91BB80: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.03-21.47.45:473][426]LogHttp:Warning: 000001DEAB91BB80: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-21.47.45:473][426]LogHttp:Warning: 000001DEAB91BB80: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-21.47.45:473][426]LogHttp:Warning: 000001DEAB91BB80: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-21.47.45:473][426]LogHttp:Warning: 000001DEAB91BB80: libcurl info message cache 7 (Closing connection 7)
+[2018.05.03-21.49.45:140][785]LogHttp:Warning: 000001DEFE38BE80: request failed, libcurl error: 0 (No error)
+[2018.05.03-21.49.45:140][785]LogHttp:Warning: 000001DEFE38BE80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-21.49.45:140][785]LogHttp:Warning: 000001DEFE38BE80: libcurl info message cache 1 (  Trying 35.171.136.65...)
+[2018.05.03-21.49.45:140][785]LogHttp:Warning: 000001DEFE38BE80: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (35.171.136.65) port 443 (#8))
+[2018.05.03-21.49.45:140][785]LogHttp:Warning: 000001DEFE38BE80: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.03-21.49.45:140][785]LogHttp:Warning: 000001DEFE38BE80: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-21.49.45:140][785]LogHttp:Warning: 000001DEFE38BE80: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-21.49.45:140][785]LogHttp:Warning: 000001DEFE38BE80: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-21.49.45:140][785]LogHttp:Warning: 000001DEFE38BE80: libcurl info message cache 7 (Closing connection 8)
+[2018.05.03-21.51.45:141][145]LogHttp:Warning: 000001DEF4FE6500: request failed, libcurl error: 0 (No error)
+[2018.05.03-21.51.45:141][145]LogHttp:Warning: 000001DEF4FE6500: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-21.51.45:141][145]LogHttp:Warning: 000001DEF4FE6500: libcurl info message cache 1 (  Trying 52.2.36.251...)
+[2018.05.03-21.51.45:141][145]LogHttp:Warning: 000001DEF4FE6500: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.2.36.251) port 443 (#9))
+[2018.05.03-21.51.45:141][145]LogHttp:Warning: 000001DEF4FE6500: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.03-21.51.45:141][145]LogHttp:Warning: 000001DEF4FE6500: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-21.51.45:141][145]LogHttp:Warning: 000001DEF4FE6500: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-21.51.45:141][145]LogHttp:Warning: 000001DEF4FE6500: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-21.51.45:141][145]LogHttp:Warning: 000001DEF4FE6500: libcurl info message cache 7 (Closing connection 9)
+[2018.05.03-21.53.45:140][505]LogHttp:Warning: 000001DEF4FE6200: request failed, libcurl error: 0 (No error)
+[2018.05.03-21.53.45:140][505]LogHttp:Warning: 000001DEF4FE6200: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-21.53.45:140][505]LogHttp:Warning: 000001DEF4FE6200: libcurl info message cache 1 (  Trying 52.22.167.223...)
+[2018.05.03-21.53.45:140][505]LogHttp:Warning: 000001DEF4FE6200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.22.167.223) port 443 (#10))
+[2018.05.03-21.53.45:140][505]LogHttp:Warning: 000001DEF4FE6200: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.03-21.53.45:140][505]LogHttp:Warning: 000001DEF4FE6200: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-21.53.45:140][505]LogHttp:Warning: 000001DEF4FE6200: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-21.53.45:140][505]LogHttp:Warning: 000001DEF4FE6200: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-21.53.45:140][505]LogHttp:Warning: 000001DEF4FE6200: libcurl info message cache 7 (Closing connection 10)
+[2018.05.03-21.55.47:162][865]LogHttp:Warning: 000001DEF4FE6800: request failed, libcurl error: 0 (No error)
+[2018.05.03-21.55.47:162][865]LogHttp:Warning: 000001DEF4FE6800: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-21.55.47:162][865]LogHttp:Warning: 000001DEF4FE6800: libcurl info message cache 1 (  Trying 52.205.228.116...)
+[2018.05.03-21.55.47:162][865]LogHttp:Warning: 000001DEF4FE6800: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.205.228.116) port 443 (#11))
+[2018.05.03-21.55.47:162][865]LogHttp:Warning: 000001DEF4FE6800: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.03-21.55.47:162][865]LogHttp:Warning: 000001DEF4FE6800: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-21.55.47:162][865]LogHttp:Warning: 000001DEF4FE6800: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-21.55.47:162][865]LogHttp:Warning: 000001DEF4FE6800: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-21.55.47:162][865]LogHttp:Warning: 000001DEF4FE6800: libcurl info message cache 7 (Closing connection 11)
+[2018.05.03-21.57.46:841][224]LogHttp:Warning: 000001DEF4FE6200: request failed, libcurl error: 0 (No error)
+[2018.05.03-21.57.46:841][224]LogHttp:Warning: 000001DEF4FE6200: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-21.57.46:841][224]LogHttp:Warning: 000001DEF4FE6200: libcurl info message cache 1 (  Trying 34.234.228.226...)
+[2018.05.03-21.57.46:841][224]LogHttp:Warning: 000001DEF4FE6200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.234.228.226) port 443 (#12))
+[2018.05.03-21.57.46:841][224]LogHttp:Warning: 000001DEF4FE6200: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.03-21.57.46:841][224]LogHttp:Warning: 000001DEF4FE6200: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-21.57.46:841][224]LogHttp:Warning: 000001DEF4FE6200: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-21.57.46:841][224]LogHttp:Warning: 000001DEF4FE6200: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-21.57.46:841][224]LogHttp:Warning: 000001DEF4FE6200: libcurl info message cache 7 (Closing connection 12)
+[2018.05.03-21.58.46:847][404]LogHttp:Warning: 000001DEF4FE5000: request failed, libcurl error: 0 (No error)
+[2018.05.03-21.58.46:847][404]LogHttp:Warning: 000001DEF4FE5000: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-21.58.46:847][404]LogHttp:Warning: 000001DEF4FE5000: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.05.03-21.58.46:847][404]LogHttp:Warning: 000001DEF4FE5000: libcurl info message cache 2 (  Trying 52.21.228.94...)
+[2018.05.03-21.58.46:847][404]LogHttp:Warning: 000001DEF4FE5000: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.21.228.94) port 443 (#13))
+[2018.05.03-21.58.46:847][404]LogHttp:Warning: 000001DEF4FE5000: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.05.03-21.58.46:847][404]LogHttp:Warning: 000001DEF4FE5000: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-21.58.46:847][404]LogHttp:Warning: 000001DEF4FE5000: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-21.58.46:847][404]LogHttp:Warning: 000001DEF4FE5000: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-21.58.46:847][404]LogHttp:Warning: 000001DEF4FE5000: libcurl info message cache 8 (Closing connection 13)
+[2018.05.03-21.59.46:848][584]LogHttp:Warning: 000001DEF4FE6800: request failed, libcurl error: 0 (No error)
+[2018.05.03-21.59.46:848][584]LogHttp:Warning: 000001DEF4FE6800: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-21.59.46:848][584]LogHttp:Warning: 000001DEF4FE6800: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.05.03-21.59.46:848][584]LogHttp:Warning: 000001DEF4FE6800: libcurl info message cache 2 (  Trying 34.205.124.114...)
+[2018.05.03-21.59.46:848][584]LogHttp:Warning: 000001DEF4FE6800: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.205.124.114) port 443 (#14))
+[2018.05.03-21.59.46:848][584]LogHttp:Warning: 000001DEF4FE6800: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.05.03-21.59.46:848][584]LogHttp:Warning: 000001DEF4FE6800: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-21.59.46:848][584]LogHttp:Warning: 000001DEF4FE6800: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-21.59.46:848][584]LogHttp:Warning: 000001DEF4FE6800: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-21.59.46:848][584]LogHttp:Warning: 000001DEF4FE6800: libcurl info message cache 8 (Closing connection 14)
+[2018.05.03-22.00.46:848][764]LogHttp:Warning: 000001DEF4FE4280: request failed, libcurl error: 0 (No error)
+[2018.05.03-22.00.46:848][764]LogHttp:Warning: 000001DEF4FE4280: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-22.00.46:848][764]LogHttp:Warning: 000001DEF4FE4280: libcurl info message cache 1 (  Trying 52.207.107.232...)
+[2018.05.03-22.00.46:848][764]LogHttp:Warning: 000001DEF4FE4280: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.207.107.232) port 443 (#15))
+[2018.05.03-22.00.46:848][764]LogHttp:Warning: 000001DEF4FE4280: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.03-22.00.46:848][764]LogHttp:Warning: 000001DEF4FE4280: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-22.00.46:848][764]LogHttp:Warning: 000001DEF4FE4280: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-22.00.46:848][764]LogHttp:Warning: 000001DEF4FE4280: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-22.00.46:848][764]LogHttp:Warning: 000001DEF4FE4280: libcurl info message cache 7 (Closing connection 15)
+[2018.05.03-22.01.47:181][945]LogHttp:Warning: 000001DEF4FE6200: request failed, libcurl error: 0 (No error)
+[2018.05.03-22.01.47:181][945]LogHttp:Warning: 000001DEF4FE6200: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-22.01.47:181][945]LogHttp:Warning: 000001DEF4FE6200: libcurl info message cache 1 (  Trying 52.21.58.227...)
+[2018.05.03-22.01.47:181][945]LogHttp:Warning: 000001DEF4FE6200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.21.58.227) port 443 (#16))
+[2018.05.03-22.01.47:181][945]LogHttp:Warning: 000001DEF4FE6200: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.03-22.01.47:181][945]LogHttp:Warning: 000001DEF4FE6200: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-22.01.47:181][945]LogHttp:Warning: 000001DEF4FE6200: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-22.01.47:181][945]LogHttp:Warning: 000001DEF4FE6200: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-22.01.47:181][945]LogHttp:Warning: 000001DEF4FE6200: libcurl info message cache 7 (Closing connection 16)
+[2018.05.03-22.02.47:514][126]LogHttp:Warning: 000001DEF4FE6380: request failed, libcurl error: 0 (No error)
+[2018.05.03-22.02.47:514][126]LogHttp:Warning: 000001DEF4FE6380: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-22.02.47:514][126]LogHttp:Warning: 000001DEF4FE6380: libcurl info message cache 1 (  Trying 34.235.211.110...)
+[2018.05.03-22.02.47:514][126]LogHttp:Warning: 000001DEF4FE6380: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.235.211.110) port 443 (#17))
+[2018.05.03-22.02.47:514][126]LogHttp:Warning: 000001DEF4FE6380: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.03-22.02.47:514][126]LogHttp:Warning: 000001DEF4FE6380: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-22.02.47:514][126]LogHttp:Warning: 000001DEF4FE6380: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-22.02.47:514][126]LogHttp:Warning: 000001DEF4FE6380: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-22.02.47:514][126]LogHttp:Warning: 000001DEF4FE6380: libcurl info message cache 7 (Closing connection 17)
+[2018.05.03-22.04.47:181][485]LogHttp:Warning: 000001DEF4FE5180: request failed, libcurl error: 0 (No error)
+[2018.05.03-22.04.47:181][485]LogHttp:Warning: 000001DEF4FE5180: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-22.04.47:181][485]LogHttp:Warning: 000001DEF4FE5180: libcurl info message cache 1 (  Trying 52.205.225.225...)
+[2018.05.03-22.04.47:181][485]LogHttp:Warning: 000001DEF4FE5180: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.205.225.225) port 443 (#18))
+[2018.05.03-22.04.47:181][485]LogHttp:Warning: 000001DEF4FE5180: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.03-22.04.47:181][485]LogHttp:Warning: 000001DEF4FE5180: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-22.04.47:181][485]LogHttp:Warning: 000001DEF4FE5180: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-22.04.47:181][485]LogHttp:Warning: 000001DEF4FE5180: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-22.04.47:181][485]LogHttp:Warning: 000001DEF4FE5180: libcurl info message cache 7 (Closing connection 18)
+[2018.05.03-22.06.47:245][844]LogHttp:Warning: 000001DEF4FE5900: request failed, libcurl error: 0 (No error)
+[2018.05.03-22.06.47:245][844]LogHttp:Warning: 000001DEF4FE5900: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-22.06.47:245][844]LogHttp:Warning: 000001DEF4FE5900: libcurl info message cache 1 (  Trying 34.206.173.2...)
+[2018.05.03-22.06.47:245][844]LogHttp:Warning: 000001DEF4FE5900: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.206.173.2) port 443 (#19))
+[2018.05.03-22.06.47:245][844]LogHttp:Warning: 000001DEF4FE5900: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.03-22.06.47:245][844]LogHttp:Warning: 000001DEF4FE5900: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-22.06.47:245][844]LogHttp:Warning: 000001DEF4FE5900: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-22.06.47:245][844]LogHttp:Warning: 000001DEF4FE5900: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-22.06.47:245][844]LogHttp:Warning: 000001DEF4FE5900: libcurl info message cache 7 (Closing connection 19)
+[2018.05.03-22.08.47:022][203]LogHttp:Warning: 000001DEF4FE5180: request failed, libcurl error: 0 (No error)
+[2018.05.03-22.08.47:022][203]LogHttp:Warning: 000001DEF4FE5180: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-22.08.47:022][203]LogHttp:Warning: 000001DEF4FE5180: libcurl info message cache 1 (  Trying 34.196.109.155...)
+[2018.05.03-22.08.47:022][203]LogHttp:Warning: 000001DEF4FE5180: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.196.109.155) port 443 (#20))
+[2018.05.03-22.08.47:022][203]LogHttp:Warning: 000001DEF4FE5180: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.03-22.08.47:022][203]LogHttp:Warning: 000001DEF4FE5180: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-22.08.47:022][203]LogHttp:Warning: 000001DEF4FE5180: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-22.08.47:022][203]LogHttp:Warning: 000001DEF4FE5180: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-22.08.47:022][203]LogHttp:Warning: 000001DEF4FE5180: libcurl info message cache 7 (Closing connection 20)
+[2018.05.03-22.09.47:023][383]LogHttp:Warning: 000001DEF4FE5000: request failed, libcurl error: 0 (No error)
+[2018.05.03-22.09.47:023][383]LogHttp:Warning: 000001DEF4FE5000: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-22.09.47:023][383]LogHttp:Warning: 000001DEF4FE5000: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.05.03-22.09.47:023][383]LogHttp:Warning: 000001DEF4FE5000: libcurl info message cache 2 (  Trying 35.153.123.226...)
+[2018.05.03-22.09.47:023][383]LogHttp:Warning: 000001DEF4FE5000: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (35.153.123.226) port 443 (#21))
+[2018.05.03-22.09.47:023][383]LogHttp:Warning: 000001DEF4FE5000: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.05.03-22.09.47:023][383]LogHttp:Warning: 000001DEF4FE5000: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-22.09.47:023][383]LogHttp:Warning: 000001DEF4FE5000: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-22.09.47:023][383]LogHttp:Warning: 000001DEF4FE5000: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-22.09.47:023][383]LogHttp:Warning: 000001DEF4FE5000: libcurl info message cache 8 (Closing connection 21)
+[2018.05.03-22.10.47:023][563]LogHttp:Warning: 000001DEF4FE5900: request failed, libcurl error: 0 (No error)
+[2018.05.03-22.10.47:023][563]LogHttp:Warning: 000001DEF4FE5900: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-22.10.47:023][563]LogHttp:Warning: 000001DEF4FE5900: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.05.03-22.10.47:023][563]LogHttp:Warning: 000001DEF4FE5900: libcurl info message cache 2 (  Trying 52.202.144.188...)
+[2018.05.03-22.10.47:023][563]LogHttp:Warning: 000001DEF4FE5900: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.202.144.188) port 443 (#22))
+[2018.05.03-22.10.47:023][563]LogHttp:Warning: 000001DEF4FE5900: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.05.03-22.10.47:023][563]LogHttp:Warning: 000001DEF4FE5900: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-22.10.47:023][563]LogHttp:Warning: 000001DEF4FE5900: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-22.10.47:023][563]LogHttp:Warning: 000001DEF4FE5900: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-22.10.47:023][563]LogHttp:Warning: 000001DEF4FE5900: libcurl info message cache 8 (Closing connection 22)
+[2018.05.03-22.11.31:229][916]Cmd: MAP LOAD FILE="../../../../GD_umet_DEV/Content/Jean/Desarrollo/MAPAS/TEST_1_JAN.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.03-22.11.31:229][916]LightingResults: New page: Lighting Build
+[2018.05.03-22.11.31:229][916]LoadErrors: New page: Loading map: TEST_1_JAN.umap
+[2018.05.03-22.11.31:230][916]MapCheck: New page: Map Check
+[2018.05.03-22.11.31:230][916]LightingResults: New page: Lighting Build
+[2018.05.03-22.11.31:352][916]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.03-22.11.31:526][916]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.03-22.11.31:909][916]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 382.27ms to complete.
+[2018.05.03-22.11.31:909][916]LogFileHelpers: Loading map 'TEST_1_JAN' took 0.682
+[2018.05.03-22.11.42:793][558]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pices_lab_1_Wall_2)
+[2018.05.03-22.11.47:026][787]LogHttp:Warning: 000001DEF4FE6800: request failed, libcurl error: 0 (No error)
+[2018.05.03-22.11.47:027][787]LogHttp:Warning: 000001DEF4FE6800: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-22.11.47:027][787]LogHttp:Warning: 000001DEF4FE6800: libcurl info message cache 1 (  Trying 34.233.223.249...)
+[2018.05.03-22.11.47:027][787]LogHttp:Warning: 000001DEF4FE6800: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.233.223.249) port 443 (#23))
+[2018.05.03-22.11.47:027][787]LogHttp:Warning: 000001DEF4FE6800: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.03-22.11.47:027][787]LogHttp:Warning: 000001DEF4FE6800: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-22.11.47:027][787]LogHttp:Warning: 000001DEF4FE6800: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-22.11.47:027][787]LogHttp:Warning: 000001DEF4FE6800: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-22.11.47:027][787]LogHttp:Warning: 000001DEF4FE6800: libcurl info message cache 7 (Closing connection 23)
+[2018.05.03-22.11.48:621][877]Cmd: EDIT COPY
+[2018.05.03-22.11.48:887][877]Cmd: EDIT PASTE
+[2018.05.03-22.11.53:464][126]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.05.03-22.11.54:127][157]Cmd: DELETE
+[2018.05.03-22.11.54:127][157]Cmd: ACTOR DELETE
+[2018.05.03-22.11.54:184][157]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.03-22.11.54:210][157]LogEditorActor: Deleted 1 Actors (0.083 secs)
+[2018.05.03-22.12.01:921][527]LogActorFactory: Actor Factory created Pices_lab_1_Floor_tile
+[2018.05.03-22.12.03:295][604]LogActorFactory: Actor Factory created Pices_lab_1_Floor_tile
+[2018.05.03-22.12.06:793][794]Cmd: EDIT COPY
+[2018.05.03-22.12.07:004][805]Cmd: EDIT PASTE
+[2018.05.03-22.12.10:524][997]Cmd: EDIT COPY
+[2018.05.03-22.12.10:775][ 10]Cmd: EDIT PASTE
+[2018.05.03-22.12.13:560][161]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pices_lab_1_Wall_2)
+[2018.05.03-22.12.17:132][342]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pices_lab_1_Wall_3)
+[2018.05.03-22.12.20:214][501]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pices_lab_1_Floor_tile2)
+[2018.05.03-22.12.20:723][520]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Pices_lab_1_Floor_tile4)
+[2018.05.03-22.12.21:190][544]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Pices_lab_1_Floor_tile3)
+[2018.05.03-22.12.21:700][570]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Pices_lab_1_Floor_tile)
+[2018.05.03-22.12.24:252][702]Cmd: EDIT COPY
+[2018.05.03-22.12.24:475][711]Cmd: EDIT PASTE
+[2018.05.03-22.12.28:673][921]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pices_lab_1_Wall_3)
+[2018.05.03-22.12.30:010][990]Cmd: EDIT COPY
+[2018.05.03-22.12.30:224][  1]Cmd: EDIT PASTE
+[2018.05.03-22.12.35:588][276]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pices_lab_1_Wall_4)
+[2018.05.03-22.12.37:473][376]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube9)
+[2018.05.03-22.12.47:375][897]LogHttp:Warning: 000001DEF4FE6200: request failed, libcurl error: 0 (No error)
+[2018.05.03-22.12.47:375][897]LogHttp:Warning: 000001DEF4FE6200: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-22.12.47:375][897]LogHttp:Warning: 000001DEF4FE6200: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.05.03-22.12.47:375][897]LogHttp:Warning: 000001DEF4FE6200: libcurl info message cache 2 (  Trying 52.2.36.251...)
+[2018.05.03-22.12.47:375][897]LogHttp:Warning: 000001DEF4FE6200: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.2.36.251) port 443 (#24))
+[2018.05.03-22.12.47:375][897]LogHttp:Warning: 000001DEF4FE6200: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.05.03-22.12.47:375][897]LogHttp:Warning: 000001DEF4FE6200: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-22.12.47:375][897]LogHttp:Warning: 000001DEF4FE6200: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-22.12.47:375][897]LogHttp:Warning: 000001DEF4FE6200: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-22.12.47:375][897]LogHttp:Warning: 000001DEF4FE6200: libcurl info message cache 8 (Closing connection 24)
+[2018.05.03-22.12.50:839][ 73]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pices_lab_1_Floor_tile6)
+[2018.05.03-22.12.51:562][103]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pices_lab_1_Wall_3)
+[2018.05.03-22.12.55:598][329]Cmd: EDIT COPY
+[2018.05.03-22.12.56:423][376]Cmd: EDIT PASTE
+[2018.05.03-22.12.59:264][532]Cmd: DELETE
+[2018.05.03-22.12.59:264][532]Cmd: ACTOR DELETE
+[2018.05.03-22.12.59:265][532]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.03-22.12.59:303][532]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2018.05.03-22.13.14:019][391]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pices_lab_1_Floor_tile5)
+[2018.05.03-22.13.15:167][444]Cmd: EDIT COPY
+[2018.05.03-22.13.15:419][456]Cmd: EDIT PASTE
+[2018.05.03-22.13.17:925][586]Cmd: EDIT COPY
+[2018.05.03-22.13.18:205][601]Cmd: EDIT PASTE
+[2018.05.03-22.13.20:337][709]Cmd: EDIT COPY
+[2018.05.03-22.13.20:591][721]Cmd: EDIT PASTE
+[2018.05.03-22.13.23:236][853]Cmd: EDIT COPY
+[2018.05.03-22.13.23:434][861]Cmd: EDIT PASTE
+[2018.05.03-22.13.26:201][  1]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2018.05.03-22.13.26:717][ 21]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pices_lab_1_Wall_3)
+[2018.05.03-22.13.28:761][132]Cmd: EDIT COPY
+[2018.05.03-22.13.29:043][147]Cmd: EDIT PASTE
+[2018.05.03-22.13.32:002][299]Cmd: EDIT COPY
+[2018.05.03-22.13.32:210][309]Cmd: EDIT PASTE
+[2018.05.03-22.13.36:250][513]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pices_lab_1_Wall_6)
+[2018.05.03-22.13.36:919][545]Cmd: EDIT COPY
+[2018.05.03-22.13.38:163][611]Cmd: EDIT PASTE
+[2018.05.03-22.13.42:958][867]Cmd: EDIT COPY
+[2018.05.03-22.13.43:229][881]Cmd: EDIT PASTE
+[2018.05.03-22.13.45:691][ 13]Cmd: EDIT COPY
+[2018.05.03-22.13.46:355][ 49]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pices_lab_1_Wall_13)
+[2018.05.03-22.13.48:441][160]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pices_lab_1_Wall_12)
+[2018.05.03-22.13.48:786][176]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pices_lab_1_Wall_13)
+[2018.05.03-22.13.49:271][201]Cmd: EDIT COPY
+[2018.05.03-22.13.49:560][216]Cmd: EDIT PASTE
+[2018.05.03-22.13.54:204][456]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pices_lab_1_Wall_14)
+[2018.05.03-22.13.55:022][491]Cmd: EDIT COPY
+[2018.05.03-22.13.55:225][499]Cmd: EDIT PASTE
+[2018.05.03-22.14.12:912][433]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.05.03-22.14.14:262][504]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.05.03-22.14.14:996][542]LogTemp: Repeting last play command: Selected Viewport
+[2018.05.03-22.14.15:220][542]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.03-22.14.15:228][542]PIE: New page: PIE session: TEST_1_JAN (May 3, 2018, 2:14:15 PM)
+[2018.05.03-22.14.15:235][542]LogPlayLevel: Creating play world package: /Game/Jean/Desarrollo/MAPAS/UEDPIE_0_TEST_1_JAN
+[2018.05.03-22.14.15:299][542]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064231s)
+[2018.05.03-22.14.15:300][542]LogAIModule: Creating AISystem for world TEST_1_JAN
+[2018.05.03-22.14.15:300][542]LogPlayLevel: PIE: World Init took: (0.000850s)
+[2018.05.03-22.14.15:300][542]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Jean/Desarrollo/MAPAS/TEST_1_JAN.TEST_1_JAN to /Game/Jean/Desarrollo/MAPAS/UEDPIE_0_TEST_1_JAN.TEST_1_JAN (0.072167s)
+[2018.05.03-22.14.15:340][542]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.03-22.14.15:349][542]LogInit: FAudioDevice initialized.
+[2018.05.03-22.14.15:418][542]LogLoad: Game class is 'game_mode_top_down_C'
+[2018.05.03-22.14.15:421][542]LogWorld: Bringing World /Game/Jean/Desarrollo/MAPAS/UEDPIE_0_TEST_1_JAN.TEST_1_JAN up for play (max tick rate 60) at 2018.05.03-18.14.15
+[2018.05.03-22.14.15:422][542]LogWorld: Bringing up level for play took: 0.002661
+[2018.05.03-22.14.15:608][542]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2018.05.03-22.14.15:711][542]PIE: Info Play in editor start time for /Game/Jean/Desarrollo/MAPAS/UEDPIE_0_TEST_1_JAN 0.416
+[2018.05.03-22.14.17:230][616]Cmd: LevelEditor.ToggleImmersive
+[2018.05.03-22.14.17:409][617]LogRenderer: Reallocating scene render targets to support 1116x592 NumSamples 1 (Frame:76).
+[2018.05.03-22.14.17:631][618]LogRenderer: Reallocating scene render targets to support 1192x636 NumSamples 1 (Frame:78).
+[2018.05.03-22.14.18:434][651]Set new viewmode: Unlit
+[2018.05.03-22.14.47:054][366]LogHttp:Warning: 000001DEFD01D600: request failed, libcurl error: 0 (No error)
+[2018.05.03-22.14.47:054][366]LogHttp:Warning: 000001DEFD01D600: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-22.14.47:054][366]LogHttp:Warning: 000001DEFD01D600: libcurl info message cache 1 (  Trying 34.225.122.4...)
+[2018.05.03-22.14.47:054][366]LogHttp:Warning: 000001DEFD01D600: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.225.122.4) port 443 (#25))
+[2018.05.03-22.14.47:054][366]LogHttp:Warning: 000001DEFD01D600: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.03-22.14.47:054][366]LogHttp:Warning: 000001DEFD01D600: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-22.14.47:054][366]LogHttp:Warning: 000001DEFD01D600: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-22.14.47:054][366]LogHttp:Warning: 000001DEFD01D600: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-22.14.47:054][366]LogHttp:Warning: 000001DEFD01D600: libcurl info message cache 7 (Closing connection 25)
+[2018.05.03-22.15.10:083][747]Set new viewmode: Lit
+[2018.05.03-22.15.10:897][783]Set new viewmode: Unlit
+[2018.05.03-22.15.23:166][506]LogRenderer: Reallocating scene render targets to support 1368x728 NumSamples 1 (Frame:9368).
+[2018.05.03-22.15.45:782][165]BlueprintLog: New page: Compile Top_down_player
+[2018.05.03-22.15.47:046][191]LogHttp:Warning: 000001DEF6435780: request failed, libcurl error: 0 (No error)
+[2018.05.03-22.15.47:046][191]LogHttp:Warning: 000001DEF6435780: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-22.15.47:046][191]LogHttp:Warning: 000001DEF6435780: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.05.03-22.15.47:046][191]LogHttp:Warning: 000001DEF6435780: libcurl info message cache 2 (  Trying 35.153.13.89...)
+[2018.05.03-22.15.47:046][191]LogHttp:Warning: 000001DEF6435780: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (35.153.13.89) port 443 (#26))
+[2018.05.03-22.15.47:046][191]LogHttp:Warning: 000001DEF6435780: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.05.03-22.15.47:046][191]LogHttp:Warning: 000001DEF6435780: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-22.15.47:046][191]LogHttp:Warning: 000001DEF6435780: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-22.15.47:046][191]LogHttp:Warning: 000001DEF6435780: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-22.15.47:046][191]LogHttp:Warning: 000001DEF6435780: libcurl info message cache 8 (Closing connection 26)
+[2018.05.03-22.15.47:490][212]LogTemp: Repeting last play command: Selected Viewport
+[2018.05.03-22.15.47:532][212]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.03-22.15.47:532][212]PIE: New page: PIE session: TEST_1_JAN (May 3, 2018, 2:15:47 PM)
+[2018.05.03-22.15.47:532][212]LogPlayLevel: Creating play world package: /Game/Jean/Desarrollo/MAPAS/UEDPIE_0_TEST_1_JAN
+[2018.05.03-22.15.47:538][212]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006044s)
+[2018.05.03-22.15.47:539][212]LogAIModule: Creating AISystem for world TEST_1_JAN
+[2018.05.03-22.15.47:539][212]LogPlayLevel: PIE: World Init took: (0.000753s)
+[2018.05.03-22.15.47:539][212]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Jean/Desarrollo/MAPAS/TEST_1_JAN.TEST_1_JAN to /Game/Jean/Desarrollo/MAPAS/UEDPIE_0_TEST_1_JAN.TEST_1_JAN (0.007047s)
+[2018.05.03-22.15.47:570][212]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.03-22.15.47:580][212]LogInit: FAudioDevice initialized.
+[2018.05.03-22.15.47:612][212]LogLoad: Game class is 'game_mode_top_down_C'
+[2018.05.03-22.15.47:615][212]LogWorld: Bringing World /Game/Jean/Desarrollo/MAPAS/UEDPIE_0_TEST_1_JAN.TEST_1_JAN up for play (max tick rate 60) at 2018.05.03-18.15.47
+[2018.05.03-22.15.47:615][212]LogWorld: Bringing up level for play took: 0.002818
+[2018.05.03-22.15.47:617][212]PIE: Info Play in editor start time for /Game/Jean/Desarrollo/MAPAS/UEDPIE_0_TEST_1_JAN 0.321
+[2018.05.03-22.15.56:968][557]BlueprintLog: New page: Compile Top_down_player
+[2018.05.03-22.15.58:675][615]LogTemp: Repeting last play command: Selected Viewport
+[2018.05.03-22.15.58:714][615]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.03-22.15.58:714][615]PIE: New page: PIE session: TEST_1_JAN (May 3, 2018, 2:15:58 PM)
+[2018.05.03-22.15.58:714][615]LogPlayLevel: Creating play world package: /Game/Jean/Desarrollo/MAPAS/UEDPIE_0_TEST_1_JAN
+[2018.05.03-22.15.58:721][615]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006648s)
+[2018.05.03-22.15.58:722][615]LogAIModule: Creating AISystem for world TEST_1_JAN
+[2018.05.03-22.15.58:722][615]LogPlayLevel: PIE: World Init took: (0.000709s)
+[2018.05.03-22.15.58:722][615]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Jean/Desarrollo/MAPAS/TEST_1_JAN.TEST_1_JAN to /Game/Jean/Desarrollo/MAPAS/UEDPIE_0_TEST_1_JAN.TEST_1_JAN (0.007624s)
+[2018.05.03-22.15.58:755][615]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.03-22.15.58:764][615]LogInit: FAudioDevice initialized.
+[2018.05.03-22.15.58:796][615]LogLoad: Game class is 'game_mode_top_down_C'
+[2018.05.03-22.15.58:799][615]LogWorld: Bringing World /Game/Jean/Desarrollo/MAPAS/UEDPIE_0_TEST_1_JAN.TEST_1_JAN up for play (max tick rate 60) at 2018.05.03-18.15.58
+[2018.05.03-22.15.58:800][615]LogWorld: Bringing up level for play took: 0.002616
+[2018.05.03-22.15.58:801][615]PIE: Info Play in editor start time for /Game/Jean/Desarrollo/MAPAS/UEDPIE_0_TEST_1_JAN -0.494
+[2018.05.03-22.16.00:226][696]Cmd: LevelEditor.ToggleImmersive
+[2018.05.03-22.16.06:292][959]Set new viewmode: Unlit
+[2018.05.03-22.16.24:815][ 70]Set new viewmode: Lit
+[2018.05.03-22.16.47:089][138]LogHttp:Warning: 000001DEB35D1C00: request failed, libcurl error: 0 (No error)
+[2018.05.03-22.16.47:089][138]LogHttp:Warning: 000001DEB35D1C00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-22.16.47:089][138]LogHttp:Warning: 000001DEB35D1C00: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.05.03-22.16.47:089][138]LogHttp:Warning: 000001DEB35D1C00: libcurl info message cache 2 (  Trying 34.239.217.69...)
+[2018.05.03-22.16.47:089][138]LogHttp:Warning: 000001DEB35D1C00: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.239.217.69) port 443 (#27))
+[2018.05.03-22.16.47:089][138]LogHttp:Warning: 000001DEB35D1C00: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.05.03-22.16.47:089][138]LogHttp:Warning: 000001DEB35D1C00: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-22.16.47:089][138]LogHttp:Warning: 000001DEB35D1C00: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-22.16.47:089][138]LogHttp:Warning: 000001DEB35D1C00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-22.16.47:089][138]LogHttp:Warning: 000001DEB35D1C00: libcurl info message cache 8 (Closing connection 27)
+[2018.05.03-22.17.06:858][ 54]LogTemp: Repeting last play command: Selected Viewport
+[2018.05.03-22.17.06:894][ 54]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.03-22.17.06:894][ 54]PIE: New page: PIE session: TEST_1_JAN (May 3, 2018, 2:17:06 PM)
+[2018.05.03-22.17.06:894][ 54]LogPlayLevel: Creating play world package: /Game/Jean/Desarrollo/MAPAS/UEDPIE_0_TEST_1_JAN
+[2018.05.03-22.17.06:900][ 54]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005381s)
+[2018.05.03-22.17.06:900][ 54]LogAIModule: Creating AISystem for world TEST_1_JAN
+[2018.05.03-22.17.06:901][ 54]LogPlayLevel: PIE: World Init took: (0.000852s)
+[2018.05.03-22.17.06:901][ 54]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Jean/Desarrollo/MAPAS/TEST_1_JAN.TEST_1_JAN to /Game/Jean/Desarrollo/MAPAS/UEDPIE_0_TEST_1_JAN.TEST_1_JAN (0.006483s)
+[2018.05.03-22.17.06:932][ 54]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.03-22.17.06:941][ 54]LogInit: FAudioDevice initialized.
+[2018.05.03-22.17.06:973][ 54]LogLoad: Game class is 'game_mode_top_down_C'
+[2018.05.03-22.17.06:977][ 54]LogWorld: Bringing World /Game/Jean/Desarrollo/MAPAS/UEDPIE_0_TEST_1_JAN.TEST_1_JAN up for play (max tick rate 60) at 2018.05.03-18.17.06
+[2018.05.03-22.17.06:977][ 54]LogWorld: Bringing up level for play took: 0.003255
+[2018.05.03-22.17.06:979][ 54]PIE: Info Play in editor start time for /Game/Jean/Desarrollo/MAPAS/UEDPIE_0_TEST_1_JAN -0.317
+[2018.05.03-22.17.47:076][922]LogHttp:Warning: 000001DEF51E9F00: request failed, libcurl error: 0 (No error)
+[2018.05.03-22.17.47:076][922]LogHttp:Warning: 000001DEF51E9F00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-22.17.47:076][922]LogHttp:Warning: 000001DEF51E9F00: libcurl info message cache 1 (  Trying 35.171.251.96...)
+[2018.05.03-22.17.47:076][922]LogHttp:Warning: 000001DEF51E9F00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (35.171.251.96) port 443 (#28))
+[2018.05.03-22.17.47:076][922]LogHttp:Warning: 000001DEF51E9F00: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.03-22.17.47:076][922]LogHttp:Warning: 000001DEF51E9F00: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-22.17.47:076][922]LogHttp:Warning: 000001DEF51E9F00: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-22.17.47:076][922]LogHttp:Warning: 000001DEF51E9F00: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-22.17.47:076][922]LogHttp:Warning: 000001DEF51E9F00: libcurl info message cache 7 (Closing connection 28)
+[2018.05.03-22.19.45:773][691]LogHttp:Warning: 000001DF0D497280: request failed, libcurl error: 0 (No error)
+[2018.05.03-22.19.45:773][691]LogHttp:Warning: 000001DF0D497280: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-22.19.45:773][691]LogHttp:Warning: 000001DF0D497280: libcurl info message cache 1 (  Trying 52.4.200.136...)
+[2018.05.03-22.19.45:773][691]LogHttp:Warning: 000001DF0D497280: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.4.200.136) port 443 (#29))
+[2018.05.03-22.19.45:773][691]LogHttp:Warning: 000001DF0D497280: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.03-22.19.45:773][691]LogHttp:Warning: 000001DF0D497280: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-22.19.45:774][691]LogHttp:Warning: 000001DF0D497280: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-22.19.45:774][691]LogHttp:Warning: 000001DF0D497280: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-22.19.45:774][691]LogHttp:Warning: 000001DF0D497280: libcurl info message cache 7 (Closing connection 29)
+[2018.05.03-22.20.47:046][303]LogHttp:Warning: 000001DF0E2CCB80: request failed, libcurl error: 0 (No error)
+[2018.05.03-22.20.47:046][303]LogHttp:Warning: 000001DF0E2CCB80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-22.20.47:046][303]LogHttp:Warning: 000001DF0E2CCB80: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.05.03-22.20.47:046][303]LogHttp:Warning: 000001DF0E2CCB80: libcurl info message cache 2 (  Trying 34.206.56.152...)
+[2018.05.03-22.20.47:046][303]LogHttp:Warning: 000001DF0E2CCB80: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.206.56.152) port 443 (#30))
+[2018.05.03-22.20.47:046][303]LogHttp:Warning: 000001DF0E2CCB80: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.05.03-22.20.47:046][303]LogHttp:Warning: 000001DF0E2CCB80: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-22.20.47:046][303]LogHttp:Warning: 000001DF0E2CCB80: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-22.20.47:046][303]LogHttp:Warning: 000001DF0E2CCB80: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-22.20.47:046][303]LogHttp:Warning: 000001DF0E2CCB80: libcurl info message cache 8 (Closing connection 30)
+[2018.05.03-22.21.08:743][883]BlueprintLog: New page: Compile Top_down_player
+[2018.05.03-22.21.11:131][951]LogTemp: Repeting last play command: Selected Viewport
+[2018.05.03-22.21.11:169][951]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.03-22.21.11:169][951]PIE: New page: PIE session: TEST_1_JAN (May 3, 2018, 2:21:11 PM)
+[2018.05.03-22.21.11:170][951]LogPlayLevel: Creating play world package: /Game/Jean/Desarrollo/MAPAS/UEDPIE_0_TEST_1_JAN
+[2018.05.03-22.21.11:177][951]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006995s)
+[2018.05.03-22.21.11:177][951]LogAIModule: Creating AISystem for world TEST_1_JAN
+[2018.05.03-22.21.11:177][951]LogPlayLevel: PIE: World Init took: (0.000923s)
+[2018.05.03-22.21.11:178][951]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Jean/Desarrollo/MAPAS/TEST_1_JAN.TEST_1_JAN to /Game/Jean/Desarrollo/MAPAS/UEDPIE_0_TEST_1_JAN.TEST_1_JAN (0.008215s)
+[2018.05.03-22.21.11:212][951]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.03-22.21.11:222][951]LogInit: FAudioDevice initialized.
+[2018.05.03-22.21.11:251][951]LogLoad: Game class is 'game_mode_top_down_C'
+[2018.05.03-22.21.11:254][951]LogWorld: Bringing World /Game/Jean/Desarrollo/MAPAS/UEDPIE_0_TEST_1_JAN.TEST_1_JAN up for play (max tick rate 60) at 2018.05.03-18.21.11
+[2018.05.03-22.21.11:255][951]LogWorld: Bringing up level for play took: 0.003203
+[2018.05.03-22.21.11:256][951]PIE: Info Play in editor start time for /Game/Jean/Desarrollo/MAPAS/UEDPIE_0_TEST_1_JAN -0.039
+[2018.05.03-22.21.25:832][572]BlueprintLog: New page: Compile Top_down_player
+[2018.05.03-22.21.32:506][727]BlueprintLog: New page: Compile Top_down_player
+[2018.05.03-22.21.33:969][761]LogTemp: Repeting last play command: Selected Viewport
+[2018.05.03-22.21.34:009][761]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.03-22.21.34:009][761]PIE: New page: PIE session: TEST_1_JAN (May 3, 2018, 2:21:34 PM)
+[2018.05.03-22.21.34:009][761]LogPlayLevel: Creating play world package: /Game/Jean/Desarrollo/MAPAS/UEDPIE_0_TEST_1_JAN
+[2018.05.03-22.21.34:018][761]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008472s)
+[2018.05.03-22.21.34:018][761]LogAIModule: Creating AISystem for world TEST_1_JAN
+[2018.05.03-22.21.34:019][761]LogPlayLevel: PIE: World Init took: (0.000810s)
+[2018.05.03-22.21.34:019][761]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Jean/Desarrollo/MAPAS/TEST_1_JAN.TEST_1_JAN to /Game/Jean/Desarrollo/MAPAS/UEDPIE_0_TEST_1_JAN.TEST_1_JAN (0.009522s)
+[2018.05.03-22.21.34:056][761]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.03-22.21.34:066][761]LogInit: FAudioDevice initialized.
+[2018.05.03-22.21.34:100][761]LogLoad: Game class is 'game_mode_top_down_C'
+[2018.05.03-22.21.34:103][761]LogWorld: Bringing World /Game/Jean/Desarrollo/MAPAS/UEDPIE_0_TEST_1_JAN.TEST_1_JAN up for play (max tick rate 60) at 2018.05.03-18.21.34
+[2018.05.03-22.21.34:103][761]LogWorld: Bringing up level for play took: 0.002691
+[2018.05.03-22.21.34:105][761]PIE: Info Play in editor start time for /Game/Jean/Desarrollo/MAPAS/UEDPIE_0_TEST_1_JAN 0.809
+[2018.05.03-22.21.41:889][ 84]Cmd: MODE ROTGRID=0
+[2018.05.03-22.21.47:058][213]LogHttp:Warning: 000001DF0F543580: request failed, libcurl error: 0 (No error)
+[2018.05.03-22.21.47:058][213]LogHttp:Warning: 000001DF0F543580: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-22.21.47:058][213]LogHttp:Warning: 000001DF0F543580: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.05.03-22.21.47:058][213]LogHttp:Warning: 000001DF0F543580: libcurl info message cache 2 (  Trying 52.3.214.110...)
+[2018.05.03-22.21.47:058][213]LogHttp:Warning: 000001DF0F543580: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.3.214.110) port 443 (#31))
+[2018.05.03-22.21.47:058][213]LogHttp:Warning: 000001DF0F543580: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.05.03-22.21.47:058][213]LogHttp:Warning: 000001DF0F543580: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-22.21.47:058][213]LogHttp:Warning: 000001DF0F543580: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-22.21.47:058][213]LogHttp:Warning: 000001DF0F543580: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-22.21.47:058][213]LogHttp:Warning: 000001DF0F543580: libcurl info message cache 8 (Closing connection 31)
+[2018.05.03-22.21.55:666][426]BlueprintLog: New page: Compile Top_down_player
+[2018.05.03-22.21.58:046][486]LogTemp: Repeting last play command: Selected Viewport
+[2018.05.03-22.21.58:087][486]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.03-22.21.58:087][486]PIE: New page: PIE session: TEST_1_JAN (May 3, 2018, 2:21:58 PM)
+[2018.05.03-22.21.58:087][486]LogPlayLevel: Creating play world package: /Game/Jean/Desarrollo/MAPAS/UEDPIE_0_TEST_1_JAN
+[2018.05.03-22.21.58:093][486]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005778s)
+[2018.05.03-22.21.58:093][486]LogAIModule: Creating AISystem for world TEST_1_JAN
+[2018.05.03-22.21.58:094][486]LogPlayLevel: PIE: World Init took: (0.000776s)
+[2018.05.03-22.21.58:094][486]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Jean/Desarrollo/MAPAS/TEST_1_JAN.TEST_1_JAN to /Game/Jean/Desarrollo/MAPAS/UEDPIE_0_TEST_1_JAN.TEST_1_JAN (0.006869s)
+[2018.05.03-22.21.58:132][486]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.03-22.21.58:142][486]LogInit: FAudioDevice initialized.
+[2018.05.03-22.21.58:171][486]LogLoad: Game class is 'game_mode_top_down_C'
+[2018.05.03-22.21.58:174][486]LogWorld: Bringing World /Game/Jean/Desarrollo/MAPAS/UEDPIE_0_TEST_1_JAN.TEST_1_JAN up for play (max tick rate 60) at 2018.05.03-18.21.58
+[2018.05.03-22.21.58:174][486]LogWorld: Bringing up level for play took: 0.003140
+[2018.05.03-22.21.58:176][486]PIE: Info Play in editor start time for /Game/Jean/Desarrollo/MAPAS/UEDPIE_0_TEST_1_JAN 0.88
+[2018.05.03-22.22.04:297][852]Set new viewmode: Unlit
+[2018.05.03-22.23.01:977][244]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.05.03-22.23.08:887][535]LogTemp: Repeting last play command: Selected Viewport
+[2018.05.03-22.23.08:927][535]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.03-22.23.08:927][535]PIE: New page: PIE session: TEST_1_JAN (May 3, 2018, 2:23:08 PM)
+[2018.05.03-22.23.08:927][535]LogPlayLevel: Creating play world package: /Game/Jean/Desarrollo/MAPAS/UEDPIE_0_TEST_1_JAN
+[2018.05.03-22.23.08:935][535]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007328s)
+[2018.05.03-22.23.08:935][535]LogAIModule: Creating AISystem for world TEST_1_JAN
+[2018.05.03-22.23.08:935][535]LogPlayLevel: PIE: World Init took: (0.000736s)
+[2018.05.03-22.23.08:936][535]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Jean/Desarrollo/MAPAS/TEST_1_JAN.TEST_1_JAN to /Game/Jean/Desarrollo/MAPAS/UEDPIE_0_TEST_1_JAN.TEST_1_JAN (0.008341s)
+[2018.05.03-22.23.08:968][535]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.03-22.23.08:977][535]LogInit: FAudioDevice initialized.
+[2018.05.03-22.23.09:005][535]LogLoad: Game class is 'game_mode_top_down_C'
+[2018.05.03-22.23.09:008][535]LogWorld: Bringing World /Game/Jean/Desarrollo/MAPAS/UEDPIE_0_TEST_1_JAN.TEST_1_JAN up for play (max tick rate 60) at 2018.05.03-18.23.09
+[2018.05.03-22.23.09:008][535]LogWorld: Bringing up level for play took: 0.002585
+[2018.05.03-22.23.09:010][535]PIE: Info Play in editor start time for /Game/Jean/Desarrollo/MAPAS/UEDPIE_0_TEST_1_JAN -0.286
+[2018.05.03-22.23.45:891][672]LogLinker:Warning: Can't find file '/Game/Jean/Desarrollo/Modelos/hUMAN/BASE/Character_base_Skeleton'
+[2018.05.03-22.23.45:904][672]LogLinker:Warning: Can't find file for asset '/Game/Jean/Desarrollo/Modelos/hUMAN/BASE/Character_base_Skeleton' while loading ../../../../GD_umet_DEV/Content/Jean/Desarrollo/Modelos/hUMAN/animations/testing/Test_anim_1_hi.uasset.
+[2018.05.03-22.23.45:904][672]LoadErrors:Error: Error /Game/Jean/Desarrollo/Modelos/hUMAN/animations/testing/Test_anim_1_hi : Can't find file for asset. /Game/Jean/Desarrollo/Modelos/hUMAN/BASE/Character_base_Skeleton
+[2018.05.03-22.23.45:904][672]LogLinker:Warning: Can't find file '/Game/Jean/Desarrollo/Modelos/hUMAN/BASE/Character_base_Skeleton'
+[2018.05.03-22.23.45:904][672]LogLinker:Warning: Can't find file for asset '/Game/Jean/Desarrollo/Modelos/hUMAN/BASE/Character_base_Skeleton' while loading ../../../../GD_umet_DEV/Content/Jean/Desarrollo/Modelos/hUMAN/animations/testing/Test_anim_1_hi.uasset.
+[2018.05.03-22.23.45:905][672]LogLinker:Warning: Can't find file '/Game/Jean/Desarrollo/Modelos/hUMAN/BASE/Character_base_Skeleton'
+[2018.05.03-22.23.45:905][672]LoadErrors: Info Failed to load /Game/Jean/Desarrollo/Modelos/hUMAN/BASE/Character_base_Skeleton.Character_base_Skeleton Referenced by Test_anim_1_hi
+[2018.05.03-22.23.45:905][672]LogLinker:Warning: Can't find file for asset '/Game/Jean/Desarrollo/Modelos/hUMAN/BASE/Character_base_Skeleton' while loading NULL.
+[2018.05.03-22.23.47:447][673]LogHttp:Warning: 000001DF0DE30A00: request failed, libcurl error: 0 (No error)
+[2018.05.03-22.23.47:447][673]LogHttp:Warning: 000001DF0DE30A00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-22.23.47:447][673]LogHttp:Warning: 000001DF0DE30A00: libcurl info message cache 1 (  Trying 35.174.89.230...)
+[2018.05.03-22.23.47:447][673]LogHttp:Warning: 000001DF0DE30A00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (35.174.89.230) port 443 (#32))
+[2018.05.03-22.23.47:447][673]LogHttp:Warning: 000001DF0DE30A00: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.03-22.23.47:447][673]LogHttp:Warning: 000001DF0DE30A00: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-22.23.47:447][673]LogHttp:Warning: 000001DF0DE30A00: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-22.23.47:447][673]LogHttp:Warning: 000001DF0DE30A00: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-22.23.47:447][673]LogHttp:Warning: 000001DF0DE30A00: libcurl info message cache 7 (Closing connection 32)
+[2018.05.03-22.23.51:187][776]SourceControl: Info rm 'Content/Jean/Desarrollo/Modelos/hUMAN/animations/testing/Test_anim_1_hi.uasset'
+[2018.05.03-22.23.52:030][796]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.05.03-22.23.52:544][796]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.05.03-22.23.52:928][796]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.05.03-22.23.53:725][796]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0007 seconds. Added 1 classes and 0 folders.
+[2018.05.03-22.23.53:738][796]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
