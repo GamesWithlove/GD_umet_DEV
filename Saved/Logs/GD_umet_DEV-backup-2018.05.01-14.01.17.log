@@ -1,0 +1,831 @@
+﻿Log file open, 04/30/18 09:29:28
+LogInit:Display: Running engine for game: GD_umet_DEV
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1178355543) SRandInit(-1178355543).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.278668
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.30-13.29.31:557][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.30-13.29.31:557][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.30-13.29.31:829][  0]LogInit: Computer: JAN
+[2018.04.30-13.29.31:829][  0]LogInit: User: ComputerOutlet
+[2018.04.30-13.29.31:829][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.04.30-13.29.31:829][  0]LogInit: High frequency timer resolution =2.648438 MHz
+[2018.04.30-13.29.31:830][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2018.04.30-13.29.31:830][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.30-13.29.31:830][  0]LogMemory: Process Physical Memory: 272.54 MB used, 272.54 MB peak
+[2018.04.30-13.29.31:830][  0]LogMemory: Process Virtual Memory: 258.49 MB used, 258.49 MB peak
+[2018.04.30-13.29.31:830][  0]LogMemory: Physical Memory: 4012.19 MB used,  8191.72 MB free, 12203.91 MB total
+[2018.04.30-13.29.31:830][  0]LogMemory: Virtual Memory: 672.44 MB used,  8191.72 MB free, 134217728.00 MB total
+[2018.04.30-13.29.33:991][  0]LogInit: Using OS detected language (en-US).
+[2018.04.30-13.29.33:991][  0]LogInit: Using OS detected locale (en-US).
+[2018.04.30-13.29.34:451][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.04.30-13.29.52:402][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.30-13.29.52:448][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2018.04.30-13.29.52:448][  0]LogD3D11RHI:       128/0/6101 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.04.30-13.29.52:456][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.30-13.29.52:456][  0]LogD3D11RHI:       0/0/6101 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.30-13.29.52:457][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.30-13.29.52:478][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.30-13.29.52:478][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.30-13.29.52:478][  0]LogWindows: EnumDisplayDevices:
+[2018.04.30-13.29.52:479][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2018.04.30-13.29.52:479][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.04.30-13.29.52:480][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.04.30-13.29.52:480][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.30-13.29.52:480][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2018.04.30-13.29.52:480][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.30-13.29.52:480][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.30-13.29.52:480][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.04.30-13.29.52:511][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.30-13.29.52:689][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2018.04.30-13.29.52:787][  0]LogShaderCompilers: Guid format shader working directory is 33 characters bigger than the processId version (../../../../GD_umet_DEV/Intermediate/Shaders/WorkingDirectory/1340/).
+[2018.04.30-13.29.52:788][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Computer Outlet/AppData/Local/Temp/UnrealShaderWorkingDir/8E954A7F40ADDF3DEB9EBCB4F7B124A9/'.
+[2018.04.30-13.29.52:788][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.04.30-13.30.06:220][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.30-13.30.06:458][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.04.30-13.30.06:691][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.30-13.30.06:903][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.04.30-13.30.07:151][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.04.30-13.30.07:368][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.30-13.30.07:584][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.30-13.30.07:804][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.30-13.30.08:003][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.04.30-13.30.08:307][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.04.30-13.30.08:550][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.30-13.30.08:765][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.30-13.30.08:989][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.30-13.30.09:230][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.30-13.30.09:462][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.30-13.30.09:918][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.30-13.30.09:918][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.30-13.30.10:100][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.04.30-13.30.10:591][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.04.30-13.30.10:719][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.04.30-13.30.10:925][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.30-13.30.11:130][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.30-13.30.11:330][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.30-13.30.11:565][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.04.30-13.30.11:565][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.04.30-13.30.14:967][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.04.30-13.30.16:759][  0]LogDerivedDataCache: Loaded boot cache 1.77s 90MB C:/Users/Computer Outlet/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.04.30-13.30.16:759][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Computer Outlet/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.04.30-13.30.16:759][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GD_umet_DEV/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.30-13.30.16:759][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.30-13.30.16:759][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GD_umet_DEV/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.30-13.30.16:759][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.30-13.30.16:928][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.30-13.30.16:957][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Computer Outlet/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.30-13.30.16:998][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.30-13.30.17:060][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.30-13.30.17:186][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.30-13.30.17:186][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.30-13.30.28:061][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.30-13.30.29:842][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.04.30-13.30.31:205][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.30-13.30.31:576][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.30-13.30.31:904][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.30-13.30.31:904][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.04.30-13.30.31:904][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.04.30-13.30.41:979][  0]LogNetVersion: GD_umet_DEV , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3078375883)
+[2018.04.30-13.30.42:589][  0]LogAssetRegistry: FAssetRegistry took 0.0451 seconds to start up
+[2018.04.30-13.30.43:337][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.478667 seconds
+[2018.04.30-13.30.43:432][  0]LogUObjectArray: 34196 objects as part of root set at end of initial load.
+[2018.04.30-13.30.43:432][  0]LogUObjectAllocator: 7260864 out of 0 bytes used by permanent object pool.
+[2018.04.30-13.30.43:432][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.30-13.30.43:839][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.30-13.31.29:163][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.30-13.31.29:355][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.30-13.31.33:718][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.30-13.31.36:759][  0]SourceControl: Info Source control is disabled
+[2018.04.30-13.31.44:041][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.30-13.31.47:029][  0]LogEngine: Initializing Engine...
+[2018.04.30-13.31.47:061][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.30-13.31.48:872][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.30-13.31.48:873][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.30-13.31.49:628][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.30-13.31.49:681][  0]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.30-13.31.50:287][  0]LogInit: FAudioDevice initialized.
+[2018.04.30-13.31.50:460][  0]LogDerivedDataCache: Saved boot cache 0.17s 90MB C:/Users/Computer Outlet/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.04.30-13.31.50:501][  0]LogInit: Texture streaming: Enabled
+[2018.04.30-13.31.51:143][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.30-13.31.53:338][  0]LogInit: Transaction tracking system initialized
+[2018.04.30-13.31.56:436][  0]BlueprintLog: New page: Editor Load
+[2018.04.30-13.32.11:096][  0]LocalizationService: Info Localization service is disabled
+[2018.04.30-13.32.15:640][  0]LogConsoleResponse:Display: 
+[2018.04.30-13.32.22:668][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Computer Outlet/Documents/GD_umet_DEV/Content/' took 0.15s
+[2018.04.30-13.32.22:668][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.30-13.32.22:668][  0]LogCook:Display: Mobile HDR setting 1
+[2018.04.30-13.32.39:292][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.30-13.32.39:480][  0]LightingResults: New page: Lighting Build
+[2018.04.30-13.32.39:986][  0]MapCheck: New page: Map Check
+[2018.04.30-13.32.39:986][  0]LightingResults: New page: Lighting Build
+[2018.04.30-13.32.44:543][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.04.30-13.32.44:560][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.30-13.32.44:816][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.30-13.32.44:968][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.30-13.32.45:297][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 318.073ms to complete.
+[2018.04.30-13.32.45:298][  0]LogFileHelpers: Loading map 'Template_Default' took 6.031
+[2018.04.30-13.32.49:998][  0]LogCollectionManager: Loaded 0 collections in 0.114874 seconds
+[2018.04.30-13.32.51:167][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Computer Outlet/Documents/GD_umet_DEV/Saved/Collections/' took 0.01s
+[2018.04.30-13.32.51:168][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Computer Outlet/Documents/GD_umet_DEV/Content/Developers/ComputerOutlet/Collections/' took 0.01s
+[2018.04.30-13.32.51:168][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Computer Outlet/Documents/GD_umet_DEV/Content/Collections/' took 0.01s
+[2018.04.30-13.32.51:168][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000011 seconds
+[2018.04.30-13.32.51:627][  0]LogContentBrowser: Native class hierarchy populated in 0.2701 seconds. Added 2329 classes and 491 folders.
+[2018.04.30-13.32.52:390][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0017 seconds. Added 0 classes and 0 folders.
+[2018.04.30-13.33.07:483][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0026 seconds. Added 0 classes and 0 folders.
+[2018.04.30-13.33.07:858][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0029 seconds. Added 1 classes and 2 folders.
+[2018.04.30-13.33.09:184][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.04.30-13.33.09:301][  0]LogSlate: Took 0.033535 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.30-13.33.09:344][  0]LogSlate: Took 0.037627 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.30-13.33.09:411][  0]LogSlate: Took 0.039708 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.30-13.33.10:451][  0]LogRenderer: Reallocating scene render targets to support 728x360 NumSamples 1 (Frame:1).
+[2018.04.30-13.33.14:020][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.04.30-13.33.14:317][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0018 seconds. Added 1 classes and 2 folders.
+[2018.04.30-13.33.14:317][  0]LogLoad: (Engine Initialization) Total time: 243.54 seconds
+[2018.04.30-13.33.14:317][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.84 seconds
+[2018.04.30-13.33.14:317][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.04.30-13.33.14:317][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.04.30-13.33.14:377][  0]LogOcInput: OculusInput pre-init called
+[2018.04.30-13.33.14:377][  0]LogHMD: Starting GearVRController plugin
+[2018.04.30-13.33.14:433][  0]SourceControl: Info On branch master
+[2018.04.30-13.33.14:433][  0]SourceControl: Info Your branch is up to date with 'origin/master'.
+[2018.04.30-13.33.14:433][  0]SourceControl: Info Changes to be committed:
+[2018.04.30-13.33.14:433][  0]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2018.04.30-13.33.14:433][  0]SourceControl: Info 	new file:   Content/Jean/Desarrollo/Blueprints/player/Top_down_player.uasset
+[2018.04.30-13.33.14:433][  0]SourceControl: Info 	new file:   Content/Jean/Desarrollo/Blueprints/player/controller_top_down.uasset
+[2018.04.30-13.33.14:433][  0]SourceControl: Info 	new file:   Content/Jean/Desarrollo/Blueprints/player/game_mode_top_down.uasset
+[2018.04.30-13.33.14:433][  0]SourceControl: Info 	new file:   Content/Jean/Desarrollo/MAPAS/TEST_1_JAN.umap
+[2018.04.30-13.33.14:433][  0]SourceControl: Info 	new file:   Content/Jean/Desarrollo/MAPAS/TEST_1_JAN_BuiltData.uasset
+[2018.04.30-13.33.14:433][  0]SourceControl: Info Changes not staged for commit:
+[2018.04.30-13.33.14:433][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2018.04.30-13.33.14:433][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.04.30-13.33.14:433][  0]SourceControl: Info 	modified:   Config/DefaultInput.ini
+[2018.04.30-13.33.14:433][  0]SourceControl: Info 	modified:   Content/Jean/Desarrollo/Blueprints/player/Top_down_player.uasset
+[2018.04.30-13.33.14:433][  0]SourceControl: Info 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
+[2018.04.30-13.33.14:433][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2018.04.30-13.33.14:433][  0]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Input.ini
+[2018.04.30-13.33.14:433][  0]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
+[2018.04.30-13.33.14:433][  0]SourceControl: Info 	modified:   Saved/Autosaves/Temp/Untitled_1_Auto1.umap
+[2018.04.30-13.33.14:433][  0]SourceControl: Info 	modified:   Saved/Autosaves/Temp/Untitled_1_Auto2.umap
+[2018.04.30-13.33.14:433][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-8A20B3924AD988EBDB2287AB550DB743/CrashReportClient.ini
+[2018.04.30-13.33.14:433][  0]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.04.30-13.33.14:434][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2018.04.30-13.33.14:434][  0]SourceControl: Info 	modified:   Saved/Logs/GD_umet_DEV.log
+[2018.04.30-13.33.14:434][  0]SourceControl: Info Untracked files:
+[2018.04.30-13.33.14:434][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2018.04.30-13.33.14:434][  0]SourceControl: Info 	Saved/Backup/Top_down_player_2018-04-27-17-40-49.uasset
+[2018.04.30-13.33.14:434][  0]SourceControl: Info 	Saved/Backup/Top_down_player_2018-04-27-23-44-58.uasset
+[2018.04.30-13.33.14:434][  0]SourceControl: Info 	Saved/Backup/Top_down_player_2018-04-27-23-50-46.uasset
+[2018.04.30-13.33.14:434][  0]SourceControl: Info 	Saved/Backup/Top_down_player_2018-04-27-23-57-48.uasset
+[2018.04.30-13.33.14:434][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-285F8D304AF87A6DCFDE5E81ED87E1AE/
+[2018.04.30-13.33.14:434][  0]SourceControl: Info 	Saved/Config/WorldState/3600070655.json
+[2018.04.30-13.33.14:434][  0]SourceControl: Info 	Saved/Logs/GD_umet_DEV-backup-2018.04.27-17.31.22.log
+[2018.04.30-13.33.14:434][  0]SourceControl: Info 	Saved/Logs/GD_umet_DEV-backup-2018.04.30-09.29.28.log
+[2018.04.30-13.33.14:435][  0]LogContentStreaming: Texture pool size now 800 MB
+[2018.04.30-13.33.15:156][  6]LogAssetRegistry: Asset discovery search completed in 152.5901 seconds
+[2018.04.30-13.33.15:167][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2018.04.30-13.33.15:167][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000159 seconds (updated 0 objects)
+[2018.04.30-13.33.18:688][106]LogSlate: Took 0.034844 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.30-13.33.20:679][161]LogSlate: Took 0.000623 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.30-13.33.25:086][320]SourceControl: Info fatal: C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/: 'C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/' is outside repository
+[2018.04.30-13.33.40:863][320]LogSourceControl: FGitCheckInWorker: commit successful
+[2018.04.30-13.33.41:111][320]SourceControl: Info [master 73b221d] anadi jugador
+[2018.04.30-13.33.41:111][320]SourceControl: Info  3 files changed, 0 insertions(+), 0 deletions(-)
+[2018.04.30-13.33.41:112][320]SourceControl: Info  create mode 100644 Content/Jean/Desarrollo/Blueprints/player/Top_down_player.uasset
+[2018.04.30-13.33.41:112][320]SourceControl: Info  create mode 100644 Content/Jean/Desarrollo/Blueprints/player/controller_top_down.uasset
+[2018.04.30-13.33.41:112][320]SourceControl: Info  create mode 100644 Content/Jean/Desarrollo/Blueprints/player/game_mode_top_down.uasset
+[2018.04.30-13.33.41:133][320]SourceControl: Info Commited [master 73b221d] anadi jugador.
+[2018.04.30-13.33.46:519][512]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.04.30-13.33.50:094][514]SourceControl: Info fatal: /Temp/Untitled_1: '/Temp/Untitled_1' is outside repository
+[2018.04.30-13.33.51:414][549]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.04.30-13.33.58:006][717]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.30-13.33.58:282][717]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.30-13.33.58:294][717]PIE: New page: PIE session: Untitled_1 (Apr 30, 2018, 5:33:58 AM)
+[2018.04.30-13.33.58:294][717]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.04.30-13.33.58:304][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008964s)
+[2018.04.30-13.33.58:308][717]LogAIModule: Creating AISystem for world Untitled_1
+[2018.04.30-13.33.58:308][717]LogPlayLevel: PIE: World Init took: (0.004577s)
+[2018.04.30-13.33.58:309][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.014730s)
+[2018.04.30-13.33.58:403][717]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.30-13.33.58:447][717]LogInit: FAudioDevice initialized.
+[2018.04.30-13.33.58:513][717]LogLoad: Game class is 'game_mode_top_down_C'
+[2018.04.30-13.33.58:519][717]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.04.30-09.33.58
+[2018.04.30-13.33.58:520][717]LogWorld: Bringing up level for play took: 0.003117
+[2018.04.30-13.33.58:751][717]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0025 seconds. Added 11 classes and 0 folders.
+[2018.04.30-13.33.58:756][717]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.381
+[2018.04.30-13.34.11:397][129]Cmd: LevelEditor.ToggleImmersive
+[2018.04.30-13.34.11:788][130]LogRenderer: Reallocating scene render targets to support 1172x624 NumSamples 1 (Frame:414).
+[2018.04.30-13.34.12:631][131]LogRenderer: Reallocating scene render targets to support 1192x636 NumSamples 1 (Frame:416).
+[2018.04.30-13.34.13:976][159]Cmd: LevelEditor.ToggleImmersive
+[2018.04.30-13.34.34:006][564]PIE:Warning: Warning Mobility of SkyLight_0 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2018.04.30-13.34.34:008][564]PIE:Warning: Warning Mobility of SkyLight_0 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2018.04.30-13.34.34:010][564]PIE:Warning: Warning Mobility of SkyLight_0 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2018.04.30-13.34.34:013][564]PIE:Warning: Warning Mobility of SkyLight_0 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2018.04.30-13.34.34:017][564]PIE:Warning: Warning Mobility of SkyLight_0 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2018.04.30-13.34.34:019][564]PIE:Warning: Warning Mobility of SkyLight_0 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2018.04.30-13.34.34:022][564]PIE:Warning: Warning Mobility of SkyLight_0 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2018.04.30-13.34.34:024][564]PIE:Warning: Warning Mobility of SkyLight_0 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2018.04.30-13.34.34:026][564]PIE:Warning: Warning Mobility of SkyLight_0 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2018.04.30-13.34.34:029][564]PIE:Warning: Warning Mobility of SkyLight_0 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2018.04.30-13.34.34:032][564]PIE:Warning: Warning Mobility of SkyLight_0 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2018.04.30-13.34.34:035][564]PIE:Warning: Warning Mobility of SkyLight_0 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2018.04.30-13.34.34:038][564]PIE:Warning: Warning Mobility of SkyLight_0 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2018.04.30-13.34.34:041][564]PIE:Warning: Warning Mobility of SkyLight_0 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2018.04.30-13.34.34:044][564]PIE:Warning: Warning Mobility of SkyLight_0 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2018.04.30-13.34.34:047][564]PIE:Warning: Warning Mobility of SkyLight_0 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2018.04.30-13.34.34:051][564]PIE:Warning: Warning Mobility of SkyLight_0 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2018.04.30-13.34.34:054][564]PIE:Warning: Warning Mobility of SkyLight_0 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2018.04.30-13.34.34:056][564]PIE:Warning: Warning Mobility of SkyLight_0 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2018.04.30-13.34.34:059][564]PIE:Warning: Warning Mobility of SkyLight_0 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2018.04.30-13.34.34:061][564]PIE:Warning: Warning Mobility of SkyLight_0 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2018.04.30-13.34.34:064][564]PIE:Warning: Warning Mobility of SkyLight_0 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2018.04.30-13.34.34:067][564]PIE:Warning: Warning Mobility of SkyLight_0 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2018.04.30-13.34.34:071][564]PIE:Warning: Warning Mobility of SkyLight_0 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2018.04.30-13.34.34:073][564]PIE:Warning: Warning Mobility of SkyLight_0 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2018.04.30-13.34.34:076][564]PIE:Warning: Warning Mobility of SkyLight_0 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2018.04.30-13.34.34:079][564]PIE:Warning: Warning Mobility of SkyLight_0 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2018.04.30-13.34.34:095][564]PIE:Warning: Warning Mobility of SkyLight_0 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2018.04.30-13.34.34:122][565]PIE:Warning: Warning Mobility of SkyLight_0 : SkyLightComponent0 has to be 'Movable' if you'd like to move. 
+[2018.04.30-13.35.58:195][425]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.04.30-13.36.05:653][669]Set new viewmode: Wireframe
+[2018.04.30-13.36.05:995][683]Set new viewmode: Unlit
+[2018.04.30-13.36.06:322][692]Set new viewmode: Lit
+[2018.04.30-13.36.06:575][701]Set new viewmode: Lit_DetailLighting
+[2018.04.30-13.36.06:903][713]Set new viewmode: ShaderComplexity
+[2018.04.30-13.36.07:433][715]Set new viewmode: Lit
+[2018.04.30-13.36.07:560][719]Set new viewmode: ShaderComplexity
+[2018.04.30-13.36.08:852][776]Set new viewmode: ShaderComplexity
+[2018.04.30-13.36.09:143][791]Set new viewmode: Lit_DetailLighting
+[2018.04.30-13.36.09:780][815]Set new viewmode: Lit
+[2018.04.30-13.36.10:534][844]Set new viewmode: Lit
+[2018.04.30-13.36.10:821][855]Set new viewmode: Lit_DetailLighting
+[2018.04.30-13.36.12:172][904]Set new viewmode: Lit
+[2018.04.30-13.36.15:101][ 12]Set new viewmode: Lit_DetailLighting
+[2018.04.30-13.36.15:575][ 29]Set new viewmode: Lit_DetailLighting
+[2018.04.30-13.36.16:364][ 56]Set new viewmode: Lit
+[2018.04.30-13.36.17:431][ 91]Set new viewmode: ShaderComplexity
+[2018.04.30-13.36.17:979][113]Set new viewmode: ShaderComplexity
+[2018.04.30-13.36.19:797][197]Set new viewmode: Lit
+[2018.04.30-13.36.20:264][215]Set new viewmode: Lit_DetailLighting
+[2018.04.30-13.36.21:101][247]Set new viewmode: Unlit
+[2018.04.30-13.36.22:416][307]Set new viewmode: Wireframe
+[2018.04.30-13.36.33:692][832]Set new viewmode: Unlit
+[2018.04.30-13.36.34:268][859]Set new viewmode: Lit
+[2018.04.30-13.36.38:101][973]LogEditorViewport: Clicking Background
+[2018.04.30-13.36.41:454][ 86]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2018.04.30-13.36.41:510][ 86]LogEditorActor: Deleted 1 Actors (0.066 secs)
+[2018.04.30-13.36.42:848][143]LogEditorActor: Deleted Actor: AtmosphericFog
+[2018.04.30-13.36.42:947][143]LogEditorActor: Deleted 1 Actors (0.100 secs)
+[2018.04.30-13.36.50:676][389]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.30-13.36.50:786][389]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.30-13.36.50:786][389]PIE: New page: PIE session: Untitled_1 (Apr 30, 2018, 5:36:50 AM)
+[2018.04.30-13.36.50:786][389]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.04.30-13.36.50:791][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004778s)
+[2018.04.30-13.36.50:794][389]LogAIModule: Creating AISystem for world Untitled_1
+[2018.04.30-13.36.50:796][389]LogPlayLevel: PIE: World Init took: (0.004059s)
+[2018.04.30-13.36.50:796][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.009795s)
+[2018.04.30-13.36.50:892][389]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.30-13.36.50:937][389]LogInit: FAudioDevice initialized.
+[2018.04.30-13.36.50:991][389]LogLoad: Game class is 'game_mode_top_down_C'
+[2018.04.30-13.36.50:997][389]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.04.30-09.36.50
+[2018.04.30-13.36.50:998][389]LogWorld: Bringing up level for play took: 0.004734
+[2018.04.30-13.36.51:005][389]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.131
+[2018.04.30-13.36.59:256][594]LogSlate: Took 0.000574 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.30-13.37.00:875][594]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0044 seconds. Added 112 classes and 0 folders.
+[2018.04.30-13.37.07:801][647]LogSlate: Took 0.031536 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.30-13.37.08:283][648]LogSlate: Took 0.064295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.30-13.37.14:423][753]LogHttp:Warning: 00000273A0A49F00: request failed, libcurl error: 0 (No error)
+[2018.04.30-13.37.14:423][753]LogHttp:Warning: 00000273A0A49F00: libcurl info message cache 0 (  Trying 34.206.255.118...)
+[2018.04.30-13.37.14:423][753]LogHttp:Warning: 00000273A0A49F00: libcurl info message cache 1 (Connected to datarouter.ol.epicgames.com (34.206.255.118) port 443 (#0))
+[2018.04.30-13.37.14:423][753]LogHttp:Warning: 00000273A0A49F00: libcurl info message cache 2 (ALPN, offering http/1.1)
+[2018.04.30-13.37.14:423][753]LogHttp:Warning: 00000273A0A49F00: libcurl info message cache 3 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.04.30-13.37.14:423][753]LogHttp:Warning: 00000273A0A49F00: libcurl info message cache 4 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.04.30-13.37.14:423][753]LogHttp:Warning: 00000273A0A49F00: libcurl info message cache 5 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.04.30-13.37.14:424][753]LogHttp:Warning: 00000273A0A49F00: libcurl info message cache 6 (Closing connection 0)
+[2018.04.30-13.37.20:311][848]BlueprintLog: New page: Compile Top_down_player
+[2018.04.30-13.37.24:044][915]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.30-13.37.24:217][915]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.30-13.37.24:217][915]PIE: New page: PIE session: Untitled_1 (Apr 30, 2018, 5:37:24 AM)
+[2018.04.30-13.37.24:218][915]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.04.30-13.37.24:223][915]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005413s)
+[2018.04.30-13.37.24:225][915]LogAIModule: Creating AISystem for world Untitled_1
+[2018.04.30-13.37.24:226][915]LogPlayLevel: PIE: World Init took: (0.002587s)
+[2018.04.30-13.37.24:226][915]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.008723s)
+[2018.04.30-13.37.24:416][915]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.30-13.37.24:455][915]LogInit: FAudioDevice initialized.
+[2018.04.30-13.37.24:507][915]LogLoad: Game class is 'game_mode_top_down_C'
+[2018.04.30-13.37.24:513][915]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.04.30-09.37.24
+[2018.04.30-13.37.24:514][915]LogWorld: Bringing up level for play took: 0.004566
+[2018.04.30-13.37.24:521][915]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.615
+[2018.04.30-13.37.35:685][267]Cmd: LevelEditor.ToggleImmersive
+[2018.04.30-13.38.15:422][224]LogHttp:Warning: 0000027391064580: request failed, libcurl error: 0 (No error)
+[2018.04.30-13.38.15:422][224]LogHttp:Warning: 0000027391064580: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x273a8c0ffe8 [serially])
+[2018.04.30-13.38.15:422][224]LogHttp:Warning: 0000027391064580: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.04.30-13.38.15:422][224]LogHttp:Warning: 0000027391064580: libcurl info message cache 2 (  Trying 52.205.225.225...)
+[2018.04.30-13.38.15:422][224]LogHttp:Warning: 0000027391064580: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.205.225.225) port 443 (#1))
+[2018.04.30-13.38.15:423][224]LogHttp:Warning: 0000027391064580: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.04.30-13.38.15:423][224]LogHttp:Warning: 0000027391064580: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.04.30-13.38.15:423][224]LogHttp:Warning: 0000027391064580: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.04.30-13.38.15:423][224]LogHttp:Warning: 0000027391064580: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.04.30-13.38.15:423][224]LogHttp:Warning: 0000027391064580: libcurl info message cache 8 (Closing connection 1)
+[2018.04.30-13.38.27:598][517]Cmd: LevelEditor.ToggleImmersive
+[2018.04.30-13.38.36:812][749]SourceControl: Info fatal: /Temp/Untitled_1: '/Temp/Untitled_1' is outside repository
+[2018.04.30-13.38.36:998][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jean/Desarrollo/Blueprints/player/Top_down_player" FILE="../../../../GD_umet_DEV/Content/Jean/Desarrollo/Blueprints/player/Top_down_player.uasset" SILENT=true
+[2018.04.30-13.38.37:441][749]LogSavePackage: Save=364.71ms
+[2018.04.30-13.38.37:441][749]LogSavePackage: Moving '../../../../GD_umet_DEV/Saved/Top_down_player8E14C34C44A563E1C59FCAB8E19902CC.tmp' to '../../../../GD_umet_DEV/Content/Jean/Desarrollo/Blueprints/player/Top_down_player.uasset'
+[2018.04.30-13.38.37:465][749]LogSavePackage:Display: Finished SavePackage ../../../../GD_umet_DEV/Content/Jean/Desarrollo/Blueprints/player/Top_down_player.uasset
+[2018.04.30-13.38.40:094][770]SourceControl: Info fatal: /Temp/Untitled_1: '/Temp/Untitled_1' is outside repository
+[2018.04.30-13.39.06:568][175]MapCheck: New page: Map Check
+[2018.04.30-13.39.06:631][175]LightingResults: New page: Lighting Build - Apr 30, 2018, 5:39:06 AM
+[2018.04.30-13.39.07:111][175]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.04.30-13.39.07:502][175]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.04.30-13.39.07:875][175]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.04.30-13.39.11:879][175]LogSwarmInterface:Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2018.04.30-13.39.11:970][175]LogSwarmInterface:Error: System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:8008
+
+Server stack trace: 
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   at System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   at NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
+[2018.04.30-13.39.17:075][175]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.04.30-13.39.17:075][175]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1340
+[2018.04.30-13.39.19:198][175]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.04.30-13.39.20:208][175]LogEditorBuildUtils: Build time 0:13
+[2018.04.30-13.39.20:236][176]LogHttp:Warning: 00000273ACBF9300: request failed, libcurl error: 0 (No error)
+[2018.04.30-13.39.20:236][176]LogHttp:Warning: 00000273ACBF9300: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x273a8c0ffe8 [serially])
+[2018.04.30-13.39.20:236][176]LogHttp:Warning: 00000273ACBF9300: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.04.30-13.39.20:236][176]LogHttp:Warning: 00000273ACBF9300: libcurl info message cache 2 (  Trying 34.232.82.35...)
+[2018.04.30-13.39.20:236][176]LogHttp:Warning: 00000273ACBF9300: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.232.82.35) port 443 (#2))
+[2018.04.30-13.39.20:236][176]LogHttp:Warning: 00000273ACBF9300: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.04.30-13.39.20:236][176]LogHttp:Warning: 00000273ACBF9300: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.04.30-13.39.20:236][176]LogHttp:Warning: 00000273ACBF9300: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.04.30-13.39.20:236][176]LogHttp:Warning: 00000273ACBF9300: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.04.30-13.39.20:237][176]LogHttp:Warning: 00000273ACBF9300: libcurl info message cache 8 (Closing connection 2)
+[2018.04.30-13.39.26:802][352]SourceControl: Info fatal: C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/: 'C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/' is outside repository
+[2018.04.30-13.39.44:690][542]LogRenderer: Reallocating scene render targets to support 1192x636 NumSamples 1 (Frame:2139).
+[2018.04.30-13.39.44:694][542]LogContentStreaming: Texture pool size now 400 MB
+[2018.04.30-13.40.19:113][644]LogContentBrowser: Native class hierarchy updated for 'PhAT' in 0.0032 seconds. Added 2 classes and 3 folders.
+[2018.04.30-13.40.50:711][162]LogHttp:Warning: 0000027400141F00: request failed, libcurl error: 0 (No error)
+[2018.04.30-13.40.50:711][162]LogHttp:Warning: 0000027400141F00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x273a8c0ffe8 [serially])
+[2018.04.30-13.40.50:711][162]LogHttp:Warning: 0000027400141F00: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.04.30-13.40.50:711][162]LogHttp:Warning: 0000027400141F00: libcurl info message cache 2 (  Trying 34.234.148.21...)
+[2018.04.30-13.40.50:711][162]LogHttp:Warning: 0000027400141F00: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.234.148.21) port 443 (#3))
+[2018.04.30-13.40.50:711][162]LogHttp:Warning: 0000027400141F00: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.04.30-13.40.50:711][162]LogHttp:Warning: 0000027400141F00: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.04.30-13.40.50:711][162]LogHttp:Warning: 0000027400141F00: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.04.30-13.40.50:712][162]LogHttp:Warning: 0000027400141F00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.04.30-13.40.50:712][162]LogHttp:Warning: 0000027400141F00: libcurl info message cache 8 (Closing connection 3)
+[2018.04.30-13.41.18:337][702]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.30-13.41.18:466][702]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.30-13.41.18:467][702]PIE: New page: PIE session: Untitled_1 (Apr 30, 2018, 5:41:18 AM)
+[2018.04.30-13.41.18:467][702]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.04.30-13.41.18:471][702]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003838s)
+[2018.04.30-13.41.18:473][702]LogAIModule: Creating AISystem for world Untitled_1
+[2018.04.30-13.41.18:473][702]LogPlayLevel: PIE: World Init took: (0.002582s)
+[2018.04.30-13.41.18:474][702]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.007105s)
+[2018.04.30-13.41.18:615][702]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.30-13.41.18:661][702]LogInit: FAudioDevice initialized.
+[2018.04.30-13.41.18:715][702]LogLoad: Game class is 'game_mode_top_down_C'
+[2018.04.30-13.41.18:723][702]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.04.30-09.41.18
+[2018.04.30-13.41.18:725][702]LogWorld: Bringing up level for play took: 0.006949
+[2018.04.30-13.41.18:732][702]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.404
+[2018.04.30-13.41.27:437][ 21]SourceControl: Info fatal: /Temp/Untitled_1: '/Temp/Untitled_1' is outside repository
+[2018.04.30-13.41.29:501][ 29]SourceControl: Info fatal: /Temp/Untitled_1: '/Temp/Untitled_1' is outside repository
+[2018.04.30-13.41.32:957][ 69]Cmd: QUIT_EDITOR
+[2018.04.30-13.41.33:822][ 69]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.04.30-13.41.33:895][ 69]LogExit: Preparing to exit.
+[2018.04.30-13.41.35:115][ 69]LogDirectoryWatcher: A directory notification for 'C:/Users/Computer Outlet/Documents/GD_umet_DEV/Content/' was aborted.
+[2018.04.30-13.41.35:289][ 69]LogExit: Editor shut down
+[2018.04.30-13.41.35:303][ 69]LogExit: Transaction tracking system shut down
+[2018.04.30-13.41.36:210][ 69]LogObj: Freed 0b from 0 cluster array pools.
+[2018.04.30-13.41.36:211][ 69]LogExit: Object subsystem successfully closed.
+[2018.04.30-13.41.36:370][ 69]LogD3D11RHI: Shutdown
+[2018.04.30-13.41.36:371][ 69]LogD3D11RHI: CleanupD3DDevice
+[2018.04.30-13.41.37:098][ 69]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.30-13.41.37:729][ 69]LogModuleManager: Shutting down and abandoning module PhAT (532)
+[2018.04.30-13.41.37:729][ 69]LogModuleManager: Shutting down and abandoning module BlueprintGraph (530)
+[2018.04.30-13.41.37:729][ 69]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (528)
+[2018.04.30-13.41.37:749][ 69]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2018.04.30-13.41.37:749][ 69]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2018.04.30-13.41.37:749][ 69]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2018.04.30-13.41.37:749][ 69]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.04.30-13.41.37:749][ 69]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.04.30-13.41.37:749][ 69]LogDirectoryWatcher: A directory notification for 'C:/Users/Computer Outlet/Documents/UE_4.16/FeaturePacks/' was aborted.
+[2018.04.30-13.41.37:753][ 69]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.04.30-13.41.37:753][ 69]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.04.30-13.41.37:753][ 69]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.04.30-13.41.37:754][ 69]LogDirectoryWatcher: A directory notification for 'C:/Users/Computer Outlet/Documents/GD_umet_DEV/Content/Collections/' was aborted.
+[2018.04.30-13.41.37:754][ 69]LogDirectoryWatcher: A directory notification for 'C:/Users/Computer Outlet/Documents/GD_umet_DEV/Content/Developers/ComputerOutlet/Collections/' was aborted.
+[2018.04.30-13.41.37:754][ 69]LogDirectoryWatcher: A directory notification for 'C:/Users/Computer Outlet/Documents/GD_umet_DEV/Saved/Collections/' was aborted.
+[2018.04.30-13.41.37:754][ 69]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.04.30-13.41.37:754][ 69]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.04.30-13.41.37:754][ 69]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.04.30-13.41.37:796][ 69]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.04.30-13.41.37:796][ 69]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.04.30-13.41.37:796][ 69]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.04.30-13.41.37:796][ 69]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.04.30-13.41.37:796][ 69]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.04.30-13.41.37:796][ 69]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.04.30-13.41.37:796][ 69]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.04.30-13.41.37:796][ 69]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.04.30-13.41.37:796][ 69]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.04.30-13.41.37:796][ 69]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.04.30-13.41.37:796][ 69]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.04.30-13.41.37:861][ 69]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.04.30-13.41.37:861][ 69]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.04.30-13.41.37:862][ 69]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.04.30-13.41.37:862][ 69]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.04.30-13.41.37:862][ 69]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.04.30-13.41.37:862][ 69]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.04.30-13.41.37:862][ 69]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.04.30-13.41.37:862][ 69]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.04.30-13.41.37:862][ 69]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.04.30-13.41.37:862][ 69]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.04.30-13.41.37:862][ 69]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.04.30-13.41.37:862][ 69]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.04.30-13.41.37:862][ 69]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.04.30-13.41.37:862][ 69]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.04.30-13.41.37:862][ 69]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.04.30-13.41.37:862][ 69]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.04.30-13.41.37:894][ 69]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.04.30-13.41.37:908][ 69]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.04.30-13.41.37:952][ 69]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.04.30-13.41.38:015][ 69]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.04.30-13.41.38:015][ 69]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.04.30-13.41.38:033][ 69]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.04.30-13.41.38:033][ 69]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.04.30-13.41.38:033][ 69]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.04.30-13.41.38:893][ 69]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.04.30-13.41.38:894][ 69]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.04.30-13.41.38:894][ 69]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.04.30-13.41.38:905][ 69]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.04.30-13.41.38:910][ 69]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.04.30-13.41.38:910][ 69]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.04.30-13.41.38:926][ 69]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.04.30-13.41.38:927][ 69]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.04.30-13.41.38:945][ 69]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.04.30-13.41.38:945][ 69]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.04.30-13.41.38:945][ 69]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.04.30-13.41.38:966][ 69]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.04.30-13.41.38:966][ 69]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.04.30-13.41.38:966][ 69]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.04.30-13.41.38:966][ 69]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.04.30-13.41.38:966][ 69]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.04.30-13.41.38:966][ 69]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.04.30-13.41.38:967][ 69]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.04.30-13.41.38:967][ 69]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.04.30-13.41.38:967][ 69]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.04.30-13.41.39:015][ 69]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.04.30-13.41.39:065][ 69]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.04.30-13.41.39:116][ 69]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.04.30-13.41.39:139][ 69]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.04.30-13.41.39:220][ 69]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.04.30-13.41.39:220][ 69]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.04.30-13.41.39:258][ 69]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.04.30-13.41.39:354][ 69]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.04.30-13.41.39:354][ 69]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.04.30-13.41.39:378][ 69]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.04.30-13.41.39:379][ 69]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.04.30-13.41.39:389][ 69]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.04.30-13.41.39:389][ 69]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.04.30-13.41.39:389][ 69]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.04.30-13.41.39:441][ 69]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.04.30-13.41.39:444][ 69]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.04.30-13.41.39:444][ 69]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.04.30-13.41.39:458][ 69]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.04.30-13.41.39:507][ 69]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.04.30-13.41.39:507][ 69]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.04.30-13.41.39:524][ 69]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.04.30-13.41.39:524][ 69]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.04.30-13.41.39:524][ 69]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.04.30-13.41.39:524][ 69]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.04.30-13.41.39:524][ 69]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.04.30-13.41.39:582][ 69]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.04.30-13.41.39:582][ 69]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.04.30-13.41.39:582][ 69]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.04.30-13.41.39:582][ 69]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.04.30-13.41.39:582][ 69]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.04.30-13.41.39:582][ 69]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.04.30-13.41.39:582][ 69]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.04.30-13.41.39:582][ 69]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.04.30-13.41.39:582][ 69]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.04.30-13.41.39:641][ 69]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.04.30-13.41.39:670][ 69]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.04.30-13.41.39:670][ 69]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.04.30-13.41.39:670][ 69]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.04.30-13.41.39:671][ 69]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.04.30-13.41.39:672][ 69]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.04.30-13.41.39:672][ 69]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.04.30-13.41.39:672][ 69]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.04.30-13.41.39:672][ 69]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.04.30-13.41.39:672][ 69]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.04.30-13.41.39:672][ 69]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.04.30-13.41.39:672][ 69]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.04.30-13.41.39:672][ 69]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.04.30-13.41.39:716][ 69]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.04.30-13.41.39:716][ 69]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.04.30-13.41.39:725][ 69]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.04.30-13.41.39:725][ 69]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.04.30-13.41.39:726][ 69]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.04.30-13.41.39:726][ 69]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.04.30-13.41.39:726][ 69]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.04.30-13.41.39:726][ 69]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.04.30-13.41.39:726][ 69]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.04.30-13.41.39:727][ 69]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.04.30-13.41.39:728][ 69]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.04.30-13.41.39:728][ 69]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.04.30-13.41.39:728][ 69]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.04.30-13.41.39:729][ 69]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.04.30-13.41.39:729][ 69]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.04.30-13.41.39:730][ 69]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.04.30-13.41.39:730][ 69]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.04.30-13.41.39:730][ 69]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.04.30-13.41.39:730][ 69]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.04.30-13.41.39:730][ 69]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.04.30-13.41.39:730][ 69]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.04.30-13.41.39:730][ 69]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.04.30-13.41.39:730][ 69]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.04.30-13.41.39:731][ 69]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.04.30-13.41.39:731][ 69]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.04.30-13.41.39:732][ 69]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.04.30-13.41.39:738][ 69]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.04.30-13.41.39:738][ 69]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.04.30-13.41.39:738][ 69]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.04.30-13.41.39:738][ 69]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.04.30-13.41.39:738][ 69]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.04.30-13.41.39:739][ 69]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.04.30-13.41.39:841][ 69]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.04.30-13.41.39:942][ 69]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.04.30-13.41.39:951][ 69]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.04.30-13.41.39:951][ 69]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.04.30-13.41.39:951][ 69]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.04.30-13.41.39:958][ 69]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.04.30-13.41.39:958][ 69]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.04.30-13.41.39:961][ 69]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.04.30-13.41.39:962][ 69]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.04.30-13.41.39:971][ 69]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.04.30-13.41.39:971][ 69]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.04.30-13.41.39:981][ 69]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.04.30-13.41.39:981][ 69]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.04.30-13.41.40:008][ 69]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.04.30-13.41.40:008][ 69]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.04.30-13.41.40:008][ 69]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.04.30-13.41.40:008][ 69]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.04.30-13.41.40:020][ 69]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.04.30-13.41.40:020][ 69]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.04.30-13.41.40:042][ 69]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.04.30-13.41.40:042][ 69]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.04.30-13.41.40:053][ 69]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.04.30-13.41.40:065][ 69]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.04.30-13.41.40:088][ 69]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.04.30-13.41.40:103][ 69]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.04.30-13.41.40:131][ 69]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.04.30-13.41.40:132][ 69]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.04.30-13.41.40:132][ 69]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.04.30-13.41.40:166][ 69]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.04.30-13.41.40:166][ 69]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.04.30-13.41.40:175][ 69]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.04.30-13.41.40:175][ 69]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.04.30-13.41.40:175][ 69]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.04.30-13.41.40:175][ 69]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.04.30-13.41.40:175][ 69]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.04.30-13.41.40:175][ 69]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.04.30-13.41.40:302][ 69]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.04.30-13.41.40:303][ 69]LogDirectoryWatcher: A directory notification for '../../../../GD_umet_DEV/Content/' was aborted.
+[2018.04.30-13.41.40:303][ 69]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.04.30-13.41.40:303][ 69]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.04.30-13.41.40:312][ 69]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.04.30-13.41.40:314][ 69]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.04.30-13.41.40:314][ 69]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.04.30-13.41.40:314][ 69]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.04.30-13.41.40:314][ 69]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.04.30-13.41.40:315][ 69]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.04.30-13.41.40:315][ 69]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.04.30-13.41.40:315][ 69]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.04.30-13.41.40:315][ 69]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.04.30-13.41.40:325][ 69]LogDerivedDataCache: Shutdown
+[2018.04.30-13.41.40:325][ 69]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.04.30-13.41.40:325][ 69]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.04.30-13.41.40:325][ 69]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.04.30-13.41.40:339][ 69]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.04.30-13.41.40:351][ 69]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.04.30-13.41.40:351][ 69]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.04.30-13.41.40:362][ 69]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.04.30-13.41.40:362][ 69]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.04.30-13.41.40:362][ 69]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.04.30-13.41.40:362][ 69]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.04.30-13.41.40:373][ 69]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.04.30-13.41.40:373][ 69]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.04.30-13.41.40:373][ 69]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.04.30-13.41.40:373][ 69]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.04.30-13.41.40:373][ 69]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.04.30-13.41.40:373][ 69]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.04.30-13.41.40:373][ 69]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.04.30-13.41.40:373][ 69]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.04.30-13.41.40:373][ 69]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.04.30-13.41.40:373][ 69]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.04.30-13.41.40:373][ 69]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.04.30-13.41.40:373][ 69]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.04.30-13.41.40:373][ 69]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.04.30-13.41.40:373][ 69]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.04.30-13.41.40:373][ 69]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.04.30-13.41.40:373][ 69]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.04.30-13.41.40:373][ 69]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.04.30-13.41.40:373][ 69]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.04.30-13.41.40:374][ 69]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.04.30-13.41.40:374][ 69]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.04.30-13.41.40:374][ 69]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.04.30-13.41.40:374][ 69]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.04.30-13.41.40:374][ 69]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.04.30-13.41.40:374][ 69]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.04.30-13.41.40:374][ 69]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.04.30-13.41.40:374][ 69]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.04.30-13.41.40:374][ 69]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.04.30-13.41.40:374][ 69]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.04.30-13.41.40:374][ 69]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.04.30-13.41.40:374][ 69]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.04.30-13.41.40:374][ 69]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.04.30-13.41.40:374][ 69]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.04.30-13.41.40:374][ 69]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.04.30-13.41.40:374][ 69]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.04.30-13.41.40:383][ 69]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.04.30-13.41.40:383][ 69]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.04.30-13.41.40:384][ 69]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.04.30-13.41.40:384][ 69]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.04.30-13.41.40:384][ 69]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.04.30-13.41.40:384][ 69]LogOnline:Display: Unloading online subsystem: NULL
+[2018.04.30-13.41.40:409][ 69]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.04.30-13.41.40:418][ 69]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.04.30-13.41.40:418][ 69]LogHttp:Display: Http module shutting down, but needs to wait on 3 outstanding Http requests:
+[2018.04.30-13.41.40:431][ 69]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCE5833AF-46EB-D351-AA40-7A8D9C2CB69B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=f92e736d44f4aadf277b2189991ac434%7C8bc2ef85bc504ccfbd85fffd23023125%7Ce4c634b2-dcfc-4a90-8d61-9d29767019a9&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.30-13.41.40:432][ 69]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCE5833AF-46EB-D351-AA40-7A8D9C2CB69B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=f92e736d44f4aadf277b2189991ac434%7C8bc2ef85bc504ccfbd85fffd23023125%7Ce4c634b2-dcfc-4a90-8d61-9d29767019a9&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.30-13.41.40:432][ 69]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCE5833AF-46EB-D351-AA40-7A8D9C2CB69B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=f92e736d44f4aadf277b2189991ac434%7C8bc2ef85bc504ccfbd85fffd23023125%7Ce4c634b2-dcfc-4a90-8d61-9d29767019a9&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.30-13.41.40:432][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.40:933][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.41:434][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.41:934][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.42:435][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.42:936][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.43:436][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.43:937][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.44:437][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.44:938][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.45:438][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.45:939][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.46:440][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.46:941][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.47:441][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.47:942][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.48:442][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.48:943][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.49:444][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.49:944][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.50:463][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.50:964][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.51:465][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.51:966][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.52:466][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.52:966][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.53:467][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.53:967][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.54:467][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.54:968][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.55:468][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.55:969][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.56:469][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.56:969][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.57:470][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.57:970][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.58:470][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.58:971][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.59:471][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.41.59:972][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.42.00:473][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.42.00:974][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.42.01:475][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.42.01:975][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.42.02:476][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.42.02:977][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.42.03:478][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.42.03:978][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.42.04:479][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.42.04:979][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.42.05:480][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.42.05:980][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.42.06:492][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.42.06:993][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.42.07:493][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.42.07:994][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.42.08:494][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.42.08:995][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.42.09:496][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.42.09:997][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-13.42.10:497][ 69]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.04.30-14.44.15:571][ 69]LogHttp:Warning: 00000273C19B9180: request failed, libcurl error: 28 (Timeout was reached)
+[2018.04.30-14.44.15:571][ 69]LogHttp:Warning: 00000273C19B9180: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x273a8c0ffe8 [serially])
+[2018.04.30-14.44.15:571][ 69]LogHttp:Warning: 00000273C19B9180: libcurl info message cache 1 (  Trying 52.205.79.197...)
+[2018.04.30-14.44.15:571][ 69]LogHttp:Warning: 00000273C19B9180: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.205.79.197) port 443 (#4))
+[2018.04.30-14.44.15:571][ 69]LogHttp:Warning: 00000273C19B9180: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.04.30-14.44.15:572][ 69]LogHttp:Warning: 00000273C19B9180: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.04.30-14.44.15:572][ 69]LogHttp:Warning: 00000273C19B9180: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.04.30-14.44.15:572][ 69]LogHttp:Warning: 00000273C19B9180: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.04.30-14.44.15:572][ 69]LogHttp:Warning: 00000273C19B9180: libcurl info message cache 7 (Operation timed out after 0 milliseconds with 0 out of 0 bytes received)
+[2018.04.30-14.44.15:572][ 69]LogHttp:Warning: 00000273C19B9180: libcurl info message cache 8 (Closing connection 4)
+[2018.04.30-14.44.15:572][ 69]LogHttp:Warning: 0000027385A87280: request failed, libcurl error: 28 (Timeout was reached)
+[2018.04.30-14.44.15:572][ 69]LogHttp:Warning: 0000027385A87280: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x273a8c0ffe8 [serially])
+[2018.04.30-14.44.15:572][ 69]LogHttp:Warning: 0000027385A87280: libcurl info message cache 1 (Hostname datarouter.ol.epicgames.com was found in DNS cache)
+[2018.04.30-14.44.15:572][ 69]LogHttp:Warning: 0000027385A87280: libcurl info message cache 2 (  Trying 34.225.65.208...)
+[2018.04.30-14.44.15:572][ 69]LogHttp:Warning: 0000027385A87280: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.225.65.208) port 443 (#6))
+[2018.04.30-14.44.15:572][ 69]LogHttp:Warning: 0000027385A87280: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.04.30-14.44.15:572][ 69]LogHttp:Warning: 0000027385A87280: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.04.30-14.44.15:572][ 69]LogHttp:Warning: 0000027385A87280: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.04.30-14.44.15:572][ 69]LogHttp:Warning: 0000027385A87280: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.04.30-14.44.15:572][ 69]LogHttp:Warning: 0000027385A87280: libcurl info message cache 8 (Operation timed out after 0 milliseconds with 0 out of 0 bytes received)
+[2018.04.30-14.44.15:572][ 69]LogHttp:Warning: 0000027385A87280: libcurl info message cache 9 (Closing connection 6)
+[2018.04.30-14.44.15:572][ 69]LogHttp:Warning: 00000273D074AE00: request failed, libcurl error: 28 (Timeout was reached)
+[2018.04.30-14.44.15:572][ 69]LogHttp:Warning: 00000273D074AE00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x273a8c0ffe8 [serially])
+[2018.04.30-14.44.15:572][ 69]LogHttp:Warning: 00000273D074AE00: libcurl info message cache 1 (  Trying 34.225.65.208...)
+[2018.04.30-14.44.15:572][ 69]LogHttp:Warning: 00000273D074AE00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.225.65.208) port 443 (#5))
+[2018.04.30-14.44.15:572][ 69]LogHttp:Warning: 00000273D074AE00: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.04.30-14.44.15:572][ 69]LogHttp:Warning: 00000273D074AE00: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.04.30-14.44.15:572][ 69]LogHttp:Warning: 00000273D074AE00: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.04.30-14.44.15:572][ 69]LogHttp:Warning: 00000273D074AE00: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.04.30-14.44.15:572][ 69]LogHttp:Warning: 00000273D074AE00: libcurl info message cache 7 (Operation timed out after 0 milliseconds with 0 out of 0 bytes received)
+[2018.04.30-14.44.15:572][ 69]LogHttp:Warning: 00000273D074AE00: libcurl info message cache 8 (Closing connection 5)
+[2018.04.30-14.44.15:599][ 69]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.04.30-14.44.15:602][ 69]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.04.30-14.44.19:004][ 69]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.04.30-14.44.19:090][ 69]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.04.30-14.44.19:090][ 69]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.04.30-14.44.19:463][ 69]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.04.30-14.44.19:463][ 69]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.04.30-14.44.19:463][ 69]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.04.30-14.44.19:463][ 69]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.04.30-14.44.19:539][ 69]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.04.30-14.44.19:777][ 69]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.04.30-14.44.19:777][ 69]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.04.30-14.44.19:777][ 69]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.04.30-14.44.19:777][ 69]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.04.30-14.44.19:777][ 69]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.04.30-14.44.19:777][ 69]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.04.30-14.44.19:777][ 69]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.30-14.44.19:777][ 69]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.30-14.44.19:777][ 69]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.30-14.44.19:937][ 69]LogExit: Exiting.
+[2018.04.30-14.44.20:341][ 69]Log file closed, 04/30/18 10:44:20
