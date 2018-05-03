@@ -847,3 +847,61 @@ LogInit: Object subsystem initialized
 [2018.05.03-22.23.52:928][796]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
 [2018.05.03-22.23.53:725][796]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0007 seconds. Added 1 classes and 0 folders.
 [2018.05.03-22.23.53:738][796]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.05.03-22.25.08:742][847]LogHttp:Warning: 000001DF0FC2CB80: request failed, libcurl error: 0 (No error)
+[2018.05.03-22.25.08:742][847]LogHttp:Warning: 000001DF0FC2CB80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-22.25.08:742][847]LogHttp:Warning: 000001DF0FC2CB80: libcurl info message cache 1 (  Trying 52.204.176.69...)
+[2018.05.03-22.25.08:742][847]LogHttp:Warning: 000001DF0FC2CB80: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.204.176.69) port 443 (#33))
+[2018.05.03-22.25.08:742][847]LogHttp:Warning: 000001DF0FC2CB80: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.03-22.25.08:742][847]LogHttp:Warning: 000001DF0FC2CB80: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-22.25.08:742][847]LogHttp:Warning: 000001DF0FC2CB80: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-22.25.08:742][847]LogHttp:Warning: 000001DF0FC2CB80: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-22.25.08:742][847]LogHttp:Warning: 000001DF0FC2CB80: libcurl info message cache 7 (Closing connection 33)
+[2018.05.03-22.26.47:742][144]LogHttp:Warning: 000001DF0E95B700: request failed, libcurl error: 0 (No error)
+[2018.05.03-22.26.47:742][144]LogHttp:Warning: 000001DF0E95B700: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-22.26.47:742][144]LogHttp:Warning: 000001DF0E95B700: libcurl info message cache 1 (  Trying 52.202.147.85...)
+[2018.05.03-22.26.47:742][144]LogHttp:Warning: 000001DF0E95B700: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.202.147.85) port 443 (#34))
+[2018.05.03-22.26.47:742][144]LogHttp:Warning: 000001DF0E95B700: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.03-22.26.47:742][144]LogHttp:Warning: 000001DF0E95B700: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-22.26.47:742][144]LogHttp:Warning: 000001DF0E95B700: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-22.26.47:742][144]LogHttp:Warning: 000001DF0E95B700: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-22.26.47:742][144]LogHttp:Warning: 000001DF0E95B700: libcurl info message cache 7 (Closing connection 34)
+[2018.05.03-22.28.39:076][477]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.03-22.28.47:076][502]LogHttp:Warning: 000001DEF5D76200: request failed, libcurl error: 0 (No error)
+[2018.05.03-22.28.47:076][502]LogHttp:Warning: 000001DEF5D76200: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-22.28.47:077][502]LogHttp:Warning: 000001DEF5D76200: libcurl info message cache 1 (  Trying 52.206.60.135...)
+[2018.05.03-22.28.47:077][502]LogHttp:Warning: 000001DEF5D76200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.206.60.135) port 443 (#35))
+[2018.05.03-22.28.47:077][502]LogHttp:Warning: 000001DEF5D76200: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.03-22.28.47:077][502]LogHttp:Warning: 000001DEF5D76200: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-22.28.47:077][502]LogHttp:Warning: 000001DEF5D76200: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-22.28.47:077][502]LogHttp:Warning: 000001DEF5D76200: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-22.28.47:077][502]LogHttp:Warning: 000001DEF5D76200: libcurl info message cache 7 (Closing connection 35)
+[2018.05.03-22.28.48:307][504]LogSavePackage: Save=124.42ms
+[2018.05.03-22.28.48:307][504]LogSavePackage: Moving '../../../../GD_umet_DEV/Saved/TEST_1_JAN_Auto1796C02FD4022308864C756A3617F0D69.tmp' to '../../../../GD_umet_DEV/Saved/Autosaves/Game/Jean/Desarrollo/MAPAS/TEST_1_JAN_Auto1.umap'
+[2018.05.03-22.28.48:313][504]LogSavePackage:Display: Finished SavePackage ../../../../GD_umet_DEV/Saved/Autosaves/Game/Jean/Desarrollo/MAPAS/TEST_1_JAN_Auto1.umap
+[2018.05.03-22.28.48:316][504]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Jean/Desarrollo/MAPAS/TEST_1_JAN' took 0.228
+[2018.05.03-22.28.48:316][504]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.228
+[2018.05.03-22.28.48:318][504]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Jean/Desarrollo/Blueprints/player/Top_down_player] ([1] browsable assets)...
+[2018.05.03-22.28.48:354][504]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Jean/Desarrollo/Blueprints/player/Top_down_player.Top_down_player]
+[2018.05.03-22.28.48:354][504]OBJ SavePackage: Finished generating thumbnails for package [/Game/Jean/Desarrollo/Blueprints/player/Top_down_player]
+[2018.05.03-22.28.48:437][504]LogSavePackage: Save=72.77ms
+[2018.05.03-22.28.48:437][504]LogSavePackage: Moving '../../../../GD_umet_DEV/Saved/Top_down_player_Auto1D08B9B6046D092BA304E54AE07F54A01.tmp' to '../../../../GD_umet_DEV/Saved/Autosaves/Game/Jean/Desarrollo/Blueprints/player/Top_down_player_Auto1.uasset'
+[2018.05.03-22.28.48:438][504]LogSavePackage:Display: Finished SavePackage ../../../../GD_umet_DEV/Saved/Autosaves/Game/Jean/Desarrollo/Blueprints/player/Top_down_player_Auto1.uasset
+[2018.05.03-22.28.48:438][504]LogFileHelpers: Auto-saving content packages took 0.121
+[2018.05.03-22.30.47:142][861]LogHttp:Warning: 000001DEF5D75C00: request failed, libcurl error: 0 (No error)
+[2018.05.03-22.30.47:142][861]LogHttp:Warning: 000001DEF5D75C00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-22.30.47:142][861]LogHttp:Warning: 000001DEF5D75C00: libcurl info message cache 1 (  Trying 52.201.156.113...)
+[2018.05.03-22.30.47:142][861]LogHttp:Warning: 000001DEF5D75C00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.201.156.113) port 443 (#36))
+[2018.05.03-22.30.47:142][861]LogHttp:Warning: 000001DEF5D75C00: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.03-22.30.47:142][861]LogHttp:Warning: 000001DEF5D75C00: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-22.30.47:142][861]LogHttp:Warning: 000001DEF5D75C00: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-22.30.47:142][861]LogHttp:Warning: 000001DEF5D75C00: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-22.30.47:142][861]LogHttp:Warning: 000001DEF5D75C00: libcurl info message cache 7 (Closing connection 36)
+[2018.05.03-22.32.47:112][933]LogHttp:Warning: 000001DF1EC1E380: request failed, libcurl error: 0 (No error)
+[2018.05.03-22.32.47:112][933]LogHttp:Warning: 000001DF1EC1E380: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dea9bb3fe8 [serially])
+[2018.05.03-22.32.47:112][933]LogHttp:Warning: 000001DF1EC1E380: libcurl info message cache 1 (  Trying 34.230.240.124...)
+[2018.05.03-22.32.47:112][933]LogHttp:Warning: 000001DF1EC1E380: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.230.240.124) port 443 (#37))
+[2018.05.03-22.32.47:112][933]LogHttp:Warning: 000001DF1EC1E380: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.03-22.32.47:112][933]LogHttp:Warning: 000001DF1EC1E380: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.03-22.32.47:112][933]LogHttp:Warning: 000001DF1EC1E380: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.03-22.32.47:112][933]LogHttp:Warning: 000001DF1EC1E380: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.03-22.32.47:112][933]LogHttp:Warning: 000001DF1EC1E380: libcurl info message cache 7 (Closing connection 37)
