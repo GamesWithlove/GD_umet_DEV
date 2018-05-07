@@ -1,9 +1,9 @@
-﻿Log file open, 05/05/18 14:11:04
+﻿Log file open, 05/07/18 09:19:35
 LogInit:Display: Running engine for game: GD_umet_DEV
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-1845204058) SRandInit(-1845204058).
+LogInit:Display: RandInit(1470461390) SRandInit(1470461390).
 LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.108474
+LogStats: Stats thread started at 0.178259
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -50,350 +50,951 @@ LogInit: Base directory: C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Binar
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.05.05-18.11.04:597][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.05-18.11.04:597][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.05.05-18.11.04:612][  0]LogInit: Computer: JAN
-[2018.05.05-18.11.04:612][  0]LogInit: User: ComputerOutlet
-[2018.05.05-18.11.04:612][  0]LogInit: CPU Page size=4096, Cores=2
-[2018.05.05-18.11.04:612][  0]LogInit: High frequency timer resolution =2.648438 MHz
-[2018.05.05-18.11.04:612][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
-[2018.05.05-18.11.04:612][  0]LogMemory: Platform Memory Stats for Windows
-[2018.05.05-18.11.04:612][  0]LogMemory: Process Physical Memory: 272.31 MB used, 272.31 MB peak
-[2018.05.05-18.11.04:612][  0]LogMemory: Process Virtual Memory: 258.50 MB used, 258.50 MB peak
-[2018.05.05-18.11.04:612][  0]LogMemory: Physical Memory: 4603.87 MB used,  7600.04 MB free, 12203.91 MB total
-[2018.05.05-18.11.04:612][  0]LogMemory: Virtual Memory: 672.44 MB used,  7600.04 MB free, 134217728.00 MB total
-[2018.05.05-18.11.04:693][  0]LogInit: Using OS detected language (en-US).
-[2018.05.05-18.11.04:693][  0]LogInit: Using OS detected locale (en-US).
-[2018.05.05-18.11.04:696][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.05.05-18.11.05:613][  0]LogD3D11RHI: D3D11 adapters:
-[2018.05.05-18.11.05:623][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
-[2018.05.05-18.11.05:623][  0]LogD3D11RHI:       128/0/6101 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2018.05.05-18.11.05:625][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.05.05-18.11.05:625][  0]LogD3D11RHI:       0/0/6101 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.05.05-18.11.05:625][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.05.05-18.11.05:631][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.05.05-18.11.05:631][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
-[2018.05.05-18.11.05:631][  0]LogWindows: EnumDisplayDevices:
-[2018.05.05-18.11.05:631][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
-[2018.05.05-18.11.05:631][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
-[2018.05.05-18.11.05:631][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
-[2018.05.05-18.11.05:631][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.05.05-18.11.05:631][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
-[2018.05.05-18.11.05:631][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.05.05-18.11.05:631][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.05.05-18.11.05:631][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2018.05.05-18.11.05:638][  0]LogD3D11RHI: Async texture creation enabled
-[2018.05.05-18.11.05:644][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
-[2018.05.05-18.11.05:644][  0]LogShaderCompilers: Guid format shader working directory is 33 characters bigger than the processId version (../../../../GD_umet_DEV/Intermediate/Shaders/WorkingDirectory/7920/).
-[2018.05.05-18.11.05:644][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Computer Outlet/AppData/Local/Temp/UnrealShaderWorkingDir/E31D7F6343E8D78D66E423A05D781FD8/'.
-[2018.05.05-18.11.05:644][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2018.05.05-18.11.06:683][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2018.05.05-18.11.06:741][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2018.05.05-18.11.06:797][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2018.05.05-18.11.06:855][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2018.05.05-18.11.06:914][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2018.05.05-18.11.06:972][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2018.05.05-18.11.07:029][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.05.05-18.11.07:090][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2018.05.05-18.11.07:143][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2018.05.05-18.11.07:198][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2018.05.05-18.11.07:255][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2018.05.05-18.11.07:310][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2018.05.05-18.11.07:367][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2018.05.05-18.11.07:423][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2018.05.05-18.11.07:480][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2018.05.05-18.11.07:592][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2018.05.05-18.11.07:592][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.05.05-18.11.07:639][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2018.05.05-18.11.07:744][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2018.05.05-18.11.07:778][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2018.05.05-18.11.07:833][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2018.05.05-18.11.07:889][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.05.05-18.11.07:945][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2018.05.05-18.11.08:001][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2018.05.05-18.11.08:001][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2018.05.05-18.11.08:570][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2018.05.05-18.11.08:650][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/Computer Outlet/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2018.05.05-18.11.08:650][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Computer Outlet/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2018.05.05-18.11.08:650][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GD_umet_DEV/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.05.05-18.11.08:650][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.05.05-18.11.08:650][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GD_umet_DEV/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.05.05-18.11.08:650][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.05.05-18.11.08:666][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.05.05-18.11.08:678][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Computer Outlet/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.05.05-18.11.08:687][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.05.05-18.11.08:688][  0]LogSlate: Using Freetype 2.6.0
-[2018.05.05-18.11.08:688][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.05-18.11.08:688][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.05-18.11.09:005][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.05-18.11.09:076][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2018.05.05-18.11.09:246][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.05.05-18.11.09:296][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.05.05-18.11.09:352][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.05.05-18.11.09:352][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2018.05.05-18.11.09:352][  0]LogMeshUtilities: No automatic mesh merging module available
-[2018.05.05-18.11.10:205][  0]LogNetVersion: GD_umet_DEV , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3078375883)
-[2018.05.05-18.11.10:512][  0]LogAssetRegistry: FAssetRegistry took 0.0274 seconds to start up
-[2018.05.05-18.11.10:917][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.220019 seconds
-[2018.05.05-18.11.10:951][  0]LogUObjectArray: 34196 objects as part of root set at end of initial load.
-[2018.05.05-18.11.10:951][  0]LogUObjectAllocator: 7260872 out of 0 bytes used by permanent object pool.
-[2018.05.05-18.11.10:951][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.05.05-18.11.11:058][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.05.05-18.11.40:637][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.05.05-18.11.40:709][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.05.05-18.11.42:785][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.05.05-18.11.43:974][  0]SourceControl: Info Source control is disabled
-[2018.05.05-18.11.46:734][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.05.05-18.11.48:020][  0]LogEngine: Initializing Engine...
-[2018.05.05-18.11.48:032][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.05.05-18.11.48:760][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.05.05-18.11.48:760][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.05.05-18.11.49:027][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.05.05-18.11.49:060][  0]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.05-18.11.49:252][  0]LogInit: FAudioDevice initialized.
-[2018.05.05-18.11.49:295][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Computer Outlet/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2018.05.05-18.11.49:306][  0]LogInit: Texture streaming: Enabled
-[2018.05.05-18.11.49:501][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.05.05-18.11.50:137][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2018.05.05-18.11.50:236][  0]LogInit: Transaction tracking system initialized
-[2018.05.05-18.11.51:630][  0]BlueprintLog: New page: Editor Load
-[2018.05.05-18.11.57:062][  0]LocalizationService: Info Localization service is disabled
-[2018.05.05-18.12.01:667][  0]LogConsoleResponse:Display: 
-[2018.05.05-18.12.05:120][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Computer Outlet/Documents/GD_umet_DEV/Content/' took 0.05s
-[2018.05.05-18.12.05:120][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.05.05-18.12.05:141][  0]LogCook:Display: Mobile HDR setting 1
-[2018.05.05-18.12.11:072][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.05.05-18.12.11:204][  0]LightingResults: New page: Lighting Build
-[2018.05.05-18.12.11:481][  0]MapCheck: New page: Map Check
-[2018.05.05-18.12.11:481][  0]LightingResults: New page: Lighting Build
-[2018.05.05-18.12.12:596][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2018.05.05-18.12.12:600][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
-[2018.05.05-18.12.12:755][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.05.05-18.12.12:900][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.05.05-18.12.12:949][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 48.544ms to complete.
-[2018.05.05-18.12.12:949][  0]LogFileHelpers: Loading map 'Template_Default' took 1.890
-[2018.05.05-18.12.15:269][  0]LogCollectionManager: Loaded 0 collections in 0.001912 seconds
-[2018.05.05-18.12.15:842][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Computer Outlet/Documents/GD_umet_DEV/Saved/Collections/' took 0.01s
-[2018.05.05-18.12.15:842][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Computer Outlet/Documents/GD_umet_DEV/Content/Developers/ComputerOutlet/Collections/' took 0.01s
-[2018.05.05-18.12.15:842][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Computer Outlet/Documents/GD_umet_DEV/Content/Collections/' took 0.01s
-[2018.05.05-18.12.15:842][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
-[2018.05.05-18.12.15:881][  0]LogContentBrowser: Native class hierarchy populated in 0.0372 seconds. Added 2329 classes and 491 folders.
-[2018.05.05-18.12.16:038][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.05.05-18.12.18:520][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.05.05-18.12.18:634][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2018.05.05-18.12.19:184][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2018.05.05-18.12.19:320][  0]LogSlate: Took 0.018381 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.05-18.12.19:332][  0]LogSlate: Took 0.010541 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.05.05-18.12.19:355][  0]LogSlate: Took 0.011430 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.05.05-18.12.19:637][  0]LogRenderer: Reallocating scene render targets to support 728x360 NumSamples 1 (Frame:1).
-[2018.05.05-18.12.20:437][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2018.05.05-18.12.20:547][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2018.05.05-18.12.20:547][  0]LogLoad: (Engine Initialization) Total time: 77.75 seconds
-[2018.05.05-18.12.20:547][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.12 seconds
-[2018.05.05-18.12.20:547][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.05.05-18.12.20:547][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.05.05-18.12.20:576][  0]LogOcInput: OculusInput pre-init called
-[2018.05.05-18.12.20:576][  0]LogHMD: Starting GearVRController plugin
-[2018.05.05-18.12.20:643][  0]SourceControl: Info On branch master
-[2018.05.05-18.12.20:643][  0]SourceControl: Info Your branch is ahead of 'origin/master' by 1 commit.
-[2018.05.05-18.12.20:643][  0]SourceControl: Info   (use "git push" to publish your local commits)
-[2018.05.05-18.12.20:643][  0]SourceControl: Info Changes to be committed:
-[2018.05.05-18.12.20:643][  0]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
-[2018.05.05-18.12.20:643][  0]SourceControl: Info 	deleted:    Content/Jean/Desarrollo/Modelos/hUMAN/BASE/Deprecado/Scarlet_PhysicsAsset.uasset
-[2018.05.05-18.12.20:643][  0]SourceControl: Info Changes not staged for commit:
-[2018.05.05-18.12.20:643][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
-[2018.05.05-18.12.20:643][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
-[2018.05.05-18.12.20:643][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
-[2018.05.05-18.12.20:643][  0]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
-[2018.05.05-18.12.20:643][  0]SourceControl: Info 	modified:   Saved/Autosaves/PackageRestoreData.json
-[2018.05.05-18.12.20:643][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-74CA97D44DCA34A5206753A37956418D/CrashReportClient.ini
-[2018.05.05-18.12.20:643][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-7D62D7ED4525E876B780FBB69BA91480/CrashReportClient.ini
-[2018.05.05-18.12.20:643][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
-[2018.05.05-18.12.20:643][  0]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2018.05.05-18.12.20:643][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
-[2018.05.05-18.12.20:643][  0]SourceControl: Info 	deleted:    Saved/Logs/GD_umet_DEV-backup-2018.04.30-09.29.28.log
-[2018.05.05-18.12.20:643][  0]SourceControl: Info 	deleted:    Saved/Logs/GD_umet_DEV-backup-2018.05.01-14.01.17.log
-[2018.05.05-18.12.20:643][  0]SourceControl: Info 	modified:   Saved/Logs/GD_umet_DEV.log
-[2018.05.05-18.12.20:643][  0]SourceControl: Info Untracked files:
-[2018.05.05-18.12.20:643][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
-[2018.05.05-18.12.20:643][  0]SourceControl: Info 	Saved/Autosaves/Game/Jean/Desarrollo/Modelos/hUMAN/BASE/Deprecado/
-[2018.05.05-18.12.20:643][  0]SourceControl: Info 	Saved/Backup/Material_2018-05-04-08-50-30.uasset
-[2018.05.05-18.12.20:643][  0]SourceControl: Info 	Saved/Backup/PINK_SHIRT_2018-05-04-08-50-30.uasset
-[2018.05.05-18.12.20:643][  0]SourceControl: Info 	Saved/Backup/Scarlet_2018-05-04-08-54-24.uasset
-[2018.05.05-18.12.20:643][  0]SourceControl: Info 	Saved/Backup/Scarlet_PhysicsAsset_2018-05-04-08-48-30.uasset
-[2018.05.05-18.12.20:643][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-87FAE03341AD64C4CA549F8D73480ABE/
-[2018.05.05-18.12.20:643][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-D7CBEA744D9B27F1AF9A8D8FCE94B35A/
-[2018.05.05-18.12.20:649][  0]LogContentStreaming: Texture pool size now 800 MB
-[2018.05.05-18.12.20:876][  2]LogAssetRegistry: Asset discovery search completed in 70.3871 seconds
-[2018.05.05-18.12.20:878][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.05.05-18.12.20:878][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
-[2018.05.05-18.12.24:869][459]LogSlate: Took 0.013453 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.05-18.13.59:837][511]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2018.05.05-18.14.00:322][512]SourceControl: Info fatal: /Temp/Untitled_1: '/Temp/Untitled_1' is outside repository
-[2018.05.05-18.14.05:823][ 53]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.05.05-18.14.07:156][157]LogEditorViewport: Clicking on Actor (LMB): Brush (Sphere Brush)
-[2018.05.05-18.14.08:877][338]Cmd: DELETE
-[2018.05.05-18.14.08:877][338]Cmd: ACTOR DELETE
-[2018.05.05-18.14.09:000][338]LogEditorActor: Deleted Actor: Brush
-[2018.05.05-18.14.09:034][338]LogEditorActor: Deleted 1 Actors (0.045 secs)
-[2018.05.05-18.14.22:519][899]SourceControl: Info Source control is disabled
-[2018.05.05-18.14.30:224][796]SourceControl: Info Source control is disabled
-[2018.05.05-18.14.34:179][203]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2018.05.05-18.15.04:953][704]Cmd: MODE GRID=1
-[2018.05.05-18.15.27:598][668]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128)
-[2018.05.05-18.15.59:545][420]Cmd: TRANSACTION UNDO
-[2018.05.05-18.15.59:545][420]LogEditorTransaction: Undo Move Actors
-[2018.05.05-18.15.59:614][420]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
-[2018.05.05-18.15.59:614][420]LogGeometryMode:Warning: Unable to resolve BoxBrush Brush in new BSP, see above
-[2018.05.05-18.15.59:614][420]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
-[2018.05.05-18.15.59:669][420]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.05-18.16.16:413][707]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2018.05.05-18.16.20:607][ 19]LogHttp:Warning: 000001E647BA9D80: request failed, libcurl error: 0 (No error)
-[2018.05.05-18.16.20:607][ 19]LogHttp:Warning: 000001E647BA9D80: libcurl info message cache 0 (  Trying 52.205.79.197...)
-[2018.05.05-18.16.20:607][ 19]LogHttp:Warning: 000001E647BA9D80: libcurl info message cache 1 (Connected to datarouter.ol.epicgames.com (52.205.79.197) port 443 (#0))
-[2018.05.05-18.16.20:607][ 19]LogHttp:Warning: 000001E647BA9D80: libcurl info message cache 2 (ALPN, offering http/1.1)
-[2018.05.05-18.16.20:607][ 19]LogHttp:Warning: 000001E647BA9D80: libcurl info message cache 3 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
-[2018.05.05-18.16.20:607][ 19]LogHttp:Warning: 000001E647BA9D80: libcurl info message cache 4 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
-[2018.05.05-18.16.20:607][ 19]LogHttp:Warning: 000001E647BA9D80: libcurl info message cache 5 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
-[2018.05.05-18.16.20:607][ 19]LogHttp:Warning: 000001E647BA9D80: libcurl info message cache 6 (Closing connection 0)
-[2018.05.05-18.16.30:901][635]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.05.05-18.17.00:094][251]Cmd: MODE GRID=0
-[2018.05.05-18.17.05:852][874]Cmd: MODE GRID=1
-[2018.05.05-18.17.20:568][851]LogHttp:Warning: 000001E641CF4280: request failed, libcurl error: 0 (No error)
-[2018.05.05-18.17.20:568][851]LogHttp:Warning: 000001E641CF4280: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1e641ebffe8 [serially])
-[2018.05.05-18.17.20:568][851]LogHttp:Warning: 000001E641CF4280: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
-[2018.05.05-18.17.20:568][851]LogHttp:Warning: 000001E641CF4280: libcurl info message cache 2 (  Trying 52.206.252.70...)
-[2018.05.05-18.17.20:568][851]LogHttp:Warning: 000001E641CF4280: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.206.252.70) port 443 (#1))
-[2018.05.05-18.17.20:568][851]LogHttp:Warning: 000001E641CF4280: libcurl info message cache 4 (ALPN, offering http/1.1)
-[2018.05.05-18.17.20:568][851]LogHttp:Warning: 000001E641CF4280: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
-[2018.05.05-18.17.20:568][851]LogHttp:Warning: 000001E641CF4280: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
-[2018.05.05-18.17.20:568][851]LogHttp:Warning: 000001E641CF4280: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
-[2018.05.05-18.17.20:568][851]LogHttp:Warning: 000001E641CF4280: libcurl info message cache 8 (Closing connection 1)
-[2018.05.05-18.18.01:445][254]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2018.05.05-18.18.18:202][619]Cmd: MODE GRID=0
-[2018.05.05-18.18.20:595][861]LogHttp:Warning: 000001E66EDD6680: request failed, libcurl error: 0 (No error)
-[2018.05.05-18.18.20:595][861]LogHttp:Warning: 000001E66EDD6680: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1e641ebffe8 [serially])
-[2018.05.05-18.18.20:595][861]LogHttp:Warning: 000001E66EDD6680: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
-[2018.05.05-18.18.20:595][861]LogHttp:Warning: 000001E66EDD6680: libcurl info message cache 2 (  Trying 34.196.109.155...)
-[2018.05.05-18.18.20:595][861]LogHttp:Warning: 000001E66EDD6680: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.196.109.155) port 443 (#2))
-[2018.05.05-18.18.20:595][861]LogHttp:Warning: 000001E66EDD6680: libcurl info message cache 4 (ALPN, offering http/1.1)
-[2018.05.05-18.18.20:595][861]LogHttp:Warning: 000001E66EDD6680: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
-[2018.05.05-18.18.20:595][861]LogHttp:Warning: 000001E66EDD6680: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
-[2018.05.05-18.18.20:595][861]LogHttp:Warning: 000001E66EDD6680: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
-[2018.05.05-18.18.20:595][861]LogHttp:Warning: 000001E66EDD6680: libcurl info message cache 8 (Closing connection 2)
-[2018.05.05-18.18.35:057][976]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.05-18.18.36:474][139]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.05.05-18.18.39:928][358]LogTemp: Repeting last play command: Selected Viewport
-[2018.05.05-18.18.40:232][358]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.05-18.18.40:268][358]PIE: New page: PIE session: Untitled_1 (May 5, 2018, 10:18:40 AM)
-[2018.05.05-18.18.40:268][358]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2018.05.05-18.18.40:285][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017270s)
-[2018.05.05-18.18.40:286][358]LogAIModule: Creating AISystem for world Untitled_1
-[2018.05.05-18.18.40:286][358]LogPlayLevel: PIE: World Init took: (0.000873s)
-[2018.05.05-18.18.40:300][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.032037s)
-[2018.05.05-18.18.40:403][358]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.05-18.18.40:414][358]LogInit: FAudioDevice initialized.
-[2018.05.05-18.18.40:506][358]LogLoad: Game class is 'game_mode_top_down_C'
-[2018.05.05-18.18.40:524][358]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.05.05-14.18.40
-[2018.05.05-18.18.40:545][358]LogWorld: Bringing up level for play took: 0.021620
-[2018.05.05-18.18.40:756][358]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
-[2018.05.05-18.18.40:828][358]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.461
-[2018.05.05-18.20.03:193][809]SourceControl: Info On branch master
-[2018.05.05-18.20.03:193][809]SourceControl: Info Your branch is ahead of 'origin/master' by 1 commit.
-[2018.05.05-18.20.03:193][809]SourceControl: Info   (use "git push" to publish your local commits)
-[2018.05.05-18.20.03:193][809]SourceControl: Info Changes to be committed:
-[2018.05.05-18.20.03:193][809]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
-[2018.05.05-18.20.03:193][809]SourceControl: Info 	deleted:    Content/Jean/Desarrollo/Modelos/hUMAN/BASE/Deprecado/Scarlet_PhysicsAsset.uasset
-[2018.05.05-18.20.03:193][809]SourceControl: Info Changes not staged for commit:
-[2018.05.05-18.20.03:193][809]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
-[2018.05.05-18.20.03:193][809]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
-[2018.05.05-18.20.03:193][809]SourceControl: Info 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
-[2018.05.05-18.20.03:193][809]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
-[2018.05.05-18.20.03:193][809]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
-[2018.05.05-18.20.03:193][809]SourceControl: Info 	modified:   Saved/Autosaves/PackageRestoreData.json
-[2018.05.05-18.20.03:193][809]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-74CA97D44DCA34A5206753A37956418D/CrashReportClient.ini
-[2018.05.05-18.20.03:193][809]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-7D62D7ED4525E876B780FBB69BA91480/CrashReportClient.ini
-[2018.05.05-18.20.03:193][809]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
-[2018.05.05-18.20.03:193][809]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2018.05.05-18.20.03:193][809]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
-[2018.05.05-18.20.03:193][809]SourceControl: Info 	modified:   Saved/Config/Windows/SourceControlSettings.ini
-[2018.05.05-18.20.03:193][809]SourceControl: Info 	deleted:    Saved/Logs/GD_umet_DEV-backup-2018.04.30-09.29.28.log
-[2018.05.05-18.20.03:193][809]SourceControl: Info 	deleted:    Saved/Logs/GD_umet_DEV-backup-2018.05.01-14.01.17.log
-[2018.05.05-18.20.03:193][809]SourceControl: Info 	modified:   Saved/Logs/GD_umet_DEV.log
-[2018.05.05-18.20.03:194][809]SourceControl: Info Untracked files:
-[2018.05.05-18.20.03:194][809]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
-[2018.05.05-18.20.03:194][809]SourceControl: Info 	Saved/Autosaves/Game/Jean/Desarrollo/Modelos/hUMAN/BASE/Deprecado/
-[2018.05.05-18.20.03:194][809]SourceControl: Info 	Saved/Backup/Material_2018-05-04-08-50-30.uasset
-[2018.05.05-18.20.03:194][809]SourceControl: Info 	Saved/Backup/PINK_SHIRT_2018-05-04-08-50-30.uasset
-[2018.05.05-18.20.03:194][809]SourceControl: Info 	Saved/Backup/Scarlet_2018-05-04-08-54-24.uasset
-[2018.05.05-18.20.03:194][809]SourceControl: Info 	Saved/Backup/Scarlet_PhysicsAsset_2018-05-04-08-48-30.uasset
-[2018.05.05-18.20.03:194][809]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-87FAE03341AD64C4CA549F8D73480ABE/
-[2018.05.05-18.20.03:194][809]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-D7CBEA744D9B27F1AF9A8D8FCE94B35A/
-[2018.05.05-18.20.08:726][459]SourceControl: Info On branch master
-[2018.05.05-18.20.08:726][459]SourceControl: Info Your branch is ahead of 'origin/master' by 1 commit.
-[2018.05.05-18.20.08:726][459]SourceControl: Info   (use "git push" to publish your local commits)
-[2018.05.05-18.20.08:726][459]SourceControl: Info Changes to be committed:
-[2018.05.05-18.20.08:726][459]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
-[2018.05.05-18.20.08:726][459]SourceControl: Info 	deleted:    Content/Jean/Desarrollo/Modelos/hUMAN/BASE/Deprecado/Scarlet_PhysicsAsset.uasset
-[2018.05.05-18.20.08:726][459]SourceControl: Info Changes not staged for commit:
-[2018.05.05-18.20.08:726][459]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
-[2018.05.05-18.20.08:726][459]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
-[2018.05.05-18.20.08:726][459]SourceControl: Info 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
-[2018.05.05-18.20.08:726][459]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
-[2018.05.05-18.20.08:726][459]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
-[2018.05.05-18.20.08:727][459]SourceControl: Info 	modified:   Saved/Autosaves/PackageRestoreData.json
-[2018.05.05-18.20.08:727][459]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-74CA97D44DCA34A5206753A37956418D/CrashReportClient.ini
-[2018.05.05-18.20.08:727][459]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-7D62D7ED4525E876B780FBB69BA91480/CrashReportClient.ini
-[2018.05.05-18.20.08:727][459]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
-[2018.05.05-18.20.08:727][459]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2018.05.05-18.20.08:727][459]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
-[2018.05.05-18.20.08:727][459]SourceControl: Info 	modified:   Saved/Config/Windows/SourceControlSettings.ini
-[2018.05.05-18.20.08:727][459]SourceControl: Info 	deleted:    Saved/Logs/GD_umet_DEV-backup-2018.04.30-09.29.28.log
-[2018.05.05-18.20.08:727][459]SourceControl: Info 	deleted:    Saved/Logs/GD_umet_DEV-backup-2018.05.01-14.01.17.log
-[2018.05.05-18.20.08:727][459]SourceControl: Info 	modified:   Saved/Logs/GD_umet_DEV.log
-[2018.05.05-18.20.08:727][459]SourceControl: Info Untracked files:
-[2018.05.05-18.20.08:727][459]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
-[2018.05.05-18.20.08:727][459]SourceControl: Info 	Saved/Autosaves/Game/Jean/Desarrollo/Modelos/hUMAN/BASE/Deprecado/
-[2018.05.05-18.20.08:727][459]SourceControl: Info 	Saved/Backup/Material_2018-05-04-08-50-30.uasset
-[2018.05.05-18.20.08:727][459]SourceControl: Info 	Saved/Backup/PINK_SHIRT_2018-05-04-08-50-30.uasset
-[2018.05.05-18.20.08:727][459]SourceControl: Info 	Saved/Backup/Scarlet_2018-05-04-08-54-24.uasset
-[2018.05.05-18.20.08:727][459]SourceControl: Info 	Saved/Backup/Scarlet_PhysicsAsset_2018-05-04-08-48-30.uasset
-[2018.05.05-18.20.08:727][459]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-87FAE03341AD64C4CA549F8D73480ABE/
-[2018.05.05-18.20.08:727][459]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-D7CBEA744D9B27F1AF9A8D8FCE94B35A/
-[2018.05.05-18.20.10:222][620]SourceControl: Info fatal: /Temp/Untitled_1: '/Temp/Untitled_1' is outside repository
-[2018.05.05-18.20.13:346][634]SourceControl: Info fatal: /Temp/Untitled_1: '/Temp/Untitled_1' is outside repository
-[2018.05.05-18.20.20:563][498]LogHttp:Warning: 000001E67F3C0280: request failed, libcurl error: 0 (No error)
-[2018.05.05-18.20.20:563][498]LogHttp:Warning: 000001E67F3C0280: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1e641ebffe8 [serially])
-[2018.05.05-18.20.20:563][498]LogHttp:Warning: 000001E67F3C0280: libcurl info message cache 1 (  Trying 34.231.138.22...)
-[2018.05.05-18.20.20:563][498]LogHttp:Warning: 000001E67F3C0280: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.231.138.22) port 443 (#3))
-[2018.05.05-18.20.20:563][498]LogHttp:Warning: 000001E67F3C0280: libcurl info message cache 3 (ALPN, offering http/1.1)
-[2018.05.05-18.20.20:563][498]LogHttp:Warning: 000001E67F3C0280: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
-[2018.05.05-18.20.20:563][498]LogHttp:Warning: 000001E67F3C0280: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
-[2018.05.05-18.20.20:563][498]LogHttp:Warning: 000001E67F3C0280: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
-[2018.05.05-18.20.20:563][498]LogHttp:Warning: 000001E67F3C0280: libcurl info message cache 7 (Closing connection 3)
-[2018.05.05-18.21.20:585][801]LogHttp:Warning: 000001E64C980A00: request failed, libcurl error: 0 (No error)
-[2018.05.05-18.21.20:585][801]LogHttp:Warning: 000001E64C980A00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1e641ebffe8 [serially])
-[2018.05.05-18.21.20:585][801]LogHttp:Warning: 000001E64C980A00: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
-[2018.05.05-18.21.20:585][801]LogHttp:Warning: 000001E64C980A00: libcurl info message cache 2 (  Trying 34.237.41.97...)
-[2018.05.05-18.21.20:585][801]LogHttp:Warning: 000001E64C980A00: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.237.41.97) port 443 (#4))
-[2018.05.05-18.21.20:585][801]LogHttp:Warning: 000001E64C980A00: libcurl info message cache 4 (ALPN, offering http/1.1)
-[2018.05.05-18.21.20:585][801]LogHttp:Warning: 000001E64C980A00: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
-[2018.05.05-18.21.20:585][801]LogHttp:Warning: 000001E64C980A00: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
-[2018.05.05-18.21.20:585][801]LogHttp:Warning: 000001E64C980A00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
-[2018.05.05-18.21.20:585][801]LogHttp:Warning: 000001E64C980A00: libcurl info message cache 8 (Closing connection 4)
-[2018.05.05-18.22.40:266][ 40]LogHttp:Warning: 000001E60731B700: request failed, libcurl error: 0 (No error)
-[2018.05.05-18.22.40:267][ 40]LogHttp:Warning: 000001E60731B700: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1e641ebffe8 [serially])
-[2018.05.05-18.22.40:267][ 40]LogHttp:Warning: 000001E60731B700: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
-[2018.05.05-18.22.40:267][ 40]LogHttp:Warning: 000001E60731B700: libcurl info message cache 2 (  Trying 35.172.157.112...)
-[2018.05.05-18.22.40:267][ 40]LogHttp:Warning: 000001E60731B700: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (35.172.157.112) port 443 (#5))
-[2018.05.05-18.22.40:267][ 40]LogHttp:Warning: 000001E60731B700: libcurl info message cache 4 (ALPN, offering http/1.1)
-[2018.05.05-18.22.40:267][ 40]LogHttp:Warning: 000001E60731B700: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
-[2018.05.05-18.22.40:267][ 40]LogHttp:Warning: 000001E60731B700: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
-[2018.05.05-18.22.40:267][ 40]LogHttp:Warning: 000001E60731B700: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
-[2018.05.05-18.22.40:267][ 40]LogHttp:Warning: 000001E60731B700: libcurl info message cache 8 (Closing connection 5)
-[2018.05.05-18.23.40:001][218]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="../../../../GD_umet_DEV/Saved/Autosaves/Temp/Untitled_1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2018.05.05-18.23.40:114][218]LogSavePackage: Save=111.61ms
-[2018.05.05-18.23.40:114][218]LogSavePackage: Moving '../../../../GD_umet_DEV/Saved/Untitled_1_Auto1AFE0B24E497697A4DC66CDB441212465.tmp' to '../../../../GD_umet_DEV/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
-[2018.05.05-18.23.40:116][218]LogSavePackage:Display: Finished SavePackage ../../../../GD_umet_DEV/Saved/Autosaves/Temp/Untitled_1_Auto1.umap
-[2018.05.05-18.23.40:118][218]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.163
-[2018.05.05-18.23.40:118][218]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.163
+[2018.05.07-13.19.37:224][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.07-13.19.37:224][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.07-13.19.37:364][  0]LogInit: Computer: JAN
+[2018.05.07-13.19.37:364][  0]LogInit: User: ComputerOutlet
+[2018.05.07-13.19.37:364][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.05.07-13.19.37:364][  0]LogInit: High frequency timer resolution =2.648438 MHz
+[2018.05.07-13.19.37:364][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2018.05.07-13.19.37:364][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.07-13.19.37:364][  0]LogMemory: Process Physical Memory: 272.49 MB used, 272.49 MB peak
+[2018.05.07-13.19.37:364][  0]LogMemory: Process Virtual Memory: 258.64 MB used, 258.64 MB peak
+[2018.05.07-13.19.37:364][  0]LogMemory: Physical Memory: 4302.98 MB used,  7900.93 MB free, 12203.91 MB total
+[2018.05.07-13.19.37:364][  0]LogMemory: Virtual Memory: 672.44 MB used,  7900.93 MB free, 134217728.00 MB total
+[2018.05.07-13.19.38:544][  0]LogInit: Using OS detected language (en-US).
+[2018.05.07-13.19.38:544][  0]LogInit: Using OS detected locale (en-US).
+[2018.05.07-13.19.38:800][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.05.07-13.19.47:287][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.07-13.19.47:300][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2018.05.07-13.19.47:300][  0]LogD3D11RHI:       128/0/6101 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.05.07-13.19.47:302][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.07-13.19.47:302][  0]LogD3D11RHI:       0/0/6101 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.07-13.19.47:302][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.07-13.19.47:308][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.07-13.19.47:308][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.07-13.19.47:308][  0]LogWindows: EnumDisplayDevices:
+[2018.05.07-13.19.47:308][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2018.05.07-13.19.47:308][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.05.07-13.19.47:308][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.05.07-13.19.47:309][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.07-13.19.47:309][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2018.05.07-13.19.47:309][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.07-13.19.47:309][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.07-13.19.47:309][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.05.07-13.19.47:317][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.07-13.19.47:477][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2018.05.07-13.19.47:584][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Intermediate/Shaders/WorkingDirectory/1768/).
+[2018.05.07-13.19.47:584][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Computer Outlet/AppData/Local/Temp/UnrealShaderWorkingDir/B4FA1E1A4AF64AB70B15C9AC33E7559F/'.
+[2018.05.07-13.19.47:584][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.05.07-13.19.53:677][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.07-13.19.53:751][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.05.07-13.19.53:810][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.07-13.19.53:874][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.05.07-13.19.53:972][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.05.07-13.19.54:043][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.07-13.19.54:113][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.07-13.19.54:182][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.07-13.19.54:245][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.05.07-13.19.54:342][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.05.07-13.19.54:419][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.07-13.19.54:483][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.07-13.19.54:569][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.07-13.19.54:630][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.07-13.19.54:693][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.07-13.19.54:830][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.07-13.19.54:830][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.07-13.19.54:881][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.05.07-13.19.55:079][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.05.07-13.19.55:120][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.05.07-13.19.55:185][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.07-13.19.55:250][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.07-13.19.55:318][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.07-13.19.55:398][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.05.07-13.19.55:398][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.05.07-13.19.57:033][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.05.07-13.19.57:963][  0]LogDerivedDataCache: Loaded boot cache 0.91s 90MB C:/Users/Computer Outlet/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.05.07-13.19.57:963][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Computer Outlet/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.05.07-13.19.57:963][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.07-13.19.57:963][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.07-13.19.57:963][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.07-13.19.57:963][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.07-13.19.58:022][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.07-13.19.58:034][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Computer Outlet/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.07-13.19.58:055][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.07-13.19.58:116][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.07-13.19.58:312][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.07-13.19.58:312][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.07-13.20.08:818][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.07-13.20.10:147][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.05.07-13.20.10:831][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.07-13.20.11:044][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.07-13.20.11:159][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.07-13.20.11:159][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.05.07-13.20.11:159][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.05.07-13.20.16:670][  0]LogNetVersion: GD_umet_DEV , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3078375883)
+[2018.05.07-13.20.16:979][  0]LogAssetRegistry: FAssetRegistry took 0.0289 seconds to start up
+[2018.05.07-13.20.17:259][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.137996 seconds
+[2018.05.07-13.20.17:380][  0]LogUObjectArray: 34196 objects as part of root set at end of initial load.
+[2018.05.07-13.20.17:380][  0]LogUObjectAllocator: 7260872 out of 0 bytes used by permanent object pool.
+[2018.05.07-13.20.17:380][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.07-13.20.17:513][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.05.07-13.20.46:541][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.07-13.20.46:604][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.07-13.20.48:749][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.05.07-13.20.50:030][  0]SourceControl: Info Source control is disabled
+[2018.05.07-13.20.52:781][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.07-13.20.54:159][  0]LogEngine: Initializing Engine...
+[2018.05.07-13.20.54:186][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.05.07-13.20.55:172][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.07-13.20.55:173][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.07-13.20.55:477][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.07-13.20.55:502][  0]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.07-13.20.55:691][  0]LogInit: FAudioDevice initialized.
+[2018.05.07-13.20.55:744][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Computer Outlet/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.05.07-13.20.55:756][  0]LogInit: Texture streaming: Enabled
+[2018.05.07-13.20.55:958][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.07-13.20.57:822][  0]LogInit: Transaction tracking system initialized
+[2018.05.07-13.21.00:402][  0]BlueprintLog: New page: Editor Load
+[2018.05.07-13.21.03:678][  0]LocalizationService: Info Localization service is disabled
+[2018.05.07-13.21.06:597][  0]LogConsoleResponse:Display: 
+[2018.05.07-13.21.11:511][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Computer Outlet/OneDrive/GD_umet_DEV/GD_umet_DEV/Content/' took 0.02s
+[2018.05.07-13.21.11:511][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.07-13.21.11:511][  0]LogCook:Display: Mobile HDR setting 1
+[2018.05.07-13.21.19:168][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.07-13.21.19:255][  0]LightingResults: New page: Lighting Build
+[2018.05.07-13.21.19:573][  0]MapCheck: New page: Map Check
+[2018.05.07-13.21.19:573][  0]LightingResults: New page: Lighting Build
+[2018.05.07-13.21.22:895][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.05.07-13.21.22:943][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.07-13.21.23:308][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.07-13.21.23:428][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.07-13.21.23:506][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 58.917ms to complete.
+[2018.05.07-13.21.23:506][  0]LogFileHelpers: Loading map 'Template_Default' took 4.351
+[2018.05.07-13.21.25:667][  0]LogCollectionManager: Loaded 0 collections in 0.002181 seconds
+[2018.05.07-13.21.26:096][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Computer Outlet/OneDrive/GD_umet_DEV/GD_umet_DEV/Saved/Collections/' took 0.01s
+[2018.05.07-13.21.26:096][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Computer Outlet/OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Developers/ComputerOutlet/Collections/' took 0.01s
+[2018.05.07-13.21.26:096][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Computer Outlet/OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Collections/' took 0.01s
+[2018.05.07-13.21.26:096][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2018.05.07-13.21.26:176][  0]LogContentBrowser: Native class hierarchy populated in 0.0450 seconds. Added 2329 classes and 491 folders.
+[2018.05.07-13.21.26:517][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.05.07-13.21.33:975][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.05.07-13.21.34:154][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.05.07-13.21.36:341][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.05.07-13.21.36:858][  0]LogSlate: Took 0.020037 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.07-13.21.36:943][  0]LogSlate: Took 0.082791 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.07-13.21.37:077][  0]LogSlate: Took 0.117458 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.07-13.21.38:015][  0]LogRenderer: Reallocating scene render targets to support 892x412 NumSamples 1 (Frame:1).
+[2018.05.07-13.21.40:735][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.05.07-13.21.40:864][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.05.07-13.21.40:864][  0]LogLoad: (Engine Initialization) Total time: 133.53 seconds
+[2018.05.07-13.21.40:864][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.43 seconds
+[2018.05.07-13.21.40:864][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.05.07-13.21.40:864][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.05.07-13.21.40:881][  0]LogOcInput: OculusInput pre-init called
+[2018.05.07-13.21.40:881][  0]LogHMD: Starting GearVRController plugin
+[2018.05.07-13.21.40:920][  0]SourceControl: Info On branch master
+[2018.05.07-13.21.40:920][  0]SourceControl: Info Your branch is up to date with 'origin/master'.
+[2018.05.07-13.21.40:920][  0]SourceControl: Info Changes not staged for commit:
+[2018.05.07-13.21.40:920][  0]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2018.05.07-13.21.40:920][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.05.07-13.21.40:920][  0]SourceControl: Info 	modified:   Content/Splash/EdSplash.uasset
+[2018.05.07-13.21.40:920][  0]SourceControl: Info 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
+[2018.05.07-13.21.40:920][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2018.05.07-13.21.40:920][  0]SourceControl: Info 	modified:   Intermediate/ReimportCache/3688439234.bin
+[2018.05.07-13.21.40:920][  0]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
+[2018.05.07-13.21.40:920][  0]SourceControl: Info 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2018.05.07-13.21.40:920][  0]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.05.07-13.21.40:920][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2018.05.07-13.21.40:920][  0]SourceControl: Info 	modified:   Saved/Logs/GD_umet_DEV.log
+[2018.05.07-13.21.40:920][  0]SourceControl: Info Untracked files:
+[2018.05.07-13.21.40:920][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2018.05.07-13.21.40:920][  0]SourceControl: Info 	Saved/Backup/EdSplash_2018-05-05-15-37-10.uasset
+[2018.05.07-13.21.40:920][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-19FBDE8748A1A6A81C0B8FB6A63DD004/
+[2018.05.07-13.21.40:920][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-C43DCF8248592BF928942DA7956D1751/
+[2018.05.07-13.21.40:920][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2018.05.07-13.21.40:921][  0]LogContentStreaming: Texture pool size now 800 MB
+[2018.05.07-13.21.41:081][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Computer Outlet/OneDrive/GD_umet_DEV/GD_umet_DEV/Content/' took 0.19s
+[2018.05.07-13.21.41:178][  3]LogAssetRegistry: Asset discovery search completed in 84.2213 seconds
+[2018.05.07-13.21.41:180][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.05.07-13.21.41:180][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000032 seconds (updated 0 objects)
+[2018.05.07-13.21.43:237][229]LogSlate: Took 0.020795 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.07-13.22.18:864][262]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.07-13.22.19:006][262]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../Desktop/assets_the_projecto_deo_umet/halo_tactical_pistol.fbx)
+[2018.05.07-13.22.19:253][262]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.05.07-13.22.19:253][262]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.05.07-13.22.19:253][262]LogFbx: ItemName: Model, ItemCount : 1
+[2018.05.07-13.22.19:253][262]LogFbx: ItemName: Material, ItemCount : 1
+[2018.05.07-13.22.19:287][262]LogFbx: Loading FBX Scene from ../../../../../Desktop/assets_the_projecto_deo_umet/halo_tactical_pistol.fbx
+[2018.05.07-13.22.19:387][262]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.07-13.22.24:808][262]LogFbx: Loading FBX Scene from ../../../../../Desktop/assets_the_projecto_deo_umet/halo_tactical_pistol.fbx
+[2018.05.07-13.22.24:815][262]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.07-13.22.24:837][262]LogLinker: Can't find file '/Game/Jean/Desarrollo/Modelos/WEAPON/Material'
+[2018.05.07-13.22.24:838][262]LogLinker: Can't find file '/Game/Jean/Desarrollo/Modelos/WEAPON/Material'
+[2018.05.07-13.22.24:941][262]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2018.05.07-13.22.25:128][262]LogFbx:Warning: Triangulating static mesh Cube
+[2018.05.07-13.22.25:649][262]LogStaticMesh: Building static mesh halo_tactical_pistol...
+[2018.05.07-13.22.25:808][262]LogStaticMesh: Built static mesh [0.26s] /Game/Jean/Desarrollo/Modelos/WEAPON/halo_tactical_pistol.halo_tactical_pistol
+[2018.05.07-13.22.25:809][262]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.07-13.22.25:915][262]LogStaticMesh:Warning: halo_tactical_pistol has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.05.07-13.22.26:342][262]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.05.07-13.22.26:342][262]FBXImport:Warning: Warning halo_tactical_pistol has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.05.07-13.22.40:343][991]LogRenderer: Reallocating scene render targets to support 1016x612 NumSamples 1 (Frame:1).
+[2018.05.07-13.22.57:660][445]LogSavePackage: Save=17.95ms
+[2018.05.07-13.22.57:660][445]LogSavePackage: Moving '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Saved/halo_tactical_pistolDB616784406F83564890BB9914C43C25.tmp' to '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Jean/Desarrollo/Modelos/WEAPON/halo_tactical_pistol.uasset'
+[2018.05.07-13.22.57:667][445]LogSavePackage:Display: Finished SavePackage ../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Jean/Desarrollo/Modelos/WEAPON/halo_tactical_pistol.uasset
+[2018.05.07-13.23.17:499][702]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Computer Outlet\Pictures\tACTICAL_PITOL_TEXTURE.jpg)
+[2018.05.07-13.23.17:613][702]LogTexture:Display: Building textures: tACTICAL_PITOL_TEXTURE (BGRA8, 1024X791)
+[2018.05.07-13.23.20:731][791]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2018.05.07-13.23.21:106][791]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2018.05.07-13.23.21:213][791]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2018.05.07-13.23.21:308][791]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.07-13.23.21:341][791]LogSlate: Took 0.020669 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.05.07-13.23.21:777][792]LogSlate: Took 0.029401 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.07-13.23.50:123][435]LogSavePackage: Save=15.98ms
+[2018.05.07-13.23.50:123][435]LogSavePackage: Moving '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Saved/TACTICAL_PISTOL8359CFB246DC41221C50FFA4A0A7FC71.tmp' to '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Jean/Desarrollo/Materiales/copia/TACTICAL_PISTOL.uasset'
+[2018.05.07-13.23.50:128][435]LogSavePackage:Display: Finished SavePackage ../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Jean/Desarrollo/Materiales/copia/TACTICAL_PISTOL.uasset
+[2018.05.07-13.23.53:307][579]LogMaterial: Missing cached shader map for material Material_simple_base, compiling. 
+[2018.05.07-13.23.57:993][914]LogMaterial: Missing cached shader map for material Material_simple_base, compiling. 
+[2018.05.07-13.23.59:678][  8]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.07-13.24.01:020][ 50]SourceControl: Info fatal: C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/EditorMaterials/Cascade/CASC_Normal.uasset: 'C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/EditorMaterials/Cascade/CASC_Normal.uasset' is outside repository
+[2018.05.07-13.24.01:020][ 50]SourceControl: Info fatal: C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/EngineLightProfiles/Complex_IES.uasset: 'C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/EngineLightProfiles/Complex_IES.uasset' is outside repository
+[2018.05.07-13.24.01:020][ 50]SourceControl: Info fatal: C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/Editor/Slate/Icons/AssetIcons/Cone_16x.uasset: 'C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/Editor/Slate/Icons/AssetIcons/Cone_16x.uasset' is outside repository
+[2018.05.07-13.24.02:828][149]SourceControl: Info fatal: C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/EditorResources/MatInstActSprite.uasset: 'C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/EditorResources/MatInstActSprite.uasset' is outside repository
+[2018.05.07-13.24.05:088][246]SourceControl: Info fatal: C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/EditorResources/MaterialBackdrop.uasset: 'C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/EditorResources/MaterialBackdrop.uasset' is outside repository
+[2018.05.07-13.24.05:088][246]SourceControl: Info fatal: C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/EngineDebugMaterials/MaterialError.uasset: 'C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/EngineDebugMaterials/MaterialError.uasset' is outside repository
+[2018.05.07-13.24.05:088][246]SourceControl: Info fatal: C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/EditorMaterials/MatineeGreyGrad.uasset: 'C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/EditorMaterials/MatineeGreyGrad.uasset' is outside repository
+[2018.05.07-13.24.05:088][246]SourceControl: Info fatal: C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/EngineMaterials/MiniFont.uasset: 'C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/EngineMaterials/MiniFont.uasset' is outside repository
+[2018.05.07-13.24.05:088][246]SourceControl: Info fatal: C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset: 'C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset' is outside repository
+[2018.05.07-13.24.06:147][296]SourceControl: Info fatal: C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/EditorResources/MatInstActSprite.uasset: 'C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/EditorResources/MatInstActSprite.uasset' is outside repository
+[2018.05.07-13.24.08:189][421]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TACTICAL_PISTOL, compiling. 
+[2018.05.07-13.24.08:793][421]TextureStreamingBuild:Display: Compiling optional shaders took 0.673 seconds.
+[2018.05.07-13.24.08:912][421]LogSavePackage: Save=23.92ms
+[2018.05.07-13.24.08:912][421]LogSavePackage: Moving '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Saved/TACTICAL_PISTOLDDA24D324EEF5B4A1D51D1A668476DA7.tmp' to '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Jean/Desarrollo/Materiales/copia/TACTICAL_PISTOL.uasset'
+[2018.05.07-13.24.08:917][421]LogSavePackage:Display: Finished SavePackage ../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Jean/Desarrollo/Materiales/copia/TACTICAL_PISTOL.uasset
+[2018.05.07-13.24.33:610][785]SourceControl: Info fatal: C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/Tutorial/SubEditors/TutorialAssets/M_smoke_subUV_blackbody.uasset: 'C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/Tutorial/SubEditors/TutorialAssets/M_smoke_subUV_blackbody.uasset' is outside repository
+[2018.05.07-13.24.33:610][785]SourceControl: Info fatal: C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/BufferVisualization/SceneDepthWorldUnits.uasset: 'C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/BufferVisualization/SceneDepthWorldUnits.uasset' is outside repository
+[2018.05.07-13.24.33:610][785]SourceControl: Info fatal: C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/VREditor/Fonts/TranslucentVRTextMaterial.uasset: 'C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/VREditor/Fonts/TranslucentVRTextMaterial.uasset' is outside repository
+[2018.05.07-13.24.33:610][785]SourceControl: Info fatal: C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Mat.uasset: 'C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Mat.uasset' is outside repository
+[2018.05.07-13.24.34:961][865]SourceControl: Info fatal: C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/EditorShapes/Materials/MI_ShapeInstance.uasset: 'C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/EditorShapes/Materials/MI_ShapeInstance.uasset' is outside repository
+[2018.05.07-13.24.34:961][865]SourceControl: Info fatal: C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/TemplateResources/MI_Template_BaseBlue_Metal.uasset: 'C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/TemplateResources/MI_Template_BaseBlue_Metal.uasset' is outside repository
+[2018.05.07-13.24.34:961][865]SourceControl: Info fatal: C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/EngineMaterials/PPVolumeMaterialInstance.uasset: 'C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/EngineMaterials/PPVolumeMaterialInstance.uasset' is outside repository
+[2018.05.07-13.24.35:753][930]SourceControl: Info fatal: C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/BufferVisualization/Metallic.uasset: 'C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/BufferVisualization/Metallic.uasset' is outside repository
+[2018.05.07-13.24.35:825][934]SourceControl: Info fatal: C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/Engine_MI_Shaders/Instances/M_Shader_SimpleTranslucent_Invis.uasset: 'C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/Engine_MI_Shaders/Instances/M_Shader_SimpleTranslucent_Invis.uasset' is outside repository
+[2018.05.07-13.25.24:596][269]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TACTICAL_PISTOL, compiling. 
+[2018.05.07-13.25.24:949][269]TextureStreamingBuild:Display: Compiling optional shaders took 0.356 seconds.
+[2018.05.07-13.25.25:012][269]LogSavePackage: Save=17.31ms
+[2018.05.07-13.25.25:012][269]LogSavePackage: Moving '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Saved/TACTICAL_PISTOL840C40474D4EEB8546960BA60D15F22B.tmp' to '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Jean/Desarrollo/Materiales/copia/TACTICAL_PISTOL.uasset'
+[2018.05.07-13.25.25:017][269]LogSavePackage:Display: Finished SavePackage ../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Jean/Desarrollo/Materiales/copia/TACTICAL_PISTOL.uasset
+[2018.05.07-13.25.41:381][734]LogHttp:Warning: 0000027E4C601480: request failed, libcurl error: 0 (No error)
+[2018.05.07-13.25.41:381][734]LogHttp:Warning: 0000027E4C601480: libcurl info message cache 0 (  Trying 52.206.37.107...)
+[2018.05.07-13.25.41:381][734]LogHttp:Warning: 0000027E4C601480: libcurl info message cache 1 (Connected to datarouter.ol.epicgames.com (52.206.37.107) port 443 (#0))
+[2018.05.07-13.25.41:381][734]LogHttp:Warning: 0000027E4C601480: libcurl info message cache 2 (ALPN, offering http/1.1)
+[2018.05.07-13.25.41:381][734]LogHttp:Warning: 0000027E4C601480: libcurl info message cache 3 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.07-13.25.41:381][734]LogHttp:Warning: 0000027E4C601480: libcurl info message cache 4 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.07-13.25.41:381][734]LogHttp:Warning: 0000027E4C601480: libcurl info message cache 5 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.07-13.25.41:381][734]LogHttp:Warning: 0000027E4C601480: libcurl info message cache 6 (Closing connection 0)
+[2018.05.07-13.26.14:006][645]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TACTICAL_PISTOL, compiling. 
+[2018.05.07-13.26.14:350][645]TextureStreamingBuild:Display: Compiling optional shaders took 0.348 seconds.
+[2018.05.07-13.26.14:394][645]LogSavePackage: Save=17.07ms
+[2018.05.07-13.26.14:394][645]LogSavePackage: Moving '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Saved/TACTICAL_PISTOL735772864712211B601266AA7937E994.tmp' to '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Jean/Desarrollo/Materiales/copia/TACTICAL_PISTOL.uasset'
+[2018.05.07-13.26.14:398][645]LogSavePackage:Display: Finished SavePackage ../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Jean/Desarrollo/Materiales/copia/TACTICAL_PISTOL.uasset
+[2018.05.07-13.26.23:585][913]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TACTICAL_PISTOL, compiling. 
+[2018.05.07-13.26.23:753][913]TextureStreamingBuild:Display: Compiling optional shaders took 0.172 seconds.
+[2018.05.07-13.26.23:797][913]LogSavePackage: Save=17.20ms
+[2018.05.07-13.26.23:797][913]LogSavePackage: Moving '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Saved/TACTICAL_PISTOL05E282864B289BB2037D9EBB58EE207D.tmp' to '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Jean/Desarrollo/Materiales/copia/TACTICAL_PISTOL.uasset'
+[2018.05.07-13.26.23:802][913]LogSavePackage:Display: Finished SavePackage ../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Jean/Desarrollo/Materiales/copia/TACTICAL_PISTOL.uasset
+[2018.05.07-13.26.29:557][ 86]LogSavePackage: Save=18.35ms
+[2018.05.07-13.26.29:557][ 86]LogSavePackage: Moving '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Saved/halo_tactical_pistolF3E6B53745F25C732E32718BB4A3CB00.tmp' to '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Jean/Desarrollo/Modelos/WEAPON/halo_tactical_pistol.uasset'
+[2018.05.07-13.26.29:561][ 86]LogSavePackage:Display: Finished SavePackage ../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Jean/Desarrollo/Modelos/WEAPON/halo_tactical_pistol.uasset
+[2018.05.07-13.27.18:814][261]LogHttp:Warning: 0000027E09511C00: request failed, libcurl error: 0 (No error)
+[2018.05.07-13.27.18:814][261]LogHttp:Warning: 0000027E09511C00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x27e4cd83fe8 [serially])
+[2018.05.07-13.27.18:814][261]LogHttp:Warning: 0000027E09511C00: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.05.07-13.27.18:814][261]LogHttp:Warning: 0000027E09511C00: libcurl info message cache 2 (  Trying 52.2.240.161...)
+[2018.05.07-13.27.18:814][261]LogHttp:Warning: 0000027E09511C00: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.2.240.161) port 443 (#1))
+[2018.05.07-13.27.18:814][261]LogHttp:Warning: 0000027E09511C00: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.05.07-13.27.18:814][261]LogHttp:Warning: 0000027E09511C00: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.07-13.27.18:814][261]LogHttp:Warning: 0000027E09511C00: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.07-13.27.18:814][261]LogHttp:Warning: 0000027E09511C00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.07-13.27.18:814][261]LogHttp:Warning: 0000027E09511C00: libcurl info message cache 8 (Closing connection 1)
+[2018.05.07-13.28.27:987][ 27]LogEditorFactories: Performing atomic reimport of [C:/Users/Computer Outlet/Desktop/assets_the_projecto_deo_umet/halo_tactical_pistol.fbx]
+[2018.05.07-13.28.28:009][ 27]LogFbx: Loading FBX Scene from C:/Users/Computer Outlet/Desktop/assets_the_projecto_deo_umet/halo_tactical_pistol.fbx
+[2018.05.07-13.28.28:016][ 27]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.07-13.28.28:042][ 27]LogFbx:Warning: Triangulating static mesh Cube
+[2018.05.07-13.28.28:285][ 27]LogStaticMesh: Building static mesh halo_tactical_pistol...
+[2018.05.07-13.28.28:336][ 27]LogStaticMesh: Built static mesh [0.07s] /Game/Jean/Desarrollo/Modelos/WEAPON/halo_tactical_pistol.halo_tactical_pistol
+[2018.05.07-13.28.28:398][ 27]LogStaticMesh:Warning: halo_tactical_pistol has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.05.07-13.28.28:509][ 27]LogEditorFactories: -- imported successfully
+[2018.05.07-13.28.28:510][ 27]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.05.07-13.28.28:510][ 27]FBXImport:Warning: Warning halo_tactical_pistol has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.05.07-13.28.43:203][251]LogHttp:Warning: 0000027E06EBDF00: request failed, libcurl error: 0 (No error)
+[2018.05.07-13.28.43:203][251]LogHttp:Warning: 0000027E06EBDF00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x27e4cd83fe8 [serially])
+[2018.05.07-13.28.43:203][251]LogHttp:Warning: 0000027E06EBDF00: libcurl info message cache 1 (  Trying 52.4.186.227...)
+[2018.05.07-13.28.43:203][251]LogHttp:Warning: 0000027E06EBDF00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.4.186.227) port 443 (#2))
+[2018.05.07-13.28.43:203][251]LogHttp:Warning: 0000027E06EBDF00: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.07-13.28.43:203][251]LogHttp:Warning: 0000027E06EBDF00: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.07-13.28.43:203][251]LogHttp:Warning: 0000027E06EBDF00: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.07-13.28.43:203][251]LogHttp:Warning: 0000027E06EBDF00: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.07-13.28.43:203][251]LogHttp:Warning: 0000027E06EBDF00: libcurl info message cache 7 (Closing connection 2)
+[2018.05.07-13.28.54:388][421]LogEditorFactories: Performing atomic reimport of [C:/Users/Computer Outlet/Desktop/assets_the_projecto_deo_umet/halo_tactical_pistol.fbx]
+[2018.05.07-13.28.54:406][421]LogFbx: Loading FBX Scene from C:/Users/Computer Outlet/Desktop/assets_the_projecto_deo_umet/halo_tactical_pistol.fbx
+[2018.05.07-13.28.54:412][421]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.07-13.28.54:416][421]LogFbx:Warning: Triangulating static mesh Cube
+[2018.05.07-13.28.54:702][421]LogStaticMesh: Building static mesh halo_tactical_pistol...
+[2018.05.07-13.28.54:754][421]LogStaticMesh: Built static mesh [0.12s] /Game/Jean/Desarrollo/Modelos/WEAPON/halo_tactical_pistol.halo_tactical_pistol
+[2018.05.07-13.28.54:797][421]LogStaticMesh:Warning: halo_tactical_pistol has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.05.07-13.28.54:950][421]LogEditorFactories: -- imported successfully
+[2018.05.07-13.28.54:951][421]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.05.07-13.28.54:952][421]FBXImport:Warning: Warning halo_tactical_pistol has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.05.07-13.29.50:899][456]LogEditorFactories: Performing atomic reimport of [C:/Users/Computer Outlet/Desktop/assets_the_projecto_deo_umet/halo_tactical_pistol.fbx]
+[2018.05.07-13.29.50:919][456]LogFbx: Loading FBX Scene from C:/Users/Computer Outlet/Desktop/assets_the_projecto_deo_umet/halo_tactical_pistol.fbx
+[2018.05.07-13.29.50:926][456]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.07-13.29.50:930][456]LogFbx:Warning: Triangulating static mesh Cube
+[2018.05.07-13.29.51:206][456]LogStaticMesh: Building static mesh halo_tactical_pistol...
+[2018.05.07-13.29.51:255][456]LogStaticMesh: Built static mesh [0.11s] /Game/Jean/Desarrollo/Modelos/WEAPON/halo_tactical_pistol.halo_tactical_pistol
+[2018.05.07-13.29.51:287][456]LogStaticMesh:Warning: halo_tactical_pistol has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.05.07-13.29.51:382][456]LogEditorFactories: -- imported successfully
+[2018.05.07-13.29.51:383][456]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.05.07-13.29.51:383][456]FBXImport:Warning: Warning halo_tactical_pistol has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.05.07-13.30.41:039][319]LogHttp:Warning: 0000027E06EB0400: request failed, libcurl error: 0 (No error)
+[2018.05.07-13.30.41:039][319]LogHttp:Warning: 0000027E06EB0400: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x27e4cd83fe8 [serially])
+[2018.05.07-13.30.41:039][319]LogHttp:Warning: 0000027E06EB0400: libcurl info message cache 1 (  Trying 34.224.125.210...)
+[2018.05.07-13.30.41:039][319]LogHttp:Warning: 0000027E06EB0400: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.224.125.210) port 443 (#3))
+[2018.05.07-13.30.41:039][319]LogHttp:Warning: 0000027E06EB0400: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.07-13.30.41:039][319]LogHttp:Warning: 0000027E06EB0400: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.07-13.30.41:039][319]LogHttp:Warning: 0000027E06EB0400: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.07-13.30.41:039][319]LogHttp:Warning: 0000027E06EB0400: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.07-13.30.41:039][319]LogHttp:Warning: 0000027E06EB0400: libcurl info message cache 7 (Closing connection 3)
+[2018.05.07-13.31.11:434][540]LogEditorFactories: Performing atomic reimport of [C:/Users/Computer Outlet/Desktop/assets_the_projecto_deo_umet/halo_tactical_pistol.fbx]
+[2018.05.07-13.31.11:452][540]LogFbx: Loading FBX Scene from C:/Users/Computer Outlet/Desktop/assets_the_projecto_deo_umet/halo_tactical_pistol.fbx
+[2018.05.07-13.31.11:459][540]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.07-13.31.11:462][540]LogFbx:Warning: Triangulating static mesh Cube
+[2018.05.07-13.31.11:739][540]LogStaticMesh: Building static mesh halo_tactical_pistol...
+[2018.05.07-13.31.11:788][540]LogStaticMesh: Built static mesh [0.10s] /Game/Jean/Desarrollo/Modelos/WEAPON/halo_tactical_pistol.halo_tactical_pistol
+[2018.05.07-13.31.11:818][540]LogStaticMesh:Warning: halo_tactical_pistol has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.05.07-13.31.11:879][540]LogEditorFactories: -- imported successfully
+[2018.05.07-13.31.11:880][540]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.05.07-13.31.11:880][540]FBXImport:Warning: Warning halo_tactical_pistol has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.05.07-13.31.41:154][960]LogHttp:Warning: 0000027E094DE200: request failed, libcurl error: 0 (No error)
+[2018.05.07-13.31.41:154][960]LogHttp:Warning: 0000027E094DE200: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x27e4cd83fe8 [serially])
+[2018.05.07-13.31.41:154][960]LogHttp:Warning: 0000027E094DE200: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.05.07-13.31.41:154][960]LogHttp:Warning: 0000027E094DE200: libcurl info message cache 2 (  Trying 34.224.106.243...)
+[2018.05.07-13.31.41:154][960]LogHttp:Warning: 0000027E094DE200: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.224.106.243) port 443 (#4))
+[2018.05.07-13.31.41:154][960]LogHttp:Warning: 0000027E094DE200: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.05.07-13.31.41:154][960]LogHttp:Warning: 0000027E094DE200: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.07-13.31.41:154][960]LogHttp:Warning: 0000027E094DE200: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.07-13.31.41:154][960]LogHttp:Warning: 0000027E094DE200: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.07-13.31.41:154][960]LogHttp:Warning: 0000027E094DE200: libcurl info message cache 8 (Closing connection 4)
+[2018.05.07-13.31.45:841][ 27]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.020
+[2018.05.07-13.31.45:899][ 27]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Jean/Desarrollo/Modelos/WEAPON/halo_tactical_pistol] ([1] browsable assets)...
+[2018.05.07-13.31.45:930][ 27]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Jean/Desarrollo/Modelos/WEAPON/halo_tactical_pistol.halo_tactical_pistol]
+[2018.05.07-13.31.45:930][ 27]OBJ SavePackage: Finished generating thumbnails for package [/Game/Jean/Desarrollo/Modelos/WEAPON/halo_tactical_pistol]
+[2018.05.07-13.31.45:970][ 27]LogSavePackage: Save=19.07ms
+[2018.05.07-13.31.45:970][ 27]LogSavePackage: Moving '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Saved/halo_tactical_pistol_Auto117D29E6D439DDA77196BDCA208EEB4E1.tmp' to '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Saved/Autosaves/Game/Jean/Desarrollo/Modelos/WEAPON/halo_tactical_pistol_Auto1.uasset'
+[2018.05.07-13.31.45:971][ 27]LogSavePackage:Display: Finished SavePackage ../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Saved/Autosaves/Game/Jean/Desarrollo/Modelos/WEAPON/halo_tactical_pistol_Auto1.uasset
+[2018.05.07-13.31.45:972][ 27]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Jean/Desarrollo/Modelos/WEAPON/tACTICAL_PITOL_TEXTURE] ([1] browsable assets)...
+[2018.05.07-13.31.45:980][ 27]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Jean/Desarrollo/Modelos/WEAPON/tACTICAL_PITOL_TEXTURE.tACTICAL_PITOL_TEXTURE]
+[2018.05.07-13.31.45:980][ 27]OBJ SavePackage: Finished generating thumbnails for package [/Game/Jean/Desarrollo/Modelos/WEAPON/tACTICAL_PITOL_TEXTURE]
+[2018.05.07-13.31.46:017][ 27]LogSavePackage: Save=34.72ms
+[2018.05.07-13.31.46:017][ 27]LogSavePackage: Moving '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Saved/tACTICAL_PITOL_TEXTURE_Auto1DB0DAC2F4C019E86ACBC7F93DF82FDD7.tmp' to '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Saved/Autosaves/Game/Jean/Desarrollo/Modelos/WEAPON/tACTICAL_PITOL_TEXTURE_Auto1.uasset'
+[2018.05.07-13.31.46:019][ 27]LogSavePackage:Display: Finished SavePackage ../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Saved/Autosaves/Game/Jean/Desarrollo/Modelos/WEAPON/tACTICAL_PITOL_TEXTURE_Auto1.uasset
+[2018.05.07-13.31.46:019][ 27]LogFileHelpers: Auto-saving content packages took 0.127
+[2018.05.07-13.32.41:054][238]LogHttp:Warning: 0000027E4A662080: request failed, libcurl error: 0 (No error)
+[2018.05.07-13.32.41:054][238]LogHttp:Warning: 0000027E4A662080: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x27e4cd83fe8 [serially])
+[2018.05.07-13.32.41:054][238]LogHttp:Warning: 0000027E4A662080: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.05.07-13.32.41:054][238]LogHttp:Warning: 0000027E4A662080: libcurl info message cache 2 (  Trying 34.236.137.99...)
+[2018.05.07-13.32.41:054][238]LogHttp:Warning: 0000027E4A662080: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.236.137.99) port 443 (#5))
+[2018.05.07-13.32.41:054][238]LogHttp:Warning: 0000027E4A662080: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.05.07-13.32.41:054][238]LogHttp:Warning: 0000027E4A662080: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.07-13.32.41:054][238]LogHttp:Warning: 0000027E4A662080: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.07-13.32.41:054][238]LogHttp:Warning: 0000027E4A662080: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.07-13.32.41:054][238]LogHttp:Warning: 0000027E4A662080: libcurl info message cache 8 (Closing connection 5)
+[2018.05.07-13.33.13:133][690]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TACTICAL_PISTOL, compiling. 
+[2018.05.07-13.33.13:634][690]TextureStreamingBuild:Display: Compiling optional shaders took 0.505 seconds.
+[2018.05.07-13.33.13:712][690]LogSavePackage: Save=24.71ms
+[2018.05.07-13.33.13:712][690]LogSavePackage: Moving '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Saved/TACTICAL_PISTOLCC69FE62428E1324D6CC71AB36D0306A.tmp' to '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Jean/Desarrollo/Materiales/copia/TACTICAL_PISTOL.uasset'
+[2018.05.07-13.33.13:718][690]LogSavePackage:Display: Finished SavePackage ../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Jean/Desarrollo/Materiales/copia/TACTICAL_PISTOL.uasset
+[2018.05.07-13.33.51:059][854]LogHttp:Warning: 0000027E967B3700: request failed, libcurl error: 0 (No error)
+[2018.05.07-13.33.51:059][854]LogHttp:Warning: 0000027E967B3700: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x27e4cd83fe8 [serially])
+[2018.05.07-13.33.51:059][854]LogHttp:Warning: 0000027E967B3700: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.05.07-13.33.51:059][854]LogHttp:Warning: 0000027E967B3700: libcurl info message cache 2 (  Trying 52.21.228.94...)
+[2018.05.07-13.33.51:059][854]LogHttp:Warning: 0000027E967B3700: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.21.228.94) port 443 (#6))
+[2018.05.07-13.33.51:059][854]LogHttp:Warning: 0000027E967B3700: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.05.07-13.33.51:060][854]LogHttp:Warning: 0000027E967B3700: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.07-13.33.51:060][854]LogHttp:Warning: 0000027E967B3700: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.07-13.33.51:060][854]LogHttp:Warning: 0000027E967B3700: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.07-13.33.51:060][854]LogHttp:Warning: 0000027E967B3700: libcurl info message cache 8 (Closing connection 6)
+[2018.05.07-13.35.11:749][277]LogHttp:Warning: 0000027E82F28100: request failed, libcurl error: 0 (No error)
+[2018.05.07-13.35.11:749][277]LogHttp:Warning: 0000027E82F28100: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x27e4cd83fe8 [serially])
+[2018.05.07-13.35.11:749][277]LogHttp:Warning: 0000027E82F28100: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.05.07-13.35.11:749][277]LogHttp:Warning: 0000027E82F28100: libcurl info message cache 2 (  Trying 52.22.151.230...)
+[2018.05.07-13.35.11:749][277]LogHttp:Warning: 0000027E82F28100: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.22.151.230) port 443 (#7))
+[2018.05.07-13.35.11:749][277]LogHttp:Warning: 0000027E82F28100: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.05.07-13.35.11:749][277]LogHttp:Warning: 0000027E82F28100: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.07-13.35.11:749][277]LogHttp:Warning: 0000027E82F28100: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.07-13.35.11:749][277]LogHttp:Warning: 0000027E82F28100: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.07-13.35.11:749][277]LogHttp:Warning: 0000027E82F28100: libcurl info message cache 8 (Closing connection 7)
+[2018.05.07-13.36.40:761][576]LogHttp:Warning: 0000027E966C6800: request failed, libcurl error: 0 (No error)
+[2018.05.07-13.36.40:761][576]LogHttp:Warning: 0000027E966C6800: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x27e4cd83fe8 [serially])
+[2018.05.07-13.36.40:761][576]LogHttp:Warning: 0000027E966C6800: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.05.07-13.36.40:761][576]LogHttp:Warning: 0000027E966C6800: libcurl info message cache 2 (  Trying 34.235.211.110...)
+[2018.05.07-13.36.40:761][576]LogHttp:Warning: 0000027E966C6800: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.235.211.110) port 443 (#8))
+[2018.05.07-13.36.40:761][576]LogHttp:Warning: 0000027E966C6800: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.05.07-13.36.40:761][576]LogHttp:Warning: 0000027E966C6800: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.07-13.36.40:761][576]LogHttp:Warning: 0000027E966C6800: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.07-13.36.40:761][576]LogHttp:Warning: 0000027E966C6800: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.07-13.36.40:761][576]LogHttp:Warning: 0000027E966C6800: libcurl info message cache 8 (Closing connection 8)
+[2018.05.07-13.36.49:356][848]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TACTICAL_PISTOL, compiling. 
+[2018.05.07-13.36.49:697][848]TextureStreamingBuild:Display: Compiling optional shaders took 0.344 seconds.
+[2018.05.07-13.36.49:743][848]LogSavePackage: Save=17.08ms
+[2018.05.07-13.36.49:743][848]LogSavePackage: Moving '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Saved/TACTICAL_PISTOLC7C91B4F422E94956970A796A562F130.tmp' to '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Jean/Desarrollo/Materiales/copia/TACTICAL_PISTOL.uasset'
+[2018.05.07-13.36.49:747][848]LogSavePackage:Display: Finished SavePackage ../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Jean/Desarrollo/Materiales/copia/TACTICAL_PISTOL.uasset
+[2018.05.07-13.37.08:280][375]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TACTICAL_PISTOL, compiling. 
+[2018.05.07-13.37.08:480][375]TextureStreamingBuild:Display: Compiling optional shaders took 0.204 seconds.
+[2018.05.07-13.37.08:532][375]LogSavePackage: Save=20.09ms
+[2018.05.07-13.37.08:532][375]LogSavePackage: Moving '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Saved/TACTICAL_PISTOL5BC47EE94CE3E42BE278CBBB43340534.tmp' to '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Jean/Desarrollo/Materiales/copia/TACTICAL_PISTOL.uasset'
+[2018.05.07-13.37.08:537][375]LogSavePackage:Display: Finished SavePackage ../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Jean/Desarrollo/Materiales/copia/TACTICAL_PISTOL.uasset
+[2018.05.07-13.37.18:208][657]LogSavePackage: Save=11.56ms
+[2018.05.07-13.37.18:208][657]LogSavePackage: Moving '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Saved/halo_tactical_pistolB45F7D7C4F6C4CF574D8F9B6DF77500C.tmp' to '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Jean/Desarrollo/Modelos/WEAPON/halo_tactical_pistol.uasset'
+[2018.05.07-13.37.18:218][657]LogSavePackage:Display: Finished SavePackage ../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Jean/Desarrollo/Modelos/WEAPON/halo_tactical_pistol.uasset
+[2018.05.07-13.37.24:004][834]LogSavePackage: Save=68.09ms
+[2018.05.07-13.37.24:004][834]LogSavePackage: Moving '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Saved/tACTICAL_PITOL_TEXTURE771104E64785B085FBD95FA7400C2259.tmp' to '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Jean/Desarrollo/Modelos/WEAPON/tACTICAL_PITOL_TEXTURE.uasset'
+[2018.05.07-13.37.24:007][834]LogSavePackage:Display: Finished SavePackage ../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Jean/Desarrollo/Modelos/WEAPON/tACTICAL_PITOL_TEXTURE.uasset
+[2018.05.07-13.37.27:785][122]LogActorFactory: Actor Factory created halo_tactical_pistol
+[2018.05.07-13.37.29:005][172]LogActorFactory: Actor Factory created halo_tactical_pistol
+[2018.05.07-13.37.29:335][173]SourceControl: Info fatal: /Temp/Untitled_1: '/Temp/Untitled_1' is outside repository
+[2018.05.07-13.37.33:509][412]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (halo_tactical_pistol)
+[2018.05.07-13.37.40:900][878]LogHttp:Warning: 0000027E966C5180: request failed, libcurl error: 0 (No error)
+[2018.05.07-13.37.40:900][878]LogHttp:Warning: 0000027E966C5180: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x27e4cd83fe8 [serially])
+[2018.05.07-13.37.40:900][878]LogHttp:Warning: 0000027E966C5180: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.05.07-13.37.40:900][878]LogHttp:Warning: 0000027E966C5180: libcurl info message cache 2 (  Trying 52.206.37.107...)
+[2018.05.07-13.37.40:900][878]LogHttp:Warning: 0000027E966C5180: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.206.37.107) port 443 (#9))
+[2018.05.07-13.37.40:900][878]LogHttp:Warning: 0000027E966C5180: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.05.07-13.37.40:900][878]LogHttp:Warning: 0000027E966C5180: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.07-13.37.40:900][878]LogHttp:Warning: 0000027E966C5180: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.07-13.37.40:900][878]LogHttp:Warning: 0000027E966C5180: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.07-13.37.40:900][878]LogHttp:Warning: 0000027E966C5180: libcurl info message cache 8 (Closing connection 9)
+[2018.05.07-13.38.40:930][869]LogHttp:Warning: 0000027E966C6500: request failed, libcurl error: 0 (No error)
+[2018.05.07-13.38.40:930][869]LogHttp:Warning: 0000027E966C6500: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x27e4cd83fe8 [serially])
+[2018.05.07-13.38.40:930][869]LogHttp:Warning: 0000027E966C6500: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.05.07-13.38.40:930][869]LogHttp:Warning: 0000027E966C6500: libcurl info message cache 2 (  Trying 34.233.246.175...)
+[2018.05.07-13.38.40:930][869]LogHttp:Warning: 0000027E966C6500: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.233.246.175) port 443 (#10))
+[2018.05.07-13.38.40:930][869]LogHttp:Warning: 0000027E966C6500: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.05.07-13.38.40:930][869]LogHttp:Warning: 0000027E966C6500: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.07-13.38.40:930][869]LogHttp:Warning: 0000027E966C6500: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.07-13.38.40:930][869]LogHttp:Warning: 0000027E966C6500: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.07-13.38.40:930][869]LogHttp:Warning: 0000027E966C6500: libcurl info message cache 8 (Closing connection 10)
+[2018.05.07-13.38.41:068][875]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (halo_tactical_pistol)
+[2018.05.07-13.39.29:075][912]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.07-13.39.31:582][ 23]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.07-13.39.32:343][106]Cmd: ACTOR HIDE SELECTED
+[2018.05.07-13.39.33:971][260]LogEditorViewport: Clicking Background
+[2018.05.07-13.39.38:895][795]Cmd: ACTOR HIDE SELECTED
+[2018.05.07-13.39.42:406][210]Cmd: ACTOR UNHIDE ALL
+[2018.05.07-13.40.40:883][ 74]LogHttp:Warning: 0000027E09516C80: request failed, libcurl error: 0 (No error)
+[2018.05.07-13.40.40:883][ 74]LogHttp:Warning: 0000027E09516C80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x27e4cd83fe8 [serially])
+[2018.05.07-13.40.40:883][ 74]LogHttp:Warning: 0000027E09516C80: libcurl info message cache 1 (  Trying 52.205.232.82...)
+[2018.05.07-13.40.40:883][ 74]LogHttp:Warning: 0000027E09516C80: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.205.232.82) port 443 (#11))
+[2018.05.07-13.40.40:883][ 74]LogHttp:Warning: 0000027E09516C80: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.07-13.40.40:883][ 74]LogHttp:Warning: 0000027E09516C80: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.07-13.40.40:883][ 74]LogHttp:Warning: 0000027E09516C80: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.07-13.40.40:883][ 74]LogHttp:Warning: 0000027E09516C80: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.07-13.40.40:883][ 74]LogHttp:Warning: 0000027E09516C80: libcurl info message cache 7 (Closing connection 11)
+[2018.05.07-13.40.44:150][382]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TACTICAL_PISTOL, compiling. 
+[2018.05.07-13.40.44:519][382]TextureStreamingBuild:Display: Compiling optional shaders took 0.372 seconds.
+[2018.05.07-13.40.46:633][485]SourceControl: Info fatal: /Temp/Untitled_1: '/Temp/Untitled_1' is outside repository
+[2018.05.07-13.40.46:709][485]LogSavePackage: Save=20.18ms
+[2018.05.07-13.40.46:709][485]LogSavePackage: Moving '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Saved/TACTICAL_PISTOLDA15E1DC4AC663EC0B0DBE851DE49F57.tmp' to '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Jean/Desarrollo/Materiales/copia/TACTICAL_PISTOL.uasset'
+[2018.05.07-13.40.46:715][485]LogSavePackage:Display: Finished SavePackage ../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Jean/Desarrollo/Materiales/copia/TACTICAL_PISTOL.uasset
+[2018.05.07-13.40.48:239][500]SourceControl: Info fatal: /Temp/Untitled_1: '/Temp/Untitled_1' is outside repository
+[2018.05.07-13.41.25:120][224]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TACTICAL_PISTOL, compiling. 
+[2018.05.07-13.41.25:463][224]TextureStreamingBuild:Display: Compiling optional shaders took 0.347 seconds.
+[2018.05.07-13.41.27:286][264]SourceControl: Info fatal: /Temp/Untitled_1: '/Temp/Untitled_1' is outside repository
+[2018.05.07-13.41.27:349][264]LogSavePackage: Save=18.05ms
+[2018.05.07-13.41.27:349][264]LogSavePackage: Moving '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Saved/TACTICAL_PISTOLCD8FFD2243A9394D2AF2F4A23B100C8C.tmp' to '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Jean/Desarrollo/Materiales/copia/TACTICAL_PISTOL.uasset'
+[2018.05.07-13.41.27:354][264]LogSavePackage:Display: Finished SavePackage ../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Jean/Desarrollo/Materiales/copia/TACTICAL_PISTOL.uasset
+[2018.05.07-13.41.29:128][284]SourceControl: Info fatal: /Temp/Untitled_1: '/Temp/Untitled_1' is outside repository
+[2018.05.07-13.41.31:543][382]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (halo_tactical_pistol)
+[2018.05.07-13.41.40:909][949]LogHttp:Warning: 0000027E25C55D80: request failed, libcurl error: 0 (No error)
+[2018.05.07-13.41.40:909][949]LogHttp:Warning: 0000027E25C55D80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x27e4cd83fe8 [serially])
+[2018.05.07-13.41.40:909][949]LogHttp:Warning: 0000027E25C55D80: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.05.07-13.41.40:909][949]LogHttp:Warning: 0000027E25C55D80: libcurl info message cache 2 (  Trying 34.197.184.61...)
+[2018.05.07-13.41.40:909][949]LogHttp:Warning: 0000027E25C55D80: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.197.184.61) port 443 (#12))
+[2018.05.07-13.41.40:909][949]LogHttp:Warning: 0000027E25C55D80: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.05.07-13.41.40:909][949]LogHttp:Warning: 0000027E25C55D80: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.07-13.41.40:909][949]LogHttp:Warning: 0000027E25C55D80: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.07-13.41.40:909][949]LogHttp:Warning: 0000027E25C55D80: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.07-13.41.40:909][949]LogHttp:Warning: 0000027E25C55D80: libcurl info message cache 8 (Closing connection 12)
+[2018.05.07-13.41.49:010][401]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.07-13.42.10:003][599]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (halo_tactical_pistol)
+[2018.05.07-13.42.14:301][868]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.07-13.42.38:596][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Saved/Autosaves/Temp/Untitled_1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.05.07-13.42.38:709][766]LogSavePackage: Save=112.53ms
+[2018.05.07-13.42.38:709][766]LogSavePackage: Moving '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Saved/Untitled_1_Auto28ABA1C7147D957F28BD5D092F576616A.tmp' to '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Saved/Autosaves/Temp/Untitled_1_Auto2.umap'
+[2018.05.07-13.42.38:711][766]LogSavePackage:Display: Finished SavePackage ../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Saved/Autosaves/Temp/Untitled_1_Auto2.umap
+[2018.05.07-13.42.38:725][766]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.160
+[2018.05.07-13.42.38:725][766]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.160
+[2018.05.07-13.42.40:892][ 25]LogHttp:Warning: 0000027E967DA380: request failed, libcurl error: 0 (No error)
+[2018.05.07-13.42.40:892][ 25]LogHttp:Warning: 0000027E967DA380: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x27e4cd83fe8 [serially])
+[2018.05.07-13.42.40:892][ 25]LogHttp:Warning: 0000027E967DA380: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.05.07-13.42.40:892][ 25]LogHttp:Warning: 0000027E967DA380: libcurl info message cache 2 (  Trying 35.174.89.230...)
+[2018.05.07-13.42.40:892][ 25]LogHttp:Warning: 0000027E967DA380: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (35.174.89.230) port 443 (#13))
+[2018.05.07-13.42.40:892][ 25]LogHttp:Warning: 0000027E967DA380: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.05.07-13.42.40:892][ 25]LogHttp:Warning: 0000027E967DA380: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.07-13.42.40:892][ 25]LogHttp:Warning: 0000027E967DA380: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.07-13.42.40:892][ 25]LogHttp:Warning: 0000027E967DA380: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.07-13.42.40:892][ 25]LogHttp:Warning: 0000027E967DA380: libcurl info message cache 8 (Closing connection 13)
+[2018.05.07-13.42.43:741][362]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2018.05.07-13.43.05:053][808]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.07-13.43.06:088][893]SourceControl: Info fatal: /Temp/Untitled_1: '/Temp/Untitled_1' is outside repository
+[2018.05.07-13.43.07:499][901]SourceControl: Info fatal: /Temp/Untitled_1: '/Temp/Untitled_1' is outside repository
+[2018.05.07-13.43.25:981][143]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.07-13.44.41:198][961]LogHttp:Warning: 0000027E06EF1780: request failed, libcurl error: 0 (No error)
+[2018.05.07-13.44.41:198][961]LogHttp:Warning: 0000027E06EF1780: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x27e4cd83fe8 [serially])
+[2018.05.07-13.44.41:198][961]LogHttp:Warning: 0000027E06EF1780: libcurl info message cache 1 (  Trying 52.206.37.107...)
+[2018.05.07-13.44.41:198][961]LogHttp:Warning: 0000027E06EF1780: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.206.37.107) port 443 (#14))
+[2018.05.07-13.44.41:198][961]LogHttp:Warning: 0000027E06EF1780: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.07-13.44.41:198][961]LogHttp:Warning: 0000027E06EF1780: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.07-13.44.41:198][961]LogHttp:Warning: 0000027E06EF1780: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.07-13.44.41:198][961]LogHttp:Warning: 0000027E06EF1780: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.07-13.44.41:198][961]LogHttp:Warning: 0000027E06EF1780: libcurl info message cache 7 (Closing connection 14)
+[2018.05.07-13.45.40:878][140]LogHttp:Warning: 0000027E168EDA80: request failed, libcurl error: 0 (No error)
+[2018.05.07-13.45.40:878][140]LogHttp:Warning: 0000027E168EDA80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x27e4cd83fe8 [serially])
+[2018.05.07-13.45.40:878][140]LogHttp:Warning: 0000027E168EDA80: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.05.07-13.45.40:878][140]LogHttp:Warning: 0000027E168EDA80: libcurl info message cache 2 (  Trying 52.202.129.51...)
+[2018.05.07-13.45.40:878][140]LogHttp:Warning: 0000027E168EDA80: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.202.129.51) port 443 (#15))
+[2018.05.07-13.45.40:878][140]LogHttp:Warning: 0000027E168EDA80: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.05.07-13.45.40:878][140]LogHttp:Warning: 0000027E168EDA80: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.07-13.45.40:878][140]LogHttp:Warning: 0000027E168EDA80: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.07-13.45.40:878][140]LogHttp:Warning: 0000027E168EDA80: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.07-13.45.40:878][140]LogHttp:Warning: 0000027E168EDA80: libcurl info message cache 8 (Closing connection 15)
+[2018.05.07-13.45.49:635][245]SourceControl: Info fatal: /Temp/Untitled_1: '/Temp/Untitled_1' is outside repository
+[2018.05.07-13.45.52:392][261]SourceControl: Info fatal: /Temp/Untitled_1: '/Temp/Untitled_1' is outside repository
+[2018.05.07-13.46.26:498][596]LogStaticMesh: Building static mesh halo_tactical_pistol...
+[2018.05.07-13.46.26:619][596]LogStaticMesh: Built static mesh [0.18s] /Game/Jean/Desarrollo/Modelos/WEAPON/halo_tactical_pistol.halo_tactical_pistol
+[2018.05.07-13.46.26:679][596]LogStaticMesh:Warning: halo_tactical_pistol has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.05.07-13.46.41:209][  9]LogHttp:Warning: 0000027E967B2E00: request failed, libcurl error: 0 (No error)
+[2018.05.07-13.46.41:209][  9]LogHttp:Warning: 0000027E967B2E00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x27e4cd83fe8 [serially])
+[2018.05.07-13.46.41:209][  9]LogHttp:Warning: 0000027E967B2E00: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.05.07-13.46.41:209][  9]LogHttp:Warning: 0000027E967B2E00: libcurl info message cache 2 (  Trying 35.153.123.226...)
+[2018.05.07-13.46.41:209][  9]LogHttp:Warning: 0000027E967B2E00: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (35.153.123.226) port 443 (#16))
+[2018.05.07-13.46.41:209][  9]LogHttp:Warning: 0000027E967B2E00: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.05.07-13.46.41:209][  9]LogHttp:Warning: 0000027E967B2E00: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.07-13.46.41:209][  9]LogHttp:Warning: 0000027E967B2E00: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.07-13.46.41:209][  9]LogHttp:Warning: 0000027E967B2E00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.07-13.46.41:209][  9]LogHttp:Warning: 0000027E967B2E00: libcurl info message cache 8 (Closing connection 16)
+[2018.05.07-13.46.45:241][261]LogStaticMesh: Building static mesh halo_tactical_pistol...
+[2018.05.07-13.46.45:435][261]LogStaticMesh: Built static mesh [0.26s] /Game/Jean/Desarrollo/Modelos/WEAPON/halo_tactical_pistol.halo_tactical_pistol
+[2018.05.07-13.46.45:457][261]LogStaticMesh:Warning: halo_tactical_pistol has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.05.07-13.47.16:289][203]LogStaticMesh: Building static mesh halo_tactical_pistol...
+[2018.05.07-13.47.16:601][203]LogStaticMesh: Built static mesh [0.39s] /Game/Jean/Desarrollo/Modelos/WEAPON/halo_tactical_pistol.halo_tactical_pistol
+[2018.05.07-13.47.16:602][203]LogStaticMesh:Warning: halo_tactical_pistol has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.05.07-13.47.40:509][294]LogStaticMesh: Building static mesh halo_tactical_pistol...
+[2018.05.07-13.47.40:888][294]LogStaticMesh: Built static mesh [0.45s] /Game/Jean/Desarrollo/Modelos/WEAPON/halo_tactical_pistol.halo_tactical_pistol
+[2018.05.07-13.47.40:891][294]LogStaticMesh:Warning: halo_tactical_pistol has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.05.07-13.48.08:088][307]LogStaticMesh: Building static mesh halo_tactical_pistol...
+[2018.05.07-13.48.08:652][307]LogStaticMesh: Built static mesh [0.59s] /Game/Jean/Desarrollo/Modelos/WEAPON/halo_tactical_pistol.halo_tactical_pistol
+[2018.05.07-13.48.08:738][307]LogStaticMesh:Warning: halo_tactical_pistol has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.05.07-13.48.25:899][873]LogStaticMesh: Building static mesh halo_tactical_pistol...
+[2018.05.07-13.48.26:486][873]LogStaticMesh: Built static mesh [0.59s] /Game/Jean/Desarrollo/Modelos/WEAPON/halo_tactical_pistol.halo_tactical_pistol
+[2018.05.07-13.48.26:510][873]LogStaticMesh:Warning: halo_tactical_pistol has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.05.07-13.48.33:353][191]LogStaticMesh: Building static mesh halo_tactical_pistol...
+[2018.05.07-13.48.33:983][191]LogStaticMesh: Built static mesh [0.63s] /Game/Jean/Desarrollo/Modelos/WEAPON/halo_tactical_pistol.halo_tactical_pistol
+[2018.05.07-13.48.34:041][191]LogStaticMesh:Warning: halo_tactical_pistol has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.05.07-13.48.38:407][383]LogStaticMesh: Building static mesh halo_tactical_pistol...
+[2018.05.07-13.48.39:089][383]LogStaticMesh: Built static mesh [0.71s] /Game/Jean/Desarrollo/Modelos/WEAPON/halo_tactical_pistol.halo_tactical_pistol
+[2018.05.07-13.48.39:114][383]LogStaticMesh:Warning: halo_tactical_pistol has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.05.07-13.48.40:903][416]LogHttp:Warning: 0000027E06EB2200: request failed, libcurl error: 0 (No error)
+[2018.05.07-13.48.40:903][416]LogHttp:Warning: 0000027E06EB2200: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x27e4cd83fe8 [serially])
+[2018.05.07-13.48.40:903][416]LogHttp:Warning: 0000027E06EB2200: libcurl info message cache 1 (  Trying 52.22.151.230...)
+[2018.05.07-13.48.40:903][416]LogHttp:Warning: 0000027E06EB2200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.22.151.230) port 443 (#17))
+[2018.05.07-13.48.40:903][416]LogHttp:Warning: 0000027E06EB2200: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.07-13.48.40:903][416]LogHttp:Warning: 0000027E06EB2200: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.07-13.48.40:903][416]LogHttp:Warning: 0000027E06EB2200: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.07-13.48.40:903][416]LogHttp:Warning: 0000027E06EB2200: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.07-13.48.40:903][416]LogHttp:Warning: 0000027E06EB2200: libcurl info message cache 7 (Closing connection 17)
+[2018.05.07-13.49.10:909][229]LogStaticMesh: Building static mesh halo_tactical_pistol...
+[2018.05.07-13.49.11:620][229]LogStaticMesh: Built static mesh [0.77s] /Game/Jean/Desarrollo/Modelos/WEAPON/halo_tactical_pistol.halo_tactical_pistol
+[2018.05.07-13.49.11:678][229]LogStaticMesh:Warning: halo_tactical_pistol has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.05.07-13.49.20:740][663]LogStaticMesh: Building static mesh halo_tactical_pistol...
+[2018.05.07-13.49.21:491][663]LogStaticMesh: Built static mesh [0.83s] /Game/Jean/Desarrollo/Modelos/WEAPON/halo_tactical_pistol.halo_tactical_pistol
+[2018.05.07-13.49.21:505][663]LogStaticMesh:Warning: halo_tactical_pistol has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.05.07-13.49.26:366][834]LogStaticMesh: Building static mesh halo_tactical_pistol...
+[2018.05.07-13.49.27:281][834]LogStaticMesh: Built static mesh [0.91s] /Game/Jean/Desarrollo/Modelos/WEAPON/halo_tactical_pistol.halo_tactical_pistol
+[2018.05.07-13.49.27:309][834]LogStaticMesh:Warning: halo_tactical_pistol has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.05.07-13.49.34:744][340]LogStaticMesh: Building static mesh halo_tactical_pistol...
+[2018.05.07-13.49.35:663][340]LogStaticMesh: Built static mesh [1.00s] /Game/Jean/Desarrollo/Modelos/WEAPON/halo_tactical_pistol.halo_tactical_pistol
+[2018.05.07-13.49.35:666][340]LogStaticMesh:Warning: halo_tactical_pistol has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.05.07-13.49.40:936][627]LogHttp:Warning: 0000027E4AD3EF80: request failed, libcurl error: 0 (No error)
+[2018.05.07-13.49.40:936][627]LogHttp:Warning: 0000027E4AD3EF80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x27e4cd83fe8 [serially])
+[2018.05.07-13.49.40:936][627]LogHttp:Warning: 0000027E4AD3EF80: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.05.07-13.49.40:936][627]LogHttp:Warning: 0000027E4AD3EF80: libcurl info message cache 2 (  Trying 35.171.251.96...)
+[2018.05.07-13.49.40:936][627]LogHttp:Warning: 0000027E4AD3EF80: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (35.171.251.96) port 443 (#18))
+[2018.05.07-13.49.40:936][627]LogHttp:Warning: 0000027E4AD3EF80: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.05.07-13.49.40:936][627]LogHttp:Warning: 0000027E4AD3EF80: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.07-13.49.40:936][627]LogHttp:Warning: 0000027E4AD3EF80: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.07-13.49.40:936][627]LogHttp:Warning: 0000027E4AD3EF80: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.07-13.49.40:936][627]LogHttp:Warning: 0000027E4AD3EF80: libcurl info message cache 8 (Closing connection 18)
+[2018.05.07-13.50.04:228][423]LogSavePackage: Save=21.70ms
+[2018.05.07-13.50.04:228][423]LogSavePackage: Moving '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Saved/halo_tactical_pistolFCE954ED4FC8AC5F9204938DEF08A11B.tmp' to '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Jean/Desarrollo/Modelos/WEAPON/halo_tactical_pistol.uasset'
+[2018.05.07-13.50.04:236][423]LogSavePackage:Display: Finished SavePackage ../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Jean/Desarrollo/Modelos/WEAPON/halo_tactical_pistol.uasset
+[2018.05.07-13.50.12:767][ 97]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (halo_tactical_pistol)
+[2018.05.07-13.50.15:777][371]Cmd: TRANSACTION UNDO
+[2018.05.07-13.50.15:777][371]LogEditorTransaction: Undo Scale Actors
+[2018.05.07-13.50.20:041][739]Cmd: TRANSACTION UNDO
+[2018.05.07-13.50.20:041][739]LogEditorTransaction: Undo Scale Actors
+[2018.05.07-13.50.43:907][943]LogHttp:Warning: 0000027E8141D000: request failed, libcurl error: 0 (No error)
+[2018.05.07-13.50.43:907][943]LogHttp:Warning: 0000027E8141D000: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x27e4cd83fe8 [serially])
+[2018.05.07-13.50.43:907][943]LogHttp:Warning: 0000027E8141D000: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.05.07-13.50.43:907][943]LogHttp:Warning: 0000027E8141D000: libcurl info message cache 2 (  Trying 34.230.102.249...)
+[2018.05.07-13.50.43:907][943]LogHttp:Warning: 0000027E8141D000: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.230.102.249) port 443 (#19))
+[2018.05.07-13.50.43:907][943]LogHttp:Warning: 0000027E8141D000: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.05.07-13.50.43:907][943]LogHttp:Warning: 0000027E8141D000: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.07-13.50.43:907][943]LogHttp:Warning: 0000027E8141D000: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.07-13.50.43:907][943]LogHttp:Warning: 0000027E8141D000: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.07-13.50.43:907][943]LogHttp:Warning: 0000027E8141D000: libcurl info message cache 8 (Closing connection 19)
+[2018.05.07-13.50.46:579][ 88]Cmd: POLY SELECT ALL
+[2018.05.07-13.50.47:013][109]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.07-13.50.53:508][393]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.07-13.50.57:951][589]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.05.07-13.50.58:932][644]Cmd: ACTOR HIDE SELECTED
+[2018.05.07-13.51.11:187][299]Cmd: ACTOR UNHIDE ALL
+[2018.05.07-13.51.17:532][536]SourceControl: Info fatal: /Temp/Untitled_1: '/Temp/Untitled_1' is outside repository
+[2018.05.07-13.51.19:203][544]SourceControl: Info fatal: /Temp/Untitled_1: '/Temp/Untitled_1' is outside repository
+[2018.05.07-13.51.20:885][643]SourceControl: Info fatal: C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/: 'C:/Users/Computer Outlet/Documents/UE_4.16/Engine/Content/' is outside repository
+[2018.05.07-13.51.44:533][643]LogSourceControl: FGitCheckInWorker: commit successful
+[2018.05.07-13.51.44:628][643]SourceControl: Info [master 0e52306] PUSE_PISTOLA_PLACEHOLDER_DE_HALO_CON_MATERIAL_Y_TEXTURA
+[2018.05.07-13.51.44:628][643]SourceControl: Info  3 files changed, 0 insertions(+), 0 deletions(-)
+[2018.05.07-13.51.44:628][643]SourceControl: Info  create mode 100644 Content/Jean/Desarrollo/Materiales/copia/TACTICAL_PISTOL.uasset
+[2018.05.07-13.51.44:628][643]SourceControl: Info  create mode 100644 Content/Jean/Desarrollo/Modelos/WEAPON/halo_tactical_pistol.uasset
+[2018.05.07-13.51.44:628][643]SourceControl: Info  create mode 100644 Content/Jean/Desarrollo/Modelos/WEAPON/tACTICAL_PITOL_TEXTURE.uasset
+[2018.05.07-13.51.44:632][643]SourceControl: Info Commited [master 0e52306] PUSE_PISTOLA_PLACEHOLDER_DE_HALO_CON_MATERIAL_Y_TEXTURA.
+[2018.05.07-13.51.48:424][766]Cmd: QUIT_EDITOR
+[2018.05.07-13.51.48:722][766]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.05.07-13.51.48:752][766]LogExit: Preparing to exit.
+[2018.05.07-13.51.49:676][766]LogDirectoryWatcher: A directory notification for 'C:/Users/Computer Outlet/OneDrive/GD_umet_DEV/GD_umet_DEV/Content/' was aborted.
+[2018.05.07-13.51.49:746][766]LogExit: Editor shut down
+[2018.05.07-13.51.49:750][766]LogExit: Transaction tracking system shut down
+[2018.05.07-13.51.50:703][766]LogObj: Freed 0b from 0 cluster array pools.
+[2018.05.07-13.51.50:704][766]LogExit: Object subsystem successfully closed.
+[2018.05.07-13.51.50:929][766]LogD3D11RHI: Shutdown
+[2018.05.07-13.51.50:929][766]LogD3D11RHI: CleanupD3DDevice
+[2018.05.07-13.51.51:461][766]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.05.07-13.51.52:550][766]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
+[2018.05.07-13.51.52:550][766]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (526)
+[2018.05.07-13.51.52:550][766]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2018.05.07-13.51.52:550][766]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2018.05.07-13.51.52:550][766]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.05.07-13.51.52:550][766]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.05.07-13.51.52:550][766]LogDirectoryWatcher: A directory notification for 'C:/Users/Computer Outlet/Documents/UE_4.16/FeaturePacks/' was aborted.
+[2018.05.07-13.51.52:551][766]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.05.07-13.51.52:551][766]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.05.07-13.51.52:551][766]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.05.07-13.51.52:551][766]LogDirectoryWatcher: A directory notification for 'C:/Users/Computer Outlet/OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Collections/' was aborted.
+[2018.05.07-13.51.52:551][766]LogDirectoryWatcher: A directory notification for 'C:/Users/Computer Outlet/OneDrive/GD_umet_DEV/GD_umet_DEV/Content/Developers/ComputerOutlet/Collections/' was aborted.
+[2018.05.07-13.51.52:551][766]LogDirectoryWatcher: A directory notification for 'C:/Users/Computer Outlet/OneDrive/GD_umet_DEV/GD_umet_DEV/Saved/Collections/' was aborted.
+[2018.05.07-13.51.52:551][766]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.05.07-13.51.52:551][766]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.05.07-13.51.52:551][766]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.05.07-13.51.52:623][766]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.05.07-13.51.52:623][766]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.05.07-13.51.52:623][766]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.05.07-13.51.52:623][766]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.05.07-13.51.52:623][766]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.05.07-13.51.52:623][766]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.05.07-13.51.52:624][766]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.05.07-13.51.52:624][766]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.05.07-13.51.52:624][766]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.05.07-13.51.52:624][766]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.05.07-13.51.52:624][766]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.05.07-13.51.52:624][766]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.05.07-13.51.52:624][766]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.05.07-13.51.52:624][766]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.05.07-13.51.52:624][766]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.05.07-13.51.52:624][766]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.05.07-13.51.52:624][766]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.05.07-13.51.52:624][766]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.05.07-13.51.52:624][766]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.05.07-13.51.52:624][766]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.05.07-13.51.52:624][766]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.05.07-13.51.52:658][766]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.05.07-13.51.52:732][766]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.05.07-13.51.52:732][766]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.05.07-13.51.52:732][766]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.05.07-13.51.52:732][766]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.05.07-13.51.52:732][766]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.05.07-13.51.52:750][766]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.05.07-13.51.52:754][766]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.05.07-13.51.52:764][766]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.05.07-13.51.52:782][766]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.05.07-13.51.52:782][766]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.05.07-13.51.52:800][766]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.05.07-13.51.52:800][766]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.05.07-13.51.52:800][766]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.05.07-13.51.53:696][766]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.05.07-13.51.53:696][766]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.05.07-13.51.53:696][766]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.05.07-13.51.53:806][766]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.05.07-13.51.53:998][766]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.05.07-13.51.53:998][766]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.05.07-13.51.53:998][766]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.05.07-13.51.53:998][766]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.05.07-13.51.54:011][766]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.05.07-13.51.54:011][766]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.05.07-13.51.54:011][766]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.05.07-13.51.54:088][766]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.05.07-13.51.54:088][766]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.05.07-13.51.54:088][766]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.05.07-13.51.54:088][766]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.05.07-13.51.54:088][766]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.05.07-13.51.54:088][766]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.05.07-13.51.54:089][766]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.05.07-13.51.54:089][766]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.05.07-13.51.54:089][766]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.05.07-13.51.54:168][766]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.05.07-13.51.54:230][766]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.05.07-13.51.54:326][766]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.05.07-13.51.54:361][766]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.05.07-13.51.54:413][766]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.05.07-13.51.54:413][766]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.05.07-13.51.54:513][766]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.05.07-13.51.54:575][766]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.05.07-13.51.54:575][766]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.05.07-13.51.54:575][766]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.05.07-13.51.54:575][766]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.05.07-13.51.54:588][766]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.05.07-13.51.54:588][766]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.05.07-13.51.54:588][766]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.05.07-13.51.54:595][766]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.05.07-13.51.54:595][766]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.05.07-13.51.54:595][766]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.05.07-13.51.54:601][766]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.05.07-13.51.54:672][766]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.05.07-13.51.54:672][766]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.05.07-13.51.54:700][766]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.05.07-13.51.54:700][766]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.05.07-13.51.54:700][766]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.05.07-13.51.54:700][766]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.05.07-13.51.54:700][766]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.05.07-13.51.54:792][766]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.05.07-13.51.54:792][766]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.05.07-13.51.54:792][766]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.05.07-13.51.54:792][766]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.05.07-13.51.54:792][766]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.05.07-13.51.54:792][766]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.05.07-13.51.54:792][766]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.05.07-13.51.54:792][766]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.05.07-13.51.54:792][766]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.05.07-13.51.54:990][766]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.05.07-13.51.55:002][766]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.05.07-13.51.55:002][766]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.05.07-13.51.55:002][766]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.05.07-13.51.55:002][766]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.05.07-13.51.55:021][766]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.05.07-13.51.55:021][766]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.05.07-13.51.55:021][766]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.05.07-13.51.55:021][766]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.05.07-13.51.55:021][766]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.05.07-13.51.55:021][766]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.05.07-13.51.55:021][766]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.05.07-13.51.55:021][766]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.05.07-13.51.55:136][766]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.05.07-13.51.55:136][766]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.05.07-13.51.55:136][766]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.05.07-13.51.55:136][766]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.05.07-13.51.55:136][766]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.05.07-13.51.55:136][766]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.05.07-13.51.55:136][766]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.05.07-13.51.55:136][766]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.05.07-13.51.55:136][766]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.05.07-13.51.55:136][766]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.05.07-13.51.55:136][766]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.05.07-13.51.55:136][766]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.05.07-13.51.55:136][766]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.05.07-13.51.55:136][766]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.05.07-13.51.55:136][766]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.05.07-13.51.55:136][766]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.05.07-13.51.55:136][766]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.05.07-13.51.55:136][766]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.05.07-13.51.55:136][766]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.05.07-13.51.55:136][766]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.05.07-13.51.55:136][766]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.05.07-13.51.55:136][766]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.05.07-13.51.55:136][766]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.05.07-13.51.55:136][766]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.05.07-13.51.55:136][766]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.05.07-13.51.55:136][766]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.05.07-13.51.55:169][766]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.05.07-13.51.55:191][766]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.05.07-13.51.55:191][766]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.05.07-13.51.55:191][766]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.05.07-13.51.55:191][766]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.05.07-13.51.55:191][766]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.05.07-13.51.55:292][766]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.05.07-13.51.55:393][766]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.05.07-13.51.55:482][766]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.05.07-13.51.55:482][766]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.05.07-13.51.55:482][766]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.05.07-13.51.56:020][766]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.05.07-13.51.56:020][766]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.05.07-13.51.56:021][766]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.05.07-13.51.56:021][766]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.05.07-13.51.56:853][766]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.05.07-13.51.56:853][766]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.05.07-13.51.56:856][766]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.05.07-13.51.56:856][766]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.05.07-13.51.57:254][766]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.05.07-13.51.57:254][766]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.05.07-13.51.57:254][766]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.05.07-13.51.57:254][766]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.05.07-13.51.57:401][766]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.05.07-13.51.57:401][766]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.05.07-13.51.57:433][766]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.05.07-13.51.57:433][766]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.05.07-13.51.57:465][766]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.05.07-13.51.57:465][766]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.05.07-13.51.57:767][766]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.05.07-13.51.57:959][766]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.05.07-13.51.58:175][766]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.05.07-13.51.58:175][766]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.05.07-13.51.58:175][766]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.05.07-13.51.58:264][766]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.05.07-13.51.58:264][766]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.05.07-13.51.58:266][766]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.05.07-13.51.58:266][766]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.05.07-13.51.58:266][766]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.05.07-13.51.58:266][766]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.05.07-13.51.58:266][766]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.05.07-13.51.58:266][766]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.05.07-13.51.58:460][766]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.05.07-13.51.58:460][766]LogDirectoryWatcher: A directory notification for '../../../../../OneDrive/GD_umet_DEV/GD_umet_DEV/Content/' was aborted.
+[2018.05.07-13.51.58:460][766]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.05.07-13.51.58:460][766]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.05.07-13.51.58:463][766]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.05.07-13.51.58:464][766]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.05.07-13.51.58:464][766]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.05.07-13.51.58:464][766]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.05.07-13.51.58:464][766]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.05.07-13.51.58:464][766]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.05.07-13.51.58:464][766]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.05.07-13.51.58:464][766]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.05.07-13.51.58:464][766]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.05.07-13.51.58:523][766]LogDerivedDataCache: Shutdown
+[2018.05.07-13.51.58:523][766]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.05.07-13.51.58:523][766]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.05.07-13.51.58:523][766]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.05.07-13.51.58:582][766]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.05.07-13.51.58:627][766]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.05.07-13.51.58:627][766]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.05.07-13.51.58:683][766]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.05.07-13.51.58:683][766]LogOnline:Display: Unloading online subsystem: NULL
+[2018.05.07-13.51.58:774][766]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.05.07-13.51.58:860][766]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.05.07-13.51.58:860][766]LogHttp:Display: Http module shutting down, but needs to wait on 4 outstanding Http requests:
+[2018.05.07-13.51.58:885][766]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5D2FA901-4A96-2BAF-37AA-209743FA0BE6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=f92e736d44f4aadf277b2189991ac434%7C8bc2ef85bc504ccfbd85fffd23023125%7Ce4c634b2-dcfc-4a90-8d61-9d29767019a9&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.05.07-13.51.58:885][766]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5D2FA901-4A96-2BAF-37AA-209743FA0BE6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=f92e736d44f4aadf277b2189991ac434%7C8bc2ef85bc504ccfbd85fffd23023125%7Ce4c634b2-dcfc-4a90-8d61-9d29767019a9&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.05.07-13.51.58:885][766]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5D2FA901-4A96-2BAF-37AA-209743FA0BE6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=f92e736d44f4aadf277b2189991ac434%7C8bc2ef85bc504ccfbd85fffd23023125%7Ce4c634b2-dcfc-4a90-8d61-9d29767019a9&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.05.07-13.51.58:885][766]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5D2FA901-4A96-2BAF-37AA-209743FA0BE6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=f92e736d44f4aadf277b2189991ac434%7C8bc2ef85bc504ccfbd85fffd23023125%7Ce4c634b2-dcfc-4a90-8d61-9d29767019a9&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.05.07-13.51.58:885][766]LogHttp:Display: Sleeping 0.5s to wait for 4 outstanding Http requests.
+[2018.05.07-13.51.59:386][766]LogHttp:Display: Sleeping 0.5s to wait for 4 outstanding Http requests.
+[2018.05.07-13.51.59:886][766]LogHttp:Display: Sleeping 0.5s to wait for 4 outstanding Http requests.
+[2018.05.07-13.52.00:387][766]LogHttp:Display: Sleeping 0.5s to wait for 4 outstanding Http requests.
+[2018.05.07-13.52.00:887][766]LogHttp:Display: Sleeping 0.5s to wait for 4 outstanding Http requests.
+[2018.05.07-13.52.01:388][766]LogHttp:Display: Sleeping 0.5s to wait for 4 outstanding Http requests.
+[2018.05.07-13.52.01:889][766]LogHttp:Display: Sleeping 0.5s to wait for 4 outstanding Http requests.
+[2018.05.07-13.52.02:389][766]LogHttp:Display: Sleeping 0.5s to wait for 4 outstanding Http requests.
+[2018.05.07-13.52.02:890][766]LogHttp:Display: Sleeping 0.5s to wait for 4 outstanding Http requests.
+[2018.05.07-13.52.03:390][766]LogHttp:Display: Sleeping 0.5s to wait for 4 outstanding Http requests.
+[2018.05.07-13.52.03:891][766]LogHttp:Display: Sleeping 0.5s to wait for 4 outstanding Http requests.
+[2018.05.07-13.52.04:391][766]LogHttp:Display: Sleeping 0.5s to wait for 4 outstanding Http requests.
+[2018.05.07-13.52.04:892][766]LogHttp:Display: Sleeping 0.5s to wait for 4 outstanding Http requests.
+[2018.05.07-13.52.05:393][766]LogHttp:Display: Sleeping 0.5s to wait for 4 outstanding Http requests.
+[2018.05.07-13.52.05:893][766]LogHttp:Display: Sleeping 0.5s to wait for 4 outstanding Http requests.
+[2018.05.07-13.52.06:394][766]LogHttp:Display: Sleeping 0.5s to wait for 4 outstanding Http requests.
+[2018.05.07-13.52.06:895][766]LogHttp:Warning: 0000027E8141FB80: request failed, libcurl error: 0 (No error)
+[2018.05.07-13.52.06:895][766]LogHttp:Warning: 0000027E8141FB80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x27e4cd83fe8 [serially])
+[2018.05.07-13.52.06:895][766]LogHttp:Warning: 0000027E8141FB80: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.05.07-13.52.06:895][766]LogHttp:Warning: 0000027E8141FB80: libcurl info message cache 2 (  Trying 52.202.29.207...)
+[2018.05.07-13.52.06:895][766]LogHttp:Warning: 0000027E8141FB80: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.202.29.207) port 443 (#20))
+[2018.05.07-13.52.06:895][766]LogHttp:Warning: 0000027E8141FB80: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.05.07-13.52.06:895][766]LogHttp:Warning: 0000027E8141FB80: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.07-13.52.06:895][766]LogHttp:Warning: 0000027E8141FB80: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.07-13.52.06:895][766]LogHttp:Warning: 0000027E8141FB80: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.07-13.52.06:895][766]LogHttp:Warning: 0000027E8141FB80: libcurl info message cache 8 (Closing connection 20)
+[2018.05.07-13.52.06:895][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.07:395][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.07:896][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.08:397][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.08:897][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.09:398][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.09:898][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.10:399][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.10:899][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.11:399][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.11:899][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.12:400][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.12:900][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.13:403][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.13:904][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.14:404][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.14:905][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.15:405][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.15:905][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.16:407][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.16:907][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.17:408][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.17:908][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.18:409][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.18:909][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.19:409][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.19:910][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.20:411][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.20:912][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.21:413][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.21:913][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.22:414][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.22:914][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.23:414][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
+[2018.05.07-13.52.23:915][766]LogHttp:Display: Sleeping 0.5s to wait for 3 outstanding Http requests.
